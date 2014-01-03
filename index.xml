@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Hello World!" />
+  <Content type="html">
+    <![CDATA[
+<link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/6191598954148986782/css/ph_core.css">
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/6191598954148986782/css/ph_detail.css" >
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/6191598954148986782/css/d_ie.css" >
+<![endif]-->
+	<h3 style="margin-top: 14px;">For ABP </h3>
+		<h4 style="margin-top: 10px;">
+		<a href="abp:subscribe?location=https://cjxlist1.googlecode.com/svn/cjxlist.txt&title=cjxlist">点此订阅cjxlist</a>       
+		</h4>
+   ]]>
+  </Content>
+</Module>
