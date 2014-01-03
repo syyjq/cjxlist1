@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Version: 20140103
+! Version: 20140103a
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
+! Homepage: https://code.google.com/p/cjxlist1/
 ! Please subscribe EasyList + ChinaList also.
 ! Please report any unblocked adverts or problems
 ! in the blog ( http://cjxlist.ys168.com/ )
-! or via e-mail ( 994722209@qq.com ).
-!
+! or via e-mail ( 994722209@qq.com )
 !-----------------------General advert blocking filters-----------------------!
 /AdPreview/*
 /ajds/*
@@ -53,7 +53,7 @@
 ##.wzad
 ##a[redirecturl^="http://app.wumii.com/ext/ad/"]
 !---------------------------Third-party advertisers---------------------------!
-|2155ec.com^$third-party
+||2155ec.com^$third-party
 ||235123.net^$third-party
 ||3399.com/act/$third-party
 ||3808010.com/code$third-party
@@ -71,6 +71,7 @@
 ||kefeng56.com^$third-party
 ||sohu7777.com^$third-party
 !----------------------Specific advert blocking filters-----------------------!
+||g4.beva.com/data-js-
 /adm/*$domain=ganji.com
 /img/br300.gif$domain=qzntv.com|qzwb.com
 /img/br650.gif$domain=qzntv.com|qzwb.com
@@ -889,6 +890,8 @@
 ||zxxk.com/js/articleinfo/JS_
 ||zzqhy.com^*/page/
 !------------------------Specific element hiding rules------------------------!
+beva.com##.av-1
+beva.com##[id*="_BANNER_"]
 sina.com.cn###AD_Background_Wall_BG
 sina.com.cn###AD_Background_Wall_Banner
 autofan.com.cn,jiaodong.net,yb983.com###ALayer1
@@ -1674,7 +1677,7 @@ ahtv.cn##td[colspan="3"][style="height:95px;"]
 @@^jstvimedia.allyes.com^$object-subrequest
 @@||32666.com/templates/32666/images/adv/
 @@||52zy.com/gg/
-@@||a.alimama.cn/tkapi.js
+@@||a.alimama.cn/tkapi.js$domain=smzdm.com
 @@||ad.3.cn/ads/
 @@||ad.jz123.cn^
 @@||ad.thsi.cn^
