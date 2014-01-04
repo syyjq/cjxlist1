@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140104
+! List version 140105
 ! Please subscribe EasyList + ChinaList also.
 ! Please report any unblocked adverts or problems
 ! in the blog ( http://cjxlist.ys168.com/ )
@@ -71,6 +71,9 @@
 ||kefeng56.com^$third-party
 ||sohu7777.com^$third-party
 !----------------------Specific advert blocking filters-----------------------!
+||knnwdyou.com^
+||vip.luanren.com/data/*.swf
+||tianqi.com/static/js/gg.js
 ||g4.beva.com/data-js-
 /adm/*$domain=ganji.com
 /img/br300.gif$domain=qzntv.com|qzwb.com
@@ -890,7 +893,11 @@
 ||zxxk.com/js/articleinfo/JS_
 ||zzqhy.com^*/page/
 ||gamersky.com/bgpic/
+||ecma.bdimg.com^
+||asimgs.pplive.cn^$object,object-subrequest
 !------------------------Specific element hiding rules------------------------!
+image.baidu.com###ecomContainer
+baidu.com##.ad-material-wrapper
 m1905.com##.vod-external
 beva.com##.av-1
 beva.com##[id*="_BANNER_"]
@@ -1668,7 +1675,11 @@ xindm.cn##table[width="976"][height="90"]
 yxfdc.com##table[width="980"] > tbody > tr > td[height="70"]
 xici.net##td.doc_sign
 ahtv.cn##td[colspan="3"][style="height:95px;"]
+niutuku.com##.listAD
+niutuku.com##.sideAD
 !------------------------------------Adult------------------------------------!
+##A[href^="http://www.hg8786.com/?f="]
+##A[href="http://www.hgboyin.com"]
 ###ad_text + div[style="width:960px;margin: auto;"]
 ###ads_top_homepage
 ###ads_top_video
@@ -2055,6 +2066,7 @@ love1024.site44.com##p > a
 @@||v.rbc.cn/ad/
 @@||zhiboche.com/images/zhiboche_ad.js
 @@||zhibowu.com/ad2.htm
+@@||de.as.pptv.com^$object-subrequest
 bbs.125.la#@#.a_mu
 ccb.com#@#.ad_position
 cq.ifeng.com#@#.adbox
