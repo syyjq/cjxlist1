@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Version: 20140103a
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
+! List version 140104
 ! Please subscribe EasyList + ChinaList also.
 ! Please report any unblocked adverts or problems
 ! in the blog ( http://cjxlist.ys168.com/ )
@@ -889,7 +889,9 @@
 ||zxip.com/2013ad/
 ||zxxk.com/js/articleinfo/JS_
 ||zzqhy.com^*/page/
+||gamersky.com/bgpic/
 !------------------------Specific element hiding rules------------------------!
+m1905.com##.vod-external
 beva.com##.av-1
 beva.com##[id*="_BANNER_"]
 sina.com.cn###AD_Background_Wall_BG
@@ -1129,7 +1131,6 @@ dfdaily.com##.WEB1_TOPBANNER
 4s400.com##.ZixunboxTp
 zjkonline.com##.Zlist_right_gg
 chinafix.com.cn##.a_af
-rupeng.com##.a_cn
 bbs.fdc.com.cn,bbs.pinggu.org,bbs.xineurope.com,bbs.ylnet.com.cn,forum.bet007.com,gn00.com##.a_p
 you85.cn##.a_pb
 21cn.com,3dmgame.com,7060.com,acfun.tv,aohua.com.au,baopan.cc,cdyee.com,ce.cn,china3-d.com,chinamil.com.cn,cnsoftnews.com,duowan.com,eworldship.com,firefang.cn,gongkong.com,hebnews.cn,hifidiy.net,huanqiukexue.com,ifeng.com,jdcjsr.com,jrj.com.cn,junshi.cn,kaixin200.com,leiphone.com,lyd.com.cn,ncdiy.com,neotv.cn,newsmth.net,people.com.cn,ptbus.com,reyoo.com,reyoo.net,shangdu.com,shenchuang.com,szonline.net,tiantianpengfu.com,wuhan.net.cn,ydss.cn,yesky.com,youth.cn,zk168.com.cn##.ad
@@ -1667,61 +1668,6 @@ xindm.cn##table[width="976"][height="90"]
 yxfdc.com##table[width="980"] > tbody > tr > td[height="70"]
 xici.net##td.doc_sign
 ahtv.cn##td[colspan="3"][style="height:95px;"]
-!---------------------------------Whitelists----------------------------------!
-@@.jstv.com/c/gg/
-@@/ads/*$domain=189.cn
-@@/advert_$domain=wb.qq.com
-@@/images/ad/*$domain=2kuai.com|dxrr.com|nyhx.com
-@@/pop.js|$domain=189.cn
-@@/show_ad_$domain=wb.qq.com
-@@^jstvimedia.allyes.com^$object-subrequest
-@@||32666.com/templates/32666/images/adv/
-@@||52zy.com/gg/
-@@||a.alimama.cn/tkapi.js$domain=smzdm.com
-@@||ad.3.cn/ads/
-@@||ad.jz123.cn^
-@@||ad.thsi.cn^
-@@||bbs.yantuchina.com/gg/tmp/hong.gif
-@@||bzfxw.com/adfile/ad14.htm
-@@||bzfxw.com/adfile/xzhf3.js
-@@||cb.baidu.com/ecom$domain=52pk.com|9ku.com|hunanzhibo.com|yue365.com|zhiboche.com
-@@||cb.baidu.com/ecom^$domain=colafile.com
-@@||cbjs.baidu.com/js/m.js$domain=colafile.com
-@@||cbjs.baidu.com/js/o.js$domain=52pk.com|9ku.com|hunanzhibo.com|yue365.com|zhiboche.com
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=colafile.com|ffpan.com
-@@||cpro.baidustatic.com/cpro/ui/f.js$domain=pipipan.com
-@@||czsrc.com/Adpic/
-@@||fwxgx.com^*/floatad.
-@@||hm.baidu.com^$script,domain=pipipan.com
-@@||kbcool.com/advpic/$domain=ks.js.cn
-@@||laniqu.com/adimg/
-@@||laniqu.com/static/ad/
-@@||launcher.lenovo.com/launcher/data/attachment/common/cf/
-@@||naruto.hk/ad/uy.js
-@@||ouyaoxiazai.com/shouyead.js
-@@||pic.zol-img.com.cn/2009/pix_index.swf
-@@||pipipan.com/advview2013.php?ad_pos=0
-@@||pos.baidu.com^$script,domain=pipipan.com
-@@||qingcheng.com^*/ad
-@@||qq.com/bossweb/jifen/
-@@||rm.sina.com.cn/minisite/$domain=weibo.com
-@@||shanwen.com/configs/article/spagebottom1.js
-@@||sina.com.cn/litong/zhitou/pic/close-
-@@||sinaimg.cn/ad/adimage/50x50_
-@@||sinaimg.cn/video/deco/$domain=baidu.com
-@@||sznews.com/*.files/$stylesheet
-@@||tompda.com/images/pix.swf
-@@||tqimg.cn/adv/
-@@||v.rbc.cn/ad/
-@@||zhiboche.com/images/zhiboche_ad.js
-@@||zhibowu.com/ad2.htm
-bbs.125.la#@#.a_mu
-ccb.com#@#.ad_position
-cq.ifeng.com#@#.adbox
-faxingw.cn#@#.ad_1
-house.shangdu.com#@#.top_ad
-imuyang.com#@#.a_pt
-yaerwen.com#@##adtop
 !------------------------------------Adult------------------------------------!
 ###ad_text + div[style="width:960px;margin: auto;"]
 ###ads_top_homepage
@@ -2061,4 +2007,59 @@ love1024.site44.com##p > a
 ||umeng.com^$third-party
 ||umengcloud.com^$third-party
 ||youmi.net^$third-party
+!---------------------------------Whitelists----------------------------------!
+@@.jstv.com/c/gg/
+@@/ads/*$domain=189.cn
+@@/advert_$domain=wb.qq.com
+@@/images/ad/*$domain=2kuai.com|dxrr.com|nyhx.com
+@@/pop.js|$domain=189.cn
+@@/show_ad_$domain=wb.qq.com
+@@^jstvimedia.allyes.com^$object-subrequest
+@@||32666.com/templates/32666/images/adv/
+@@||52zy.com/gg/
+@@||a.alimama.cn/tkapi.js$domain=smzdm.com
+@@||ad.3.cn/ads/
+@@||ad.jz123.cn^
+@@||ad.thsi.cn^
+@@||bbs.yantuchina.com/gg/tmp/hong.gif
+@@||bzfxw.com/adfile/ad14.htm
+@@||bzfxw.com/adfile/xzhf3.js
+@@||cb.baidu.com/ecom$domain=52pk.com|9ku.com|hunanzhibo.com|yue365.com|zhiboche.com
+@@||cb.baidu.com/ecom^$domain=colafile.com
+@@||cbjs.baidu.com/js/m.js$domain=colafile.com
+@@||cbjs.baidu.com/js/o.js$domain=52pk.com|9ku.com|hunanzhibo.com|yue365.com|zhiboche.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=colafile.com|ffpan.com
+@@||cpro.baidustatic.com/cpro/ui/f.js$domain=pipipan.com
+@@||czsrc.com/Adpic/
+@@||fwxgx.com^*/floatad.
+@@||hm.baidu.com^$script,domain=pipipan.com
+@@||kbcool.com/advpic/$domain=ks.js.cn
+@@||laniqu.com/adimg/
+@@||laniqu.com/static/ad/
+@@||launcher.lenovo.com/launcher/data/attachment/common/cf/
+@@||naruto.hk/ad/uy.js
+@@||ouyaoxiazai.com/shouyead.js
+@@||pic.zol-img.com.cn/2009/pix_index.swf
+@@||pipipan.com/advview2013.php?ad_pos=0
+@@||pos.baidu.com^$script,domain=pipipan.com
+@@||qingcheng.com^*/ad
+@@||qq.com/bossweb/jifen/
+@@||rm.sina.com.cn/minisite/$domain=weibo.com
+@@||shanwen.com/configs/article/spagebottom1.js
+@@||sina.com.cn/litong/zhitou/pic/close-
+@@||sinaimg.cn/ad/adimage/50x50_
+@@||sinaimg.cn/video/deco/$domain=baidu.com
+@@||sznews.com/*.files/$stylesheet
+@@||tompda.com/images/pix.swf
+@@||tqimg.cn/adv/
+@@||v.rbc.cn/ad/
+@@||zhiboche.com/images/zhiboche_ad.js
+@@||zhibowu.com/ad2.htm
+bbs.125.la#@#.a_mu
+ccb.com#@#.ad_position
+cq.ifeng.com#@#.adbox
+faxingw.cn#@#.ad_1
+house.shangdu.com#@#.top_ad
+imuyang.com#@#.a_pt
+yaerwen.com#@##adtop
 !----------------------------------The End------------------------------------!
