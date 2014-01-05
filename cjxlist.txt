@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140105
+! List version 140105a
 ! Please subscribe EasyList + ChinaList also.
 ! Please report any unblocked adverts or problems
 ! in the blog ( http://cjxlist.ys168.com/ )
@@ -32,6 +32,7 @@
 ###duilian_left
 ###duilian_right
 ###kfivtwin
+###jiezp
 ###lovexin1
 ###lovexin11
 ###lovexin12
@@ -70,7 +71,15 @@
 ||hefan365.com^$third-party
 ||kefeng56.com^$third-party
 ||sohu7777.com^$third-party
+||s17cnzz.com^$third-party
+||100cpc.com^$third-party
+||32414.com^$third-party
 !----------------------Specific advert blocking filters-----------------------!
+||image.jzmt.net//default.jpg
+||hxsxw.com/js/float.js
+||3d66.com/gx2013g/
+||3d66.com/gg-swf/
+||chinaz.com/temp_upfile/ads/
 ||knnwdyou.com^
 ||vip.luanren.com/data/*.swf
 ||tianqi.com/static/js/gg.js
@@ -895,7 +904,18 @@
 ||gamersky.com/bgpic/
 ||ecma.bdimg.com^
 ||asimgs.pplive.cn^$object,object-subrequest
+||hunantv.com/mediafiles/$object-subrequest
 !------------------------Specific element hiding rules------------------------!
+chinanews.com##.advert_dingtong
+cnmo.com##.guanggao_type
+hunantv.com##.c-96090
+hunantv.com###side-join-ad
+hunantv.com##.click-t
+dict.baidu.com##.tran-download-ad
+letv.com###j-adr-playBT
+3d66.com###ggbody
+map.sogou.com##a[name="popwinadvertise"]
+top.chinaz.com##DIV[style="height:280px; width:100%; text-align:center;"]
 image.baidu.com###ecomContainer
 baidu.com##.ad-material-wrapper
 m1905.com##.vod-external
@@ -1491,7 +1511,7 @@ cnool.net##.tg-body
 cnool.net##.third-banner
 cd.qq.com##.tl_ad
 northnews.cn##.tnm
-hi.people.com.cn##.tonglan
+39.net,hi.people.com.cn##.tonglan
 northnews.cn##.top-banner
 www.uuu9.com##.top1bar
 uuu9.com##.top2box
@@ -1908,7 +1928,7 @@ love1024.site44.com##p > a
 ##table#table1[style^="FONT-WEIGHT: normal;"]
 |http://*.in/ad/
 |http://*.us/ad/
-|http://*:*/ad/
+||76.73.10.205:1717/ad/
 ||111ca.com/sxgg/*.js
 ||174.123.15.43:8080
 ||174.139.95.28/ad/
@@ -2067,6 +2087,7 @@ love1024.site44.com##p > a
 @@||zhiboche.com/images/zhiboche_ad.js
 @@||zhibowu.com/ad2.htm
 @@||de.as.pptv.com^$object-subrequest
+@@||afp.acs86.com^$object-subrequest,domain=imgo.tv
 bbs.125.la#@#.a_mu
 ccb.com#@#.ad_position
 cq.ifeng.com#@#.adbox
