@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140107
+! List version 140108
 ! Please subscribe EasyList + ChinaList also.
 ! Please report any unblocked adverts or problems
 ! via e-mail ( 994722209@qq.com )
@@ -26,6 +26,7 @@
 ###ad_box2
 ###ad_full
 ###ads[style]
+###msg_win[style]
 ###bread_activity
 ###divAds1
 ###duilian_left
@@ -212,7 +213,8 @@
 ||adm.qzbbs.com^
 ||adm.zbinfo.net^
 ||adm.zzfish.cn^
-||admin5.com/hezuo/*.gif
+||admin5.com/hezuo/$image
+||admin5.com/hezuo/action/inner.head.5x4.js
 ||adp.cnool.net^
 ||adsclick.yx.js.cn^
 ||ah.sina.com.cn/iframe/
@@ -914,7 +916,45 @@
 ||51test.net/js_new/article_
 ||img1.ijinshan.com/static/media/curl.swf
 ||ysxs8.com/ysgg/
+||btn.onlylady.com^
+||315che.com/upload_img/aimg/
+||new-icon.ol-img.com/jslib/ad_new.js
+||keyunzhan.com/templates/images/quanzhanyouxiajiaoguanggao.gif
+||anhuinews.com/zhuyeguanli/*ad/
+||anhuinews.com/include/
+||r.uzaicdn.com/content/common/unionpay.jpg
+||stcn.com/common/flash/aigu.swf
+||upyun.kiees.com/img/mm*.jpg
+||familydoctor.com.cn/aiframe/
+||search.sdchina.com/click/
+||js.4738.com/newda/img/994_90_
+||img.wangxiao.cn/images/big_ad.jpg
+||img.dm530.com/fgr/
+||7cip.com/code/
 !------------------------Specific element hiding rules------------------------!
+haxiu.com##.left_a2_04
+haxiu.com##.right_c
+rising.cn###adv_left
+99.com.cn##.banner
+99.com.cn##.hzh_botleft
+hf365.com##.adA
+news.hf365.com##.G_bot
+hf365.com##.AD_02
+hf365.com##.AD_01
+kdslife.com##.r_ds_slide
+ccidnet.com##[id^="ad_dst"]
+familydoctor.com.cn##.adExtra
+familydoctor.com.cn##.xg
+gfan.com##DIV[style="width:960px;height:90px;margin-top:10px;"]
+gfan.com##.dl_AD
+stcn.com##.ui-ad
+ifeng.com##.adcontent
+anhuinews.com##.ad001
+anhuinews.com##[id$="dl"]
+mumayi.com##.h80
+315che.com###topads
+315che.com##.tonglan1
+xiazaiba.com##.down_ads
 ysxs8.com##[class^="ysxs8_w960"]
 www.duba.com##.tiyan_a
 51test.net##.ads960x90
@@ -926,6 +966,7 @@ www.baidu.com##.sftip_red
 xdf.cn##.ad2
 xdf.cn##.w_ads
 blog.sina.com.cn##[id^="cont-tanx-"]
+tieba.baidu.com###frs-list-game
 tieba.baidu.com###game_frs_head
 tieba.baidu.com###ssq_lottery
 tieba.baidu.com##.game_list_and_rank
@@ -2121,4 +2162,5 @@ faxingw.cn#@#.ad_1
 house.shangdu.com#@#.top_ad
 imuyang.com#@#.a_pt
 yaerwen.com#@##adtop
+tiancity.com#@#.main_ad
 !----------------------------------The End------------------------------------!
