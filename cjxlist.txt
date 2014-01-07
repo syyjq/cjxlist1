@@ -2,11 +2,10 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140105a
+! List version 140107
 ! Please subscribe EasyList + ChinaList also.
 ! Please report any unblocked adverts or problems
-! in the blog ( http://cjxlist.ys168.com/ )
-! or via e-mail ( 994722209@qq.com )
+! via e-mail ( 994722209@qq.com )
 !-----------------------General advert blocking filters-----------------------!
 /AdPreview/*
 /ajds/*
@@ -905,7 +904,34 @@
 ||ecma.bdimg.com^
 ||asimgs.pplive.cn^$object,object-subrequest
 ||hunantv.com/mediafiles/$object-subrequest
+||lofter.com/mailEntry.do?blogad=
+||113.17.188.44/*.js
+||bdstatic.com/tb/cms/com/game/couplet_
+||2345.com/i/banner_0107.jpg
+||xdf.cn/v4/images/index/960x
+||xdf.cn/v4/js/adm-
+||xdf.cn/v4/js/leyus/
+||51test.net/js_new/article_
+||img1.ijinshan.com/static/media/curl.swf
+||ysxs8.com/ysgg/
 !------------------------Specific element hiding rules------------------------!
+ysxs8.com##[class^="ysxs8_w960"]
+www.duba.com##.tiyan_a
+51test.net##.ads960x90
+haodou.com##.focus_img
+haodou.com##.i-ad
+haodou.com##.i-adv250
+aipai.com###GmAppBanner
+www.baidu.com##.sftip_red
+xdf.cn##.ad2
+xdf.cn##.w_ads
+blog.sina.com.cn##[id^="cont-tanx-"]
+tieba.baidu.com###game_frs_head
+tieba.baidu.com###ssq_lottery
+tieba.baidu.com##.game_list_and_rank
+tieba.baidu.com##.images_game_container
+163.com##.sports_300x60_ad1
+zhidao.baidu.com##.app-banner-container
 chinanews.com##.advert_dingtong
 cnmo.com##.guanggao_type
 hunantv.com##.c-96090
