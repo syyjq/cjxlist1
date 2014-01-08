@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140108
+! List version 140109
 ! Please subscribe EasyList + ChinaList also.
 ! Please report any unblocked adverts or problems
 ! via e-mail ( 994722209@qq.com )
@@ -74,6 +74,7 @@
 ||s17cnzz.com^$third-party
 ||100cpc.com^$third-party
 ||32414.com^$third-party
+||38499.com^$script,third-party
 !----------------------Specific advert blocking filters-----------------------!
 ||image.jzmt.net//default.jpg
 ||hxsxw.com/js/float.js
@@ -931,7 +932,33 @@
 ||img.wangxiao.cn/images/big_ad.jpg
 ||img.dm530.com/fgr/
 ||7cip.com/code/
+||newhua.com/newhuagg/gg_search_
+||runsky.com/html/*_index_
+||16888.com/ajax/loadcardata.php
+||qqyy.com/guding/xuanfu_dibu/
+||qqyy.com/ypic/adv/
+||tieba.lecai.com/page/zhuanti/baidu/
+||ifx.aifang.com^
+||jxgdw.com/2013images/ad/
+||jxgdw.com/images/jdgg.jpg
 !------------------------Specific element hiding rules------------------------!
+dm456.com###bdSider
+hao.360.cn##.small-obj
+dm456.com##DIV[style="height:90px;background-color:#f0f0f0;text-align:center;"]
+zhifang.com##.sytl
+zhifang.com##.newhousegg001
+zhifang.com##.newhousegg002
+starbaby.cn##.big_ada
+starbaby.cn##.gg_ttb
+starbaby.cn###top_ad_show
+starbaby.cn###yindex_ads
+sohu.com##.ad980
+anjuke.com##[class$="-poster"]
+anjuke.com##.ifx-ad-r-box
+qqyy.com##.par-ad250
+qqyy.com##.par-ad336
+qqyy.com##.ind_ad
+16888.com##.cardataclass
 haxiu.com##.left_a2_04
 haxiu.com##.right_c
 rising.cn###adv_left
@@ -1588,7 +1615,7 @@ yeyou.com##.topBackgroundAdv_bgbody
 jokeji.cn##.top_adreg
 51testing.com,xitek.com,yxlady.com##.top_banner
 xizi.com##.top_gg
-kekenet.com,lady8844.com,neotv.cn,sina.com.cn##.topad
+changsha.cn,kekenet.com,lady8844.com,neotv.cn,sina.com.cn##.topad
 jiasuba.com##.topad1
 0579.cn##.topad_l
 huarenjie.com##.topadcss
@@ -2071,6 +2098,11 @@ love1024.site44.com##p > a
 ||yinxunlei.com^
 ||yuanjiaomeii.com^$popup,third-party
 ||zd221.info/js/a*.js
+||sinaimg.cn/large/*?$domain=zhaofuli.net
+2014lang.com###ding
+##.adselang
+||ph.126.net^$domain=2014lang.com
+||hiphotos.bdimg.com^$domain=2014lang.com
 !-----------------------------------Mobile------------------------------------!
 ||ade.wooboo.com.cn^$third-party
 ||admarket.mobi^$third-party
@@ -2122,8 +2154,7 @@ love1024.site44.com##p > a
 @@||bbs.yantuchina.com/gg/tmp/hong.gif
 @@||bzfxw.com/adfile/ad14.htm
 @@||bzfxw.com/adfile/xzhf3.js
-@@||cb.baidu.com/ecom$domain=52pk.com|9ku.com|hunanzhibo.com|yue365.com|zhiboche.com
-@@||cb.baidu.com/ecom^$domain=colafile.com
+@@||cb.baidu.com/ecom?$domain=colafile.com|52pk.com|9ku.com|hunanzhibo.com|yue365.com|zhiboche.com
 @@||cbjs.baidu.com/js/m.js$domain=colafile.com
 @@||cbjs.baidu.com/js/o.js$domain=52pk.com|9ku.com|hunanzhibo.com|yue365.com|zhiboche.com
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=colafile.com|ffpan.com
@@ -2155,6 +2186,7 @@ love1024.site44.com##p > a
 @@||zhibowu.com/ad2.htm
 @@||de.as.pptv.com^$object-subrequest
 @@||afp.acs86.com^$object-subrequest,domain=imgo.tv
+@@||10086.cn^$document,domain=10086.cn
 bbs.125.la#@#.a_mu
 ccb.com#@#.ad_position
 cq.ifeng.com#@#.adbox
