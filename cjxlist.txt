@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140109
+! List version 140110
 ! Please subscribe EasyList + ChinaList also.
 ! Please report any unblocked adverts or problems
 ! via e-mail ( 994722209@qq.com )
@@ -11,12 +11,15 @@
 /ajds/*
 /caches/poster_js/*
 /content/plugins/em_ad/*
+/duilian_gg.
 /duilian2.
+/floatad2.
 /ina_ad_
 /module/adsview/*
 /source/plugin/mama_tips/*
 /static/adsview/*
 /sznews/images/bbsgg
+:1010/openV5.js
 |http://*.cc/ad/
 |http://*.tv/ad/
 |http://*/ad.js?sn=
@@ -204,7 +207,7 @@
 ||a6.hujiang.com^
 ||abab.com/iframe/
 ||abc1.sdo.com^
-||acode.b2b.cn/JS/Detail.js
+||acode.b2b.cn/JS/
 ||actoys.net/js/beitou.js
 ||actoys.net/statics/js/index/ad.js
 ||adadmin.house365.com^
@@ -941,7 +944,68 @@
 ||ifx.aifang.com^
 ||jxgdw.com/2013images/ad/
 ||jxgdw.com/images/jdgg.jpg
+||qbaobei.com/IAA/
+||51zxw.net/images/nw_ys*.jpg
+||cs.com.cn/csad/
+||southmoney.com/page/inc/
+||southmoney.com/page/top
+||jxnews.com.cn/2013/nh270200-no.swf
+||jxcn.cn/images/banner/
+||jxcn.cn/js/hotpic_
+||lcxw.cn/i/AD
+||tigtag.com/images/pic1/
+||downxia.com/haojs/
+||tianjinwe.com/images/qssx/
+||hkwb.net/images/float_
+||hkwb.net/extra/1992.files/yeshu.swf
+||thethirdmedia.com/a1/*960x
+||iyaya.info/newmshow.php
+||fzbm.com/bbs/static/js/bma.js
+||city007.net/nowscore/ad/
+||veryhuo.com/plus/js/
+||aiyuke.com/index.php?c=position&
 !------------------------Specific element hiding rules------------------------!
+aiyuke.com###Playerpad
+aiyuke.com##.GGad
+aiyuke.com##.igamead
+21ic.com###IC2008Ad
+5nd.com##.songAds
+i.firefoxchina.cn###promote-top-list
+69zw.com##.mlad
+69zw.com##.indexad2
+69zw.com##.indexad3
+69zw.com##[class^="yd_ad"]
+hkwb.net##.leftadv
+hkwb.net##.yeshu
+tianjinwe.com###topadv
+tianjinwe.com##.listadv
+tigtag.com##.ad_lr
+huanqiu.com##.popLayerLogin
+7y7.com###xizhezhe_ad
+565656.com##.player-bottom-gg
+gucheng.com###n_s_300250
+gucheng.com##.t500200
+gucheng.com##.t58090b
+cs.com.cn###dyjAdLayer1
+cs.com.cn###slideAD
+elecfans.com###AdHtmlRight
+elecfans.com###Right2
+elecfans.com##.advertising
+elecfans.com##.gg
+elecfans.com##.gg-01
+163.com##.sect_top_ad
+club.cul.sohu.com###thread_r_s15
+club.cul.sohu.com###thread_r_s4
+co188.com##DIV[style$="height:250px;margin:15px 0;"]
+co188.com##DIV[style$="height:90px;margin-top:15px;"]
+gog.com.cn##IMG[width^="100"]
+gog.com.cn##TABLE[width="300"][cellspacing="0"][style="margin-top:10px"]
+gog.com.cn##TABLE[width="670"][style="margin-bottom:10px;"]
+qbaobei.com##.ad
+qbaobei.com##.ad_01
+bbs.qbaobei.com###diynavtop
+nlc.gov.cn###lovexin12xx
+tiboo.cn###index_idlm
 dm456.com###bdSider
 hao.360.cn##.small-obj
 dm456.com##DIV[style="height:90px;background-color:#f0f0f0;text-align:center;"]
@@ -952,6 +1016,7 @@ starbaby.cn##.big_ada
 starbaby.cn##.gg_ttb
 starbaby.cn###top_ad_show
 starbaby.cn###yindex_ads
+sohu.com##.ad950
 sohu.com##.ad980
 anjuke.com##[class$="-poster"]
 anjuke.com##.ifx-ad-r-box
@@ -1007,6 +1072,7 @@ hunantv.com###side-join-ad
 hunantv.com##.click-t
 dict.baidu.com##.tran-download-ad
 letv.com###j-adr-playBT
+letv.com###ad_pop_flash
 3d66.com###ggbody
 map.sogou.com##a[name="popwinadvertise"]
 top.chinaz.com##DIV[style="height:280px; width:100%; text-align:center;"]
@@ -1152,7 +1218,7 @@ yb983.com###jihuaslide
 sznews.com###jsGG1
 sznews.com###jsGG2
 sdgundam.cn###left-sponsor
-66rd.cn,gdzjdaily.com.cn###leftDiv
+66rd.cn,cs.com.cn,gdzjdaily.com.cn###leftDiv
 hexun.com###leftFloat
 youxi.com###left_layer
 inhe.net###leftfloat
@@ -1197,7 +1263,7 @@ china3-d.com###recommend_pictures_r
 reyoo.com,reyoo.net###rich_window
 frdic.com###right-side-bar
 wenkudaquan.com###rightAD
-66rd.cn,gdzjdaily.com.cn,qiannao.com###rightDiv
+66rd.cn,cs.com.cn,gdzjdaily.com.cn,qiannao.com###rightDiv
 gxnews.com.cn###right_3_ad
 07073.com###right_90700
 gamersky.com###right_fixed
@@ -2147,7 +2213,6 @@ love1024.site44.com##p > a
 @@^jstvimedia.allyes.com^$object-subrequest
 @@||32666.com/templates/32666/images/adv/
 @@||52zy.com/gg/
-@@||a.alimama.cn/tkapi.js$domain=smzdm.com
 @@||ad.3.cn/ads/
 @@||ad.jz123.cn^
 @@||ad.thsi.cn^
