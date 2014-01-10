@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140110
+! List version 140110a
 ! Please subscribe EasyList + ChinaList also.
 ! Please report any unblocked adverts or problems
 ! via e-mail ( 994722209@qq.com )
@@ -66,10 +66,8 @@
 ||7uue.com^$third-party
 ||88cpc.com^$third-party
 ||9519.net^$third-party
-||a3p4.net^$third-party
 ||adm.cnzz.net^$third-party
 ||dushimj.com^$third-party
-||f8272.com^$third-party
 ||hccm8.com^$third-party
 ||hefan365.com^$third-party
 ||kefeng56.com^$third-party
@@ -529,8 +527,7 @@
 ||jpseek.com/attachment/upload/563523.gif
 ||jpwind.com^*/scroll.js
 ||js.3conline.com/js/pconilne/intelhelper/intelhelper.js
-||js.cnzz.cn/js/a-
-||js.cnzz.cn/js/cnzz-d-
+||js.cnzz.cn/js/*-
 ||js.mumayi.net/76090.gif
 ||js.mumayi.net/9495.gif
 ||js.mumayi.net/jiujiang26054.gif
@@ -826,7 +823,8 @@
 ||wlnews.zjol.com.cn/bbs/
 ||wlnews.zjol.com.cn/wlrb/bbs/
 ||wlshw.com/js/showadjs.js
-||woxiu.com/crossdomain.xml
+||wx.56.com/youxitg/
+||woxiu.com/xapi/offsite_swf_more.php?
 ||wpjam.qiniudn.com/wpjam/banner/host91.jpg
 ||wpjam.qiniudn.com/wpjam/banner/qiniu.png
 ||wszhibo.com/Uploadfiles/*.gif
@@ -964,7 +962,47 @@
 ||city007.net/nowscore/ad/
 ||veryhuo.com/plus/js/
 ||aiyuke.com/index.php?c=position&
+||wanyx.com/js/bt.js
+||wanyx.com/js/gg.js
+||cnkang.com/images/kwgbsy.jpg
+||cnkang.com/images/sy
+||cnkang.com/zixun/nanke/
+||italk.yinsha.com/god/
+||zjphoto.yinsha.com/special/
+||szhk.com/ads/
+||img.iknow.bdimg.com/search/gouwu/youce1.jpg
+||ieche.com/InAds/
+||ieche.com/global/*/ad/
+||dd.xdnice.com^
+||jz123.cn/kanli/
+||gaofen.com/source/plugin/gaofen_ad/
+||image.sportscn.com/other/live/
+||zsnews.cn/fix_imgs/*_300x80.jpg
+||zsnews.cn/Components/2013ZSNEWS/
+||zsnews.cn/JSFUN/AdvFun/
+||ithome.com/block/headerline.htm
 !------------------------Specific element hiding rules------------------------!
+bbs.ithome.com##DIV[style="width:960px;height:120px;padding:0 20px;margin: 0 auto;background:#fff;"]
+qqjay.com##.art-main-ad
+zsnews.cn###crazyGG
+sportscn.com##.ad3
+xdnice.com###auto_gen_1
+xdnice.com###auto_gen_2
+hbtv.com.cn###right>DIV[style="margin-bottom:23px;"]
+sucaitianxia.com##.ad_01
+sucaitianxia.com##.nr_02
+szhk.com###div01
+szhk.com##.ny_ad1
+szhk.com##[id^="adp"]
+chewen.com##[class^="ad_"]
+ycwb.com##.adv-banner
+yinsha.com###ad1[style="height:70px"]
+yinsha.com###ad2
+yinsha.com###ad3
+yinsha.com##.adrt01
+gooooal.com###div_ai_show
+973.com##.jk_ku
+973.com##.hc_ad
 aiyuke.com###Playerpad
 aiyuke.com##.GGad
 aiyuke.com##.igamead
@@ -1099,7 +1137,7 @@ qzone.qq.com###QM_Container_100005
 hao123.com###__elm_0_4
 down.admin5.com###a22
 youku.com###ab_26
-dyhong.com,wenkudaquan.com,ylnet.com.cn###ad
+cnedu.cn,dyhong.com,wenkudaquan.com,ylnet.com.cn###ad
 y80s.com###ad-bigbanner
 dbw.cn###ad-word
 yeyou.com###ad-yeyou-nitifiction
@@ -2252,6 +2290,8 @@ love1024.site44.com##p > a
 @@||de.as.pptv.com^$object-subrequest
 @@||afp.acs86.com^$object-subrequest,domain=imgo.tv
 @@||10086.cn^$document,domain=10086.cn
+@@||artxun.com^$domain=findart.com.cn
+@@||woxiu.com/xapi/offsite_swf_more.php?*&type=
 bbs.125.la#@#.a_mu
 ccb.com#@#.ad_position
 cq.ifeng.com#@#.adbox
