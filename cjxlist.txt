@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140110a
+! List version 140111
 ! Please subscribe EasyList + ChinaList also.
 ! Please report any unblocked adverts or problems
 ! via e-mail ( 994722209@qq.com )
@@ -981,7 +981,23 @@
 ||zsnews.cn/Components/2013ZSNEWS/
 ||zsnews.cn/JSFUN/AdvFun/
 ||ithome.com/block/headerline.htm
+||40407.com/plus/rpad/
+||40407.com/templets/default/images/index.js
+||ghjie.com/images/2012/images/bg
+||ghjie.com/JS/youcegg.js
 !------------------------Specific element hiding rules------------------------!
+7958.com###cproIframe1
+7958.com###cproIframe2
+ghjie.com##.ggtop
+ghjie.com##.gg
+40407.com###fmt
+40407.com###tcdgg
+qlwb.com.cn###pfgg
+qlwb.com.cn##.A1
+qlwb.com.cn##.A9
+hd-dwr.com##[class^="banner-"]
+bbs.houdao.com###pic_div
+bbs.houdao.com###top-banner
 bbs.ithome.com##DIV[style="width:960px;height:120px;padding:0 20px;margin: 0 auto;background:#fff;"]
 qqjay.com##.art-main-ad
 zsnews.cn###crazyGG
@@ -1807,7 +1823,7 @@ hc360.com##[id^="Adv"]
 qichelian.com##[id^="Baidu_AU_TopAD"]
 ganji.com##[id^="GcnADId"]
 cdyee.com##[id^="LeftAd"]
-bbs.360che.com##[id^="PAGE_AD_"]
+360che.com##[id^="PAGE_AD_"]
 cdyee.com##[id^="RightAd"]
 qichelian.com##[id^="TX_BaiDuAD_BBS"]
 2200book.com,mycar168.com,qz828.com##[id^="ad"]
@@ -2259,7 +2275,7 @@ love1024.site44.com##p > a
 @@||bzfxw.com/adfile/xzhf3.js
 @@||cb.baidu.com/ecom?$domain=colafile.com|52pk.com|9ku.com|hunanzhibo.com|yue365.com|zhiboche.com
 @@||cbjs.baidu.com/js/m.js$domain=colafile.com
-@@||cbjs.baidu.com/js/o.js$domain=52pk.com|9ku.com|hunanzhibo.com|yue365.com|zhiboche.com
+@@||cbjs.baidu.com/js/o.js$domain=7958.com|52pk.com|9ku.com|hunanzhibo.com|yue365.com|zhiboche.com
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=colafile.com|ffpan.com
 @@||cpro.baidustatic.com/cpro/ui/f.js$domain=pipipan.com
 @@||czsrc.com/Adpic/
@@ -2292,6 +2308,10 @@ love1024.site44.com##p > a
 @@||10086.cn^$document,domain=10086.cn
 @@||artxun.com^$domain=findart.com.cn
 @@||woxiu.com/xapi/offsite_swf_more.php?*&type=
+@@||chinahr.com/images/phpads/
+@@||cpro.baidu.com/img/bg_captchaF.png
+@@/cpro/ui/*$domain=7958.com
+@@||baidu.com/ecom?$domain=7958.com
 bbs.125.la#@#.a_mu
 ccb.com#@#.ad_position
 cq.ifeng.com#@#.adbox
