@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140112
+! List version 140112a
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing.
 !-----------------------General advert blocking filters-----------------------!
@@ -199,7 +199,6 @@
 ||9ihome.com/info/ADTopvnet/
 ||9ku.com/images/mlsc.gif
 ||a.jiaodong.net/a/2013/
-||a.kbcool.com/Mon_
 ||a6.hujiang.com^
 ||abab.com/iframe/
 ||abc1.sdo.com^
@@ -991,7 +990,37 @@
 ||sinaimg.cn/mw690/a842a2fegw1ec62aj4nmjj208c06ytas.jpg
 ||nueiu.r.haizhangs.com/js/nueiu.js
 ||img.padhz.com/webimg/2014/01/livefan-f3.gif
+||kutj.com/js/new.js
+||gxorg.com/index.php?m=poster&
+||kutj.com/*/*x80.jpg
+||qm120.com/images/adZhayou.jpg
+||xunzai.com/static/wwwimg/
+||020.com/960_70
+||52che.com/NewLocal/TemplateHtml/headflash1_
+||links.cn/mmshow
+||haha.mx/upload/data/list_sidebar_
+||ishangman.com/images/aismd/
+||kbcool.com/other/yytf/
 !------------------------Specific element hiding rules------------------------!
+52che.com##A[href^="http://count.52che.com/goto.html?"]
+kbcool.com###read_m_yytf
+020.com###J_loginGuide
+020.com##.comiis_vadx
+020.com##.comiis_ychj_ad
+itpub.net###TopAdvert
+meiguoshenpo.com##.AD_300_250
+meiguoshenpo.com##.AD_336_280
+meiguoshenpo.com##.AD_560_46
+meiguoshenpo.com##.AD_290_232
+meiguoshenpo.com##.AD_580_60
+meiguoshenpo.com##.AD_500_200
+ifeng.com###crazy_ad_layer
+www.gxorg.com###h
+zhibo8.cc##.ad_left
+zhibo8.cc##.ad_right
+wzdsb.net##.home_ad_b
+wzdsb.net##.home_ad_c
+kutj.com##A[target="_blank"]>img[src*="gao/"]
 namipan.cc###menu + #somenu
 putclub.com##.ad_fastReading
 putclub.com##.the_ad
@@ -1125,7 +1154,7 @@ ifeng.com##.adcontent
 anhuinews.com##.ad001
 anhuinews.com##[id$="dl"]
 mumayi.com##.h80
-315che.com###topads
+315che.com,wzdsb.net###topads
 315che.com##.tonglan1
 xiazaiba.com##.down_ads
 ysxs8.com##[class^="ysxs8_w960"]
@@ -1465,7 +1494,7 @@ soso.com##.ad_zdq
 hd.zhijia.com,house.bdinfo.net,inhe.net##.adb
 ifeng.com##.adbest
 oogps.com##.adbg
-68design.net,jrj.com.cn,yesky.com##.adbox
+68design.net,caixun.com,jrj.com.cn,yesky.com##.adbox
 ifeng.com##.adbox03
 xcar.com.cn##.adbox980
 qq.com##.adbutton-Aritcle-QQ
@@ -1743,7 +1772,7 @@ tieba.baidu.com##.tb_poster_info.poster_success
 tieba.baidu.com##.tb_poster_placeholder
 inpai.com.cn##.tbad2
 startos.com##.test-240
-bbs.haining.com,mgbbs.cn##.textMes
+mgbbs.cn##.textMes
 54xr.com,fuliba.asia##.textwidget
 cnool.net##.tg-body
 cnool.net##.third-banner
@@ -1857,8 +1886,8 @@ pcpop.com##[id^="ad_"]
 joy.cn##[id^="ad_300_"]
 cbmland.com##[id^="ads_"]
 eyuyao.com,txzqw.com##[id^="ads_c_"]
-77bike.com,bbs.haining.com,mgbbs.cn##[id^="ads_d_"]
-bbs.hb163.cn,chinayk.com,tiboo.cn##[id^="ads_r_"]
+77bike.com,bbs.eyuyan.com,mgbbs.cn##[id^="ads_d_"]
+bbs.hb163.cn,chinayk.com,kbcool.com,tiboo.cn##[id^="ads_r_"]
 fx678.com,xiancn.com##[id^="adv"]
 yesky.com##[id^="amazon"]
 qianzhan.com##[id^="baidu_ad_"]
