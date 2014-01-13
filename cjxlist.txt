@@ -2,9 +2,10 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140112a
+! List version 140113
+! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
-! This is just for testing.
+! This is just for testing purpose.
 !-----------------------General advert blocking filters-----------------------!
 /AdPreview/*
 /ajds/*
@@ -35,6 +36,7 @@
 ###duilian_right
 ###kfivtwin
 ###jiezp
+###J_loginGuide
 ###lovexin1
 ###lovexin11
 ###lovexin12
@@ -381,6 +383,8 @@
 ||gfan.com/templets/newgfan/img/guijie1.jpg
 ||ggg.zj.com^
 ||ggw.gusuwang.com^
+||ggw.watertu.com^
+||gusuwang.com/ymsextweb/fullggw/
 ||gkpass.com/zb_users/upload/2013/10/2013103143129329.gif
 ||gminfo.cn/flash/
 ||gminfo.cn/images/fcgj.jpg
@@ -996,15 +1000,45 @@
 ||qm120.com/images/adZhayou.jpg
 ||xunzai.com/static/wwwimg/
 ||020.com/960_70
+||erji.net/ejnew.gif
 ||52che.com/NewLocal/TemplateHtml/headflash1_
 ||links.cn/mmshow
 ||haha.mx/upload/data/list_sidebar_
 ||ishangman.com/images/aismd/
 ||kbcool.com/other/yytf/
+||92dp.com/dianping/videoad
+||alicdn.com/tps/*-1000-100.
+||img2.suv.cn/2013/1225/20131225103546328.gif
+||yytcdn.com/user/bugles/*_*x*.jpg
+||yinyuetai.com/partner/*.mp4
+||xkb.com.cn/images/sjds.jpg
+||cctime.com/UpLoadFile/2013/9/9/20139966281065.jpg
+||cctime.com/UpLoadFile/2014/1/8/20141854557801.swf
+||gscn.com.cn/home/images/duilian2014.js
+||gscn.com.cn/home/images/advscroll.js
+||gscn.com.cn/home/images/TopScrollAda.js
+||toowa.com/Js/Inc_Foot.js
+||haochi123.com/J_Box/Inc_Tuan_Main.htm
+||cnhan.com/data/cache/myad-
 !------------------------Specific element hiding rules------------------------!
+cnhan.com##.news-5
+cnhan.com##.topbanner
+hao123.com##.leftad-2
+phpchina.com##A[href^="http://ad.www.net.cn/"]
+gscn.com.cn##.advscroll
+zymk.cn###tanchuang
+cctime.com##TD[onclick^="javascript:tj"]
+kaifu.com##.bk_ad
+kaifu.com##.play_fmt
+xkb.com.cn###ad03
+xkb.com.cn###ad04
+xkb.com.cn###tBanner
+zjstv.com##.ad_tl
+27.cn##.w960[style*="height:100px;"]
+yisou.com##.top-banner
+labs.it168.com##.bor1[style="height:196px;"]
 52che.com##A[href^="http://count.52che.com/goto.html?"]
 kbcool.com###read_m_yytf
-020.com###J_loginGuide
 020.com##.comiis_vadx
 020.com##.comiis_ychj_ad
 itpub.net###TopAdvert
@@ -1112,7 +1146,6 @@ co188.com##DIV[style$="height:90px;margin-top:15px;"]
 gog.com.cn##IMG[width^="100"]
 gog.com.cn##TABLE[width="300"][cellspacing="0"][style="margin-top:10px"]
 gog.com.cn##TABLE[width="670"][style="margin-bottom:10px;"]
-qbaobei.com##.ad
 qbaobei.com##.ad_01
 bbs.qbaobei.com###diynavtop
 nlc.gov.cn###lovexin12xx
@@ -1430,7 +1463,7 @@ zjkonline.com##.Zlist_right_gg
 chinafix.com.cn##.a_af
 bbs.fdc.com.cn,bbs.pinggu.org,bbs.xineurope.com,bbs.ylnet.com.cn,forum.bet007.com,gn00.com##.a_p
 you85.cn##.a_pb
-21cn.com,3dmgame.com,7060.com,acfun.tv,aohua.com.au,baopan.cc,cdyee.com,ce.cn,china3-d.com,chinamil.com.cn,cnsoftnews.com,duowan.com,eworldship.com,firefang.cn,gongkong.com,hebnews.cn,hifidiy.net,huanqiukexue.com,ifeng.com,jdcjsr.com,jrj.com.cn,junshi.cn,kaixin200.com,leiphone.com,lyd.com.cn,ncdiy.com,neotv.cn,newsmth.net,people.com.cn,ptbus.com,reyoo.com,reyoo.net,shangdu.com,shenchuang.com,szonline.net,tiantianpengfu.com,wuhan.net.cn,ydss.cn,yesky.com,youth.cn,zk168.com.cn##.ad
+21cn.com,3dmgame.com,7060.com,acfun.tv,aohua.com.au,baopan.cc,cdyee.com,ce.cn,china3-d.com,chinamil.com.cn,cnsoftnews.com,duowan.com,eworldship.com,firefang.cn,gongkong.com,hebnews.cn,hifidiy.net,huanqiukexue.com,ifeng.com,jdcjsr.com,jrj.com.cn,junshi.cn,kaixin200.com,kunming.cn,leiphone.com,lyd.com.cn,ncdiy.com,neotv.cn,newsmth.net,people.com.cn,ptbus.com,reyoo.com,reyoo.net,shangdu.com,shenchuang.com,szonline.net,qbaobei.com,phpchina.com,tiantianpengfu.com,wuhan.net.cn,ydss.cn,yesky.com,youth.cn,zk168.com.cn##.ad
 19lou.com,ihome99.com##.ad-190x60
 19lou.com##.ad-980x40
 ihome99.com##.ad-980x60
@@ -1870,7 +1903,7 @@ tuzuan.com##[class^="tuzuanad"]
 junshigang.com##[class^="ww300"]
 qvodsou.com##[id$="-union"]
 e23.cn##[id*="adv"]
-ea3w.com##[id^="AD"]
+3qit.com,ea3w.com##[id^="AD"]
 xgo.com.cn##[id^="AD_"]
 hc360.com##[id^="Adv"]
 qichelian.com##[id^="Baidu_AU_TopAD"]
@@ -2085,7 +2118,6 @@ sssdou.com##.ads
 @@^jstvimedia.allyes.com^$object-subrequest
 @@||32666.com/templates/32666/images/adv/
 @@||52zy.com/gg/
-@@||ad.3.cn/ads/
 @@||ad.jz123.cn^
 @@||ad.thsi.cn^
 @@||bbs.yantuchina.com/gg/tmp/hong.gif
