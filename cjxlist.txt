@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140113
+! List version 140114
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -76,6 +76,7 @@
 ||100cpc.com^$third-party
 ||32414.com^$third-party
 ||38499.com^$script,third-party
+||wudang05.com^$third-party
 !----------------------Specific advert blocking filters-----------------------!
 ||image.jzmt.net//default.jpg
 ||hxsxw.com/js/float.js
@@ -540,7 +541,6 @@
 ||jznews.com.cn/js/adtwo.js
 ||jznews.com.cn/js/topad
 ||kaqi.tv/temp/Banner/
-||kbcool.com/other/yytf/top/top_flash.js
 ||kdnet.net/pimg/1920-
 ||kekejp.com/Images/2013/
 ||kekenet.com/Images/2013/
@@ -1020,7 +1020,32 @@
 ||toowa.com/Js/Inc_Foot.js
 ||haochi123.com/J_Box/Inc_Tuan_Main.htm
 ||cnhan.com/data/cache/myad-
+||ncnews.com.cn/images/ty_ewm.js
+||ncnews.com.cn/images/wb_duilian_web.js
+||ncnews.com.cn/images/jlqc_20130701logo.gif
+||cndesign.com/upload/ad/
+||cndesign.com/Content/img/356x80_
+||cndesign.com/Content/img/*x90_
+||cndesign.com/Content/img/175x60_
+||cndesign.com/img/ad/
+||unionjs.dianxin.com^
 !------------------------Specific element hiding rules------------------------!
+xinhuanet.com###adv-A1
+xinhuanet.com###adv-B1
+xinhuanet.com###adv-B2
+xinhuanet.com###adv-B3
+xinhuanet.com###adv-1
+mobanwang.com##.show960x60
+mobanwang.com##.teagg
+cndesign.com##.advRightGoogle
+cndesign.com##.throughAdPic
+jwb.com.cn##DIV[style="width:960px; height:84px; overflow:hidden; background-color:#FFFFFF;"]+.jwwsy
+jwb.com.cn##.adfixedTL
+jwb.com.cn##.adfixedBR
+jwb.com.cn###RightBottomAD
+jwb.com.cn##[id^="jwwsy_ad"]
+esnai.com##.tlgg
+ifeng.com##.picNews
 cnhan.com##.news-5
 cnhan.com##.topbanner
 hao123.com##.leftad-2
@@ -1055,7 +1080,6 @@ zhibo8.cc##.ad_right
 wzdsb.net##.home_ad_b
 wzdsb.net##.home_ad_c
 kutj.com##A[target="_blank"]>img[src*="gao/"]
-namipan.cc###menu + #somenu
 putclub.com##.ad_fastReading
 putclub.com##.the_ad
 putclub.com##.ad_vipabc
@@ -1080,7 +1104,6 @@ ahlife.com###floatad-winpop
 7958.com###cproIframe1
 7958.com###cproIframe2
 ghjie.com##.ggtop
-ghjie.com##.gg
 40407.com###fmt
 40407.com###tcdgg
 qlwb.com.cn###pfgg
@@ -1136,7 +1159,6 @@ cs.com.cn###slideAD
 elecfans.com###AdHtmlRight
 elecfans.com###Right2
 elecfans.com##.advertising
-elecfans.com##.gg
 elecfans.com##.gg-01
 163.com##.sect_top_ad
 club.cul.sohu.com###thread_r_s15
@@ -1361,7 +1383,7 @@ yb983.com###jihuaslide
 sznews.com###jsGG1
 sznews.com###jsGG2
 sdgundam.cn###left-sponsor
-66rd.cn,cs.com.cn,gdzjdaily.com.cn###leftDiv
+66rd.cn,cssqt.com,cs.com.cn,gdzjdaily.com.cn###leftDiv
 hexun.com###leftFloat
 youxi.com###left_layer
 inhe.net###leftfloat
@@ -1406,7 +1428,7 @@ china3-d.com###recommend_pictures_r
 reyoo.com,reyoo.net###rich_window
 frdic.com###right-side-bar
 wenkudaquan.com###rightAD
-66rd.cn,cs.com.cn,gdzjdaily.com.cn,qiannao.com###rightDiv
+66rd.cn,cssqt.com,cs.com.cn,gdzjdaily.com.cn,qiannao.com###rightDiv
 gxnews.com.cn###right_3_ad
 07073.com###right_90700
 gamersky.com###right_fixed
@@ -1667,7 +1689,7 @@ dj97.com##.g96090
 3366.com##.game_banner
 tieba.baidu.com##.game_spread_thread
 zymk.cn##.ganggao_top
-1kkk.com,iqilu.com,qianyan001.com##.gg
+elecfans.com,ghjie.com,jj59.com,1kkk.com,iqilu.com,qianyan001.com##.gg
 wed114.cn##.gg-left-03
 wed114.cn##.gg-left-04
 jdcjsr.com,jstv.com##.gg1
@@ -2162,6 +2184,7 @@ sssdou.com##.ads
 @@||cpro.baidu.com/img/bg_captchaF.png
 @@/cpro/ui/*$domain=7958.com
 @@||baidu.com/ecom?$domain=7958.com
+@@||wowsai.com/data/files/ad/
 bbs.125.la#@#.a_mu
 ccb.com#@#.ad_position
 cq.ifeng.com#@#.adbox
