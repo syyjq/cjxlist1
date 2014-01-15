@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140114
+! List version 140115
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -1029,7 +1029,20 @@
 ||cndesign.com/Content/img/175x60_
 ||cndesign.com/img/ad/
 ||unionjs.dianxin.com^
+||bbs.ruian.com/img/y13/
+||xnnews.com.cn/images/yr_wsm.js
+||xnnews.com.cn/images/smsline_double.js
+||nvsheng.com/js/gg.js
+||9duli.com/images/kankan70.jpg
+||2kuai.com/images/2.jpg
+||2kuai.com/images/12.gif
+||2kuai.com/images/vip.gif
+||zhuangpin.com/data/cache/myad-
 !------------------------Specific element hiding rules------------------------!
+zhuangpin.com##.mr_ad
+wj001.com###advert
+unpcn.com##DIV[style="line-height: 22px;margin-bottom: 25px; min-width: 1000px;padding-top: 60px;width: 100%; min-height:200px;"]
+unpcn.com###zzjs_net_1
 xinhuanet.com###adv-A1
 xinhuanet.com###adv-B1
 xinhuanet.com###adv-B2
@@ -1310,8 +1323,9 @@ zhidao.baidu.com###cms-company
 zhidao.baidu.com###cms-scroll
 haianw.com###comiis_06681_00
 9ist.com###comiis_19iad01
-0743ds.com###comiis_bato02l
-0743ds.com###comiis_bato15
+0597kk.com###kk_content1_left_ad1
+0743ds.com,zyh1105.gotoip2.com###comiis_bato02l
+0743ds.com,zyh1105.gotoip2.com###comiis_bato15
 wenyoutai.com###comiis_nhlx01
 wenyoutai.com###comiis_nhlx08es
 baidu.com###con-ar
@@ -1430,7 +1444,6 @@ frdic.com###right-side-bar
 wenkudaquan.com###rightAD
 66rd.cn,cssqt.com,cs.com.cn,gdzjdaily.com.cn,qiannao.com###rightDiv
 gxnews.com.cn###right_3_ad
-07073.com###right_90700
 gamersky.com###right_fixed
 inhe.net###rightfloat
 www.baidu.com,www1.baidu.com,ipv6.baidu.com###s_wl
@@ -1485,7 +1498,7 @@ zjkonline.com##.Zlist_right_gg
 chinafix.com.cn##.a_af
 bbs.fdc.com.cn,bbs.pinggu.org,bbs.xineurope.com,bbs.ylnet.com.cn,forum.bet007.com,gn00.com##.a_p
 you85.cn##.a_pb
-21cn.com,3dmgame.com,7060.com,acfun.tv,aohua.com.au,baopan.cc,cdyee.com,ce.cn,china3-d.com,chinamil.com.cn,cnsoftnews.com,duowan.com,eworldship.com,firefang.cn,gongkong.com,hebnews.cn,hifidiy.net,huanqiukexue.com,ifeng.com,jdcjsr.com,jrj.com.cn,junshi.cn,kaixin200.com,kunming.cn,leiphone.com,lyd.com.cn,ncdiy.com,neotv.cn,newsmth.net,people.com.cn,ptbus.com,reyoo.com,reyoo.net,shangdu.com,shenchuang.com,szonline.net,qbaobei.com,phpchina.com,tiantianpengfu.com,wuhan.net.cn,ydss.cn,yesky.com,youth.cn,zk168.com.cn##.ad
+21cn.com,3dmgame.com,7060.com,acfun.tv,aohua.com.au,baopan.cc,cdyee.com,ce.cn,china3-d.com,chinamil.com.cn,cnsoftnews.com,duowan.com,eworldship.com,firefang.cn,gongkong.com,hebnews.cn,hifidiy.net,huanqiukexue.com,ifeng.com,jdcjsr.com,jrj.com.cn,junshi.cn,kaixin200.com,kunming.cn,leiphone.com,lyd.com.cn,ncdiy.com,neotv.cn,newsmth.net,people.com.cn,ptbus.com,reyoo.com,reyoo.net,shangdu.com,shenchuang.com,szonline.net,qbaobei.com,phpchina.com,tiantianpengfu.com,wuhan.net.cn,ydss.cn,yesky.com,yicheshi.com,youth.cn,zk168.com.cn##.ad
 19lou.com,ihome99.com##.ad-190x60
 19lou.com##.ad-980x40
 ihome99.com##.ad-980x60
@@ -1646,7 +1659,7 @@ zhidao.baidu.com##.cms-slide > .optimus
 ifeng.com##.col_ad
 club.pc3w.com##.comiis_5ad
 maituan.com##.command
-0743ds.com##.commin_ad
+0743ds.com,zyh1105.gotoip2.com##.commin_ad
 huanqiu.com##.conAd
 ifeng.com##.conRgg
 766.com##.container > .fl
@@ -2145,10 +2158,11 @@ sssdou.com##.ads
 @@||bbs.yantuchina.com/gg/tmp/hong.gif
 @@||bzfxw.com/adfile/ad14.htm
 @@||bzfxw.com/adfile/xzhf3.js
+@@||pos.baidu.com/ecom?$domain=9duli.com
 @@||cb.baidu.com/ecom?$domain=colafile.com|52pk.com|9ku.com|hunanzhibo.com|yue365.com|zhiboche.com
 @@||cbjs.baidu.com/js/m.js$domain=colafile.com
 @@||cbjs.baidu.com/js/o.js$domain=7958.com|52pk.com|9ku.com|hunanzhibo.com|yue365.com|zhiboche.com
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=colafile.com|ffpan.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=9duli.com|colafile.com|ffpan.com
 @@||cpro.baidustatic.com/cpro/ui/f.js$domain=pipipan.com
 @@||czsrc.com/Adpic/
 @@||fwxgx.com^*/floatad.
