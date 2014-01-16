@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140115
+! List version 140116
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -11,6 +11,7 @@
 /ajds/*
 /caches/poster_js/*
 /content/plugins/em_ad/*
+/data/cache/myad-
 /duilian_gg.
 /duilian2.
 /floatad2.
@@ -828,10 +829,7 @@
 ||wz.zj.cn/2013/0812/adwzrx.jpg
 ||xdf.cn/zhuanti/yyzygg/
 ||xdjz.net/js/float.js
-||xdkbdsqqcms.dsqq.cn/upfile/Image/201304/08/11005720.jpg
-||xdkbdsqqcms.dsqq.cn/upfile/Image/201311/08/17212742.gif
-||xdkbdsqqcms.dsqq.cn/upfile/Image/201311/14/13090854.jpg
-||xdkbdsqqcms.dsqq.cn/upfile/Image/201312/02/12412914.jpg
+||xdkbdsqqcms.dsqq.cn/upfile/Image/
 ||xdowns.com/dd/
 ||xiancn.com^*/adv_content/
 ||xiazaiba.com/static/meinv.js
@@ -1019,7 +1017,6 @@
 ||gscn.com.cn/home/images/TopScrollAda.js
 ||toowa.com/Js/Inc_Foot.js
 ||haochi123.com/J_Box/Inc_Tuan_Main.htm
-||cnhan.com/data/cache/myad-
 ||ncnews.com.cn/images/ty_ewm.js
 ||ncnews.com.cn/images/wb_duilian_web.js
 ||ncnews.com.cn/images/jlqc_20130701logo.gif
@@ -1037,8 +1034,44 @@
 ||2kuai.com/images/2.jpg
 ||2kuai.com/images/12.gif
 ||2kuai.com/images/vip.gif
-||zhuangpin.com/data/cache/myad-
+||downza.cn/2013/js/
+||spn.com.cn/media/jackmm.js
+||spn.com.cn/admin_new/imgs/b2.jpg
+||163disk.com/static/www/
+||zb7.com/static/archy/ad/
+||119.167.73.60/m_code/
+||sinaimg.cn/large/a6a976a2tw1eckl0oyeokj20go01o3z6.jpg
+||longhoo.net/35751.files/20140110.gif
+||newsmth.net/nForum/files/adv/
+||wehefei.com/uploadfile/flashad/
+||1m3d.com/attachment/module/
+||17ok.com/focus/3j_right_jdt.shtml
+||17ok.com/focus/3j/css2013/artical_03.jpg
+||newft.com/template/comiis_snx3deyi/ads/
+||eastlady.cn/cssjs/indexbaner
+||eastlady.cn/cssjs/indexgg.js
+||eastlady.cn/cssjs/indextopad.js
+||ijia360.com/data/poster/
+||cbfw.cn/gonggong/js/cf_flash.js
+||zzsky.cn/images/zzskycom_
 !------------------------Specific element hiding rules------------------------!
+ijia360.com##.indexad_1
+ijia360.com##.search_radlist
+cnscore.com##.bdbanner
+eastday.com##.gglist
+longhoo.net##.ads960
+qtv.com.cn##.ad610_z
+qtv.com.cn##.ad360_z
+cqwb.com.cn##.gg_360x50
+cqwb.com.cn##.gg_960x60
+cqwb.com.cn##.gg_960x80
+cqwb.com.cn##.topgg
+kafan.cn##.wp.header_gg2
+mnw.cn##DIV[style^="margin:0px auto;padding:0px 0px 5px;width:960px;"]
+mnw.cn##.mnw_top_ad
+mnw.cn##.mnw_top_ads
+163disk.com##.gg_990_65
+163disk.com##.gg_990_90
 zhuangpin.com##.mr_ad
 wj001.com###advert
 unpcn.com##DIV[style="line-height: 22px;margin-bottom: 25px; min-width: 1000px;padding-top: 60px;width: 100%; min-height:200px;"]
@@ -1059,8 +1092,7 @@ jwb.com.cn###RightBottomAD
 jwb.com.cn##[id^="jwwsy_ad"]
 esnai.com##.tlgg
 ifeng.com##.picNews
-cnhan.com##.news-5
-cnhan.com##.topbanner
+cnhan.com,longhoo.net##.news-5
 hao123.com##.leftad-2
 phpchina.com##A[href^="http://ad.www.net.cn/"]
 gscn.com.cn##.advscroll
@@ -1238,7 +1270,8 @@ xdf.cn##.w_ads
 blog.sina.com.cn##[id^="cont-tanx-"]
 tieba.baidu.com###frs-list-game
 tieba.baidu.com###game_frs_head
-tieba.baidu.com###ssq_lottery
+tieba.baidu.com##.hgame_mod_theme1
+tieba.baidu.com##[id*="lottery"]
 tieba.baidu.com##.game_list_and_rank
 tieba.baidu.com##.images_game_container
 163.com##.sports_300x60_ad1
@@ -1255,7 +1288,6 @@ letv.com###ad_pop_flash
 map.sogou.com##a[name="popwinadvertise"]
 top.chinaz.com##DIV[style="height:280px; width:100%; text-align:center;"]
 image.baidu.com###ecomContainer
-baidu.com##.ad-material-wrapper
 m1905.com##.vod-external
 beva.com##.av-1
 beva.com##[id*="_BANNER_"]
@@ -1406,7 +1438,6 @@ tc.cn###lm1041
 v.360.cn###logo_activity
 uusee.com###logo_banner
 wn789.com###lograd
-tieba.baidu.com###lucky_lottery
 cqsq.com###lxtelk
 lanyes.org###m_banner
 gxnews.com.cn###mainbody_2
@@ -1617,7 +1648,8 @@ youxi.com##.banner70
 reyoo.com##.banner94060
 a67.com##.banner990
 box.poco.cn##.banner994
-news.longhoo.net##.bannerArea
+longhoo.net##.bannerArea
+longhoo.net###pos_xuyuan
 hebei.com.cn##.bannerTL
 cc222.com##.banner_01
 4493.com##.banner_640
@@ -1862,7 +1894,7 @@ jiasuba.com##.topad1
 huarenjie.com##.topadcss
 rznews.cn##.topadv
 junshigang.com##.topbaidu
-softonic.cn##.topbanner
+cnhan.com,longhoo.net,qtv.com.cn,softonic.cn##.topbanner
 junshigang.com##.topnews
 jurong.cn##.totalad
 ifeng.com##.trade
@@ -1882,7 +1914,6 @@ lady8844.com##.wad
 v.ku6.com##.wcr_ad1
 ptbus.com##.weixin_ad
 qqkj.cn,ttplay8.cn,xk77.com##.wenad
-zhidao.baidu.com##.wgt-ads
 leiphone.com##.widget.spn
 wangyueblog.com##.wigget_sponsors
 www.baidu.com,www1.baidu.com,ipv6.baidu.com##.ws-tips
