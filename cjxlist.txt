@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140116
+! List version 140121
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -1054,7 +1054,15 @@
 ||ijia360.com/data/poster/
 ||cbfw.cn/gonggong/js/cf_flash.js
 ||zzsky.cn/images/zzskycom_
+||news.0898.net/NMediaFile/*.swf
+||news.0898.net/NMediaFile/*.gif
+||guofs.com/images/578-60.gif
+||mtxsk.com/jscode/
+||bookabc.net/js/xian
+||bookabc.net/js/tt.js
+||hoopchina.com.cn/topn.html
 !------------------------Specific element hiding rules------------------------!
+hupu.com###HCFull
 ijia360.com##.indexad_1
 ijia360.com##.search_radlist
 cnscore.com##.bdbanner
@@ -1271,6 +1279,7 @@ blog.sina.com.cn##[id^="cont-tanx-"]
 tieba.baidu.com###frs-list-game
 tieba.baidu.com###game_frs_head
 tieba.baidu.com##.hgame_mod_theme1
+tieba.baidu.com##.hgame_mod_theme2
 tieba.baidu.com##[id*="lottery"]
 tieba.baidu.com##.game_list_and_rank
 tieba.baidu.com##.images_game_container
@@ -1630,7 +1639,7 @@ padhz.com##.agoogled2
 2500sz.com##.aline-2 + .tl
 gfan.com##.art-ad
 10jqka.com.cn,shangdu.com##.art_ad
-sina.com.cn##.article-video
+sina.com.cn##.article-video.artice-pic
 haha.mx##.article.mt-20
 pinshan.com##.b_adv
 pinshan.com##.b_adv2
@@ -2189,11 +2198,11 @@ sssdou.com##.ads
 @@||bbs.yantuchina.com/gg/tmp/hong.gif
 @@||bzfxw.com/adfile/ad14.htm
 @@||bzfxw.com/adfile/xzhf3.js
-@@||pos.baidu.com/ecom?$domain=9duli.com
+@@||pos.baidu.com/ecom?$domain=l7po.com|9duli.com
 @@||cb.baidu.com/ecom?$domain=colafile.com|52pk.com|9ku.com|hunanzhibo.com|yue365.com|zhiboche.com
 @@||cbjs.baidu.com/js/m.js$domain=colafile.com
 @@||cbjs.baidu.com/js/o.js$domain=7958.com|52pk.com|9ku.com|hunanzhibo.com|yue365.com|zhiboche.com
-@@||cpro.baidustatic.com/cpro/ui/c.js$domain=9duli.com|colafile.com|ffpan.com
+@@||cpro.baidustatic.com/cpro/ui/c.js$domain=l7po.com|9duli.com|colafile.com|ffpan.com
 @@||cpro.baidustatic.com/cpro/ui/f.js$domain=pipipan.com
 @@||czsrc.com/Adpic/
 @@||fwxgx.com^*/floatad.
