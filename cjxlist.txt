@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140121
+! List version 140124
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -682,7 +682,7 @@
 ||qz828.com/css/2010/script/*ad
 ||qz828.com/pic/0/10/49/26/10492689_429618.gif
 ||qzntv.com/gb/img/9465.files/yidong3Gshouji.swf
-||qztv.com^*.swf
+||qzntv.com^*.swf
 ||qzwb.com/gb/img/9264.files/1yuanpaima.jpg
 ||renren.com/pages/seo/reg_seo_pop.js
 ||res.files.131.com/webroot/v2012/images/bg_yun.jpg
@@ -1008,7 +1008,6 @@
 ||alicdn.com/tps/*-1000-100.
 ||img2.suv.cn/2013/1225/20131225103546328.gif
 ||yytcdn.com/user/bugles/*_*x*.jpg
-||yinyuetai.com/partner/*.mp4
 ||xkb.com.cn/images/sjds.jpg
 ||cctime.com/UpLoadFile/2013/9/9/20139966281065.jpg
 ||cctime.com/UpLoadFile/2014/1/8/20141854557801.swf
@@ -1061,7 +1060,17 @@
 ||bookabc.net/js/xian
 ||bookabc.net/js/tt.js
 ||hoopchina.com.cn/topn.html
+||deyangs.com/img/
+||958shop.com/style/kill_ie6/
+||juxia.com/public/js/foot.js
+||juxia.com/public/js/juxia.js
+||hlj3.com/55.gif
+||pc0359.cn/data/xzb_haha.js
+||mtkan.net/js/pop.messager.js
 !------------------------Specific element hiding rules------------------------!
+keke001.com##.adbg
+pc0359.cn###wanyxShowAD
+qzwb.com##.gg12
 hupu.com###HCFull
 ijia360.com##.indexad_1
 ijia360.com##.search_radlist
