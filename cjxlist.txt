@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140124
+! List version 140126
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -29,8 +29,6 @@
 ###ad_box1
 ###ad_box2
 ###ad_full
-###ads[style]
-###msg_win[style]
 ###bread_activity
 ###divAds1
 ###duilian_left
@@ -58,6 +56,7 @@
 ##.wumii-bottom-popup
 ##.wzad
 !---------------------------Third-party advertisers---------------------------!
+||img.5293.com^$third-party
 ||2155ec.com^$third-party
 ||235123.net^$third-party
 ||3399.com/act/$third-party
@@ -79,6 +78,8 @@
 ||38499.com^$script,third-party
 ||wudang05.com^$third-party
 !----------------------Specific advert blocking filters-----------------------!
+||qtfy30.cn/690_90qt.gif
+||qtfy30.cn/top.gif
 ||image.jzmt.net//default.jpg
 ||hxsxw.com/js/float.js
 ||3d66.com/gx2013g/
@@ -678,7 +679,6 @@
 ||qq.com/game/footerbar$subdocument
 ||qq.com/js/cody/csfy/ad_rightdown_
 ||qqtz.com/ad$subdocument
-||qtfy30.cn/980_90.gif
 ||qz828.com/css/2010/script/*ad
 ||qz828.com/pic/0/10/49/26/10492689_429618.gif
 ||qzntv.com/gb/img/9465.files/yidong3Gshouji.swf
@@ -1068,6 +1068,8 @@
 ||pc0359.cn/data/xzb_haha.js
 ||mtkan.net/js/pop.messager.js
 !------------------------Specific element hiding rules------------------------!
+ahtv.cn,frdic.com,piao.com.cn###ads
+anhuinews.com,zjkonline.com###msg_win
 keke001.com##.adbg
 pc0359.cn###wanyxShowAD
 qzwb.com##.gg12
