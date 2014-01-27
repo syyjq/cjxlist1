@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140126
+! List version 140127
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -78,6 +78,7 @@
 ||38499.com^$script,third-party
 ||wudang05.com^$third-party
 !----------------------Specific advert blocking filters-----------------------!
+||kan300.com/js/union/
 ||qtfy30.cn/690_90qt.gif
 ||qtfy30.cn/top.gif
 ||image.jzmt.net//default.jpg
@@ -1068,6 +1069,8 @@
 ||pc0359.cn/data/xzb_haha.js
 ||mtkan.net/js/pop.messager.js
 !------------------------Specific element hiding rules------------------------!
+kan300.com###tiepianDIV
+hk3318.net##.player_z_ad
 ahtv.cn,frdic.com,piao.com.cn###ads
 anhuinews.com,zjkonline.com###msg_win
 keke001.com##.adbg
