@@ -5,7 +5,10 @@
     <![CDATA[
 	<h3 style="margin-top: 14px;">For Adblok Plus </h3>
 		<h4 style="margin-top: 10px;">
-		<a href="abp:subscribe?location=http://cjxlist1.googlecode.com/svn/cjxlist.txt&title=cjxlist">点此订阅cjxlist (Add cjxlist)</a>       
+		<a href="abp:subscribe?location=https://cjxlist1.googlecode.com/svn/cjxlist.txt&title=cjxlist">点此订阅cjxlist，通过https更新。</a>       
+		</h4>
+		<h4 style="margin-top: 10px;">
+		<a href="abp:subscribe?location=http://cjxlist1.googlecode.com/svn/cjxlist.txt&title=cjxlist">点此订阅cjxlist，通过http更新。</a>       
 		</h4>
    ]]>
   </Content>
