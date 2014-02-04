@@ -3,7 +3,7 @@
   <ModulePrefs title="Hello World!" />
   <Content type="html">
     <![CDATA[
-	<h3 style="margin-top: 14px;">For Adblok Plus </h3>
+	<h3 style="margin-top: 14px;">For Adblock Plus </h3>
 		<h4 style="margin-top: 10px;">
 		<a href="abp:subscribe?location=https://cjxlist1.googlecode.com/svn/cjxlist.txt&title=cjxlist">点此订阅cjxlist，通过https更新。</a>       
 		</h4>
