@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140204
+! List version 140206
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -31,6 +31,7 @@
 /moneymaker/js/float.js
 /moneymaker/js/popup.js
 /runtime/js/index960.js
+/?age=1&*col=6&row=1&
 |http://*.in/ad/
 |http://*.us/ad/
 |http://*.cc/ad/
@@ -108,6 +109,15 @@
 ##a[href^="http://www.xinghad.com/iclk/"]
 ##a[href^="plugin.php?id=stoola_adcenter:userclick&adid="]
 ##.sptable[width="100%"][cellspacing="0"][cellpadding="5"]
+###table1[cellspacing="1"][cellpadding="2"][style^="FONT-WEIGHT: normal; FONT-SIZE: 14px; "]
+###box-1[style*="_top:expression(eval("]
+###box-2[style*="_top:expression(eval("]
+###box-3[style*="_top:expression(eval("]
+###box-4[style*="_top:expression(eval("]
+###leftCouple[style^="position:"]
+###leftFloat[style^="position:"]
+###rightCouple[style^="position:"]
+###rightFloat[style^="position:"]
 !---------------------------Third-party advertisers---------------------------!
 ||168ad.cc^$third-party
 ||union.$third-party,domain=~click.union.jd.com|~click.union.360buy.com
@@ -156,6 +166,8 @@
 ||yeyebt.com^$popup,third-party
 ||yuanjiaomeii.com^$popup,third-party
 !----------------------Specific advert blocking filters-----------------------!
+||mcbbs.net/data/myattachment/forum/201308/02/122628rfrrrvfzgjvaassq.jpg
+||my0832.com/xyz/upload/
 ||kp52.cc/data/attachment/portal/
 ||174.123.15.43:8080
 ||174.139.95.28/ad/
@@ -1169,7 +1181,10 @@
 ||fragment.firefoxchina.cn/html/
 ||safecn.qiniudn.com/wp-content/themes/HotNewspro/images/a.gif
 ||9w1an.com/special/
+||xnnews.com.cn/templets/image/600zzj.gif
+||pic.959.cn/media/js/
 !------------------------Specific element hiding rules------------------------!
+fanjian.net###vad
 firefoxchina.cn##.chip-banners
 firefoxchina.cn##.layout>.banner
 2014lang.com###ding
@@ -1353,7 +1368,6 @@ starbaby.cn##.big_ada
 starbaby.cn##.gg_ttb
 starbaby.cn###top_ad_show
 starbaby.cn###yindex_ads
-sohu.com##.ad950
 sohu.com##.ad980
 anjuke.com##[class$="-poster"]
 anjuke.com##.ifx-ad-r-box
@@ -1508,7 +1522,6 @@ yb.jl.cn###diy100
 bbs.dt123.net###diy6
 img18.65504.com,qilanxiaozhu.co###diy_chart
 174.139.95.28,bbs.liao1.com,chcj.net###diynavtop
-bbs.pcbeta.com###diynavtop + div[style]
 szonline.net###dllayer3
 gongkong.com###dull_left
 gongkong.com###dull_right
@@ -1688,7 +1701,7 @@ dbw.cn##.ad670
 tompda.com##.ad713
 hupu.com##.ad720-90
 uc999.com##.ad770x70
-6pingm.com,focus.cn,ifeng.com##.ad950
+6pingm.com,laohe360.com,focus.cn,ifeng.com,sohu.com##.ad950
 xiaoxiucai.org##.ad950_90
 tv110.com##.ad960-90
 kumi.cn##.ad96060Box
@@ -2256,20 +2269,25 @@ house.shangdu.com#@#.top_ad
 imuyang.com#@#.a_pt
 yaerwen.com#@##adtop
 tiancity.com#@#.main_ad
-!----------------------------------The End------------------------------------!
-###box-1[style*="_top:expression(eval("]
-###box-2[style*="_top:expression(eval("]
-###box-3[style*="_top:expression(eval("]
-###box-4[style*="_top:expression(eval("]
-###leftCouple[style^="position:"]
-###leftFloat[style^="position:"]
-###rightCouple[style^="position:"]
-###rightFloat[style^="position:"]
+!----------------------------------Temporary----------------------------------!
 .com/htm/out.php$popup
 .com/js/go.html$popup
 .info/appout/htm/out.html$popup
 .info/js/go.html$popup
 .info/js/go2.html$popup
 .info/js/gogo.html$popup
-/?age=1&
-##table#table1[style^="FONT-WEIGHT: normal;"]
+!----------------------------------GitHub-------------------------------------!
+@@||aty*.sohu.com^
+||sinaimg.cn/large/a6a976a2tw1eckl0oyeokj20go01o3z6.jpg
+bbs.pcbeta.com###diynavtop.area + DIV[style]
+@@||pmm.people.com.cn/main/s*^2013juxing
+weibo.com##.right_content.hot_topic.hot_topicad1
+||js.tv.itc.cn/gg$script
+||images.sohu.com/ytv/$subdocument
+||images.sohu.com/ytv/*.swf
+||hc.yinyuetai.com/partner/$object-subrequest
+||coinurl.com^$third-party
+||union.$third-party,popup,domain=~click.union.jd.com|~click.union.360buy.com
+||uucm.cn^$third-party
+pt80.net##.wp.a_t
+!----------------------------------The End------------------------------------!
