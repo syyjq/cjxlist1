@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140207a
+! List version 140208
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -142,7 +142,6 @@
 ||kefeng56.com^$third-party
 ||p.btyou.com^$third-party
 ||s17cnzz.com^$third-party
-||union.$third-party,domain=~click.union.360buy.com|~click.union.jd.com
 ||wudang05.com^$third-party
 ||yx4449.com^$third-party
 !---------------------------Popups--------------------------------------------!
@@ -173,6 +172,7 @@
 /img/br650.gif$domain=qzntv.com|qzwb.com
 /index.php/intel/*$domain=it168.com|pchome.net|pcpop.com|yesky.com|zol.com.cn
 /upload/gad/*$domain=pbzy.com|shanzhaiben.com
+|http://*.gif$domain=16668.biz|16668.cc|16668.com|16668.net|16668.org|16668tu.com
 ||020.com/960_70
 ||0573ren.com/n1/2013/*.gif
 ||0575bbs.com/updateimeags/
@@ -244,6 +244,7 @@
 ||40wan.com/js/www2/
 ||411pp.net^
 ||46.com/static/images/banner/
+||50.117.120.149^
 ||512ms.com/js/index_ggw_show.js
 ||51gugu.com/popwin/AutoHAdShow.aspx
 ||51test.net/js_new/article_
@@ -1131,6 +1132,7 @@
 ||xunleihd.com/image/xmaose
 ||xunzai.com/static/wwwimg/
 ||xunzai.com/www/all_common.js
+||xx12xx.com/17lu/
 ||xx12xx.com/xx12xx/
 ||xxsy.net/js/lazyload.js
 ||y2.ifengimg.com/1d124ac5e89463af/2013/0125/rdn_51023a5071d32.jpg
@@ -2199,6 +2201,7 @@ ahtv.cn##td[colspan="3"][style="height:95px;"]
 cctime.com##td[onclick^="javascript:tj"]
 !---------------------------------Whitelists----------------------------------!
 @@.jstv.com/c/gg/
+@@/168logo.gif$domain=16668.biz|16668.cc|16668.com|16668.net|16668.org|16668tu.com
 @@/ads/*$domain=189.cn
 @@/advert_$domain=wb.qq.com
 @@/cpro/ui/*$domain=7958.com
@@ -2281,6 +2284,5 @@ weibo.com##.right_content.hot_topic.hot_topicad1
 ||images.sohu.com/ytv/*.swf
 ||js.tv.itc.cn/gg$script
 ||sinaimg.cn/large/a6a976a2tw1eckl0oyeokj20go01o3z6.jpg
-||union.$popup,third-party,domain=~click.union.360buy.com|~click.union.jd.com
 ||uucm.cn^$third-party
 !----------------------------------The End------------------------------------!
