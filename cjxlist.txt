@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140207
+! List version 140207a
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -25,6 +25,7 @@
 /duilian_gg.
 /floatad2.
 /ina_ad_
+/j/Lad6_2.js
 /module/adsview/*
 /moneymaker/js/float.js
 /moneymaker/js/popup.js
@@ -122,7 +123,9 @@
 ##a[href^="http://www.xinghad.com/iclk/"]
 ##a[href^="plugin.php?id=stoola_adcenter:userclick&adid="]
 !---------------------------Third-party advertisers---------------------------!
-/page/?s=$script,third-party
+.cc/page/?s=$script,third-party
+.com/page/?s=$script,third-party
+.net/page/?s=$script,third-party
 ||100cpc.com^$third-party
 ||2155ec.com^$third-party
 ||235123.net^$third-party
@@ -518,7 +521,7 @@
 ||flvxz.com/js/xiaodao.js
 ||focus.cn/common/js/adm
 ||fragment.firefoxchina.cn/html/
-||freep.cn^$domain=54xr.com
+||freep.cn^$domain=54xr.com|xrba.net
 ||funshion.com/market/2013-07-24/lottery.js
 ||fwxgx.com/question/images/question/ad_caijia.jpg
 ||fx678.com/include/Index_AD/
@@ -777,6 +780,7 @@
 ||linuxidc.com/dba.jpg
 ||linuxidc.com/linuxfile/list
 ||list.video.baidu.com/pc_static/promotion/yb/1101_984_83.jpg
+||live8bo.com/j/Lad6.js
 ||ljia.net/vipflash/ad/
 ||ljia.net/vipflash/pop_footer.js
 ||lnd.com.cn/img/521.files/sdl23.js
@@ -905,7 +909,7 @@
 ||qinmin8.com/api.php
 ||qjis.com/js/qjis_nr.js
 ||qm120.com/images/adZhayou.jpg
-||qpic.cn^$domain=54xr.com
+||qpic.cn^$domain=54xr.com|xrba.net
 ||qq.com/game/footerbar$subdocument
 ||qq.com/js/cody/csfy/ad_rightdown_
 ||qqtz.com/ad$subdocument
@@ -945,6 +949,7 @@
 ||safecn.qiniudn.com/wp-content/themes/HotNewspro/images/a.gif
 ||same.chinadaily.com.cn^
 ||same.stockstar.com^
+||sd.xinhuanet.com/2014xb/images/shanhang.gif
 ||search.sdchina.com/click/
 ||sfile.baidu.com/img/load.gif
 ||sg169.com/resource/2013*.swf
@@ -961,6 +966,7 @@
 ||shuwo.info/03.jpg
 ||shuwo.info/yj.php
 ||si.yaolanimage.cn/images/diaryicon.jpg
+||sina.com.cn/js/87/20140101/hongbao/
 ||sinaimg.cn/cj/dfz_ad/
 ||sinaimg.cn/large/$domain=360-bo.com|jisuzhibo.net|kqiuba.com|pptiyu.com
 ||sinaimg.cn/large/*?$domain=zhaofuli.net
@@ -1034,9 +1040,10 @@
 ||tianshui.com.cn/yb.html
 ||tieba.lecai.com/page/zhuanti/baidu/
 ||tigtag.com/images/pic1/
-||tinypic.com^$domain=54xr.com
+||tinypic.com^$domain=54xr.com|xrba.net
 ||tk001.com/quote.html
 ||tompda.com/tupian/2013-03-15/300.jpg
+||tongyi.com/static/flash/hjzq.swf
 ||toowa.com/Js/Inc_Foot.js
 ||ttcy.com/style/image/gg_
 ||ttcy.com/style/indexImg/mengniu.jpg
@@ -1048,7 +1055,6 @@
 ||tvnmg.com/banner/
 ||txzqw.com/js/float.js
 ||ty121.cn/IAA/
-||u.xunzai.com/static/www/
 ||uc999.com/uploads/0/hezuo/
 ||unionjs.dianxin.com^
 ||upan.cc/images/pay/
@@ -1124,6 +1130,7 @@
 ||xtuan.com/index.php?controller=
 ||xunleihd.com/image/xmaose
 ||xunzai.com/static/wwwimg/
+||xunzai.com/www/all_common.js
 ||xx12xx.com/xx12xx/
 ||xxsy.net/js/lazyload.js
 ||y2.ifengimg.com/1d124ac5e89463af/2013/0125/rdn_51023a5071d32.jpg
@@ -1143,6 +1150,7 @@
 ||youxiaxiazai.com/db_top/index_top.htm
 ||youxiaxiazai.com/dm/
 ||ysxs8.com/ysgg/
+||yuebao100.com/script/cps.js
 ||yunaw.com/content/templates/yunaw/images/2345banner.gif
 ||yytcdn.com/user/bugles/*_*x*.jpg
 ||yzwb.com/images/ad_
@@ -1250,6 +1258,7 @@ wj001.com###advert
 gxnews.com.cn###art_adunioncode
 zhuankebar.com###article-cnt > a
 doyo.cn###article_top_down
+163.com###atleCB + .footer
 xdnice.com###auto_gen_1
 xdnice.com###auto_gen_2
 ocucn.com###bad
@@ -1411,6 +1420,7 @@ tiboo.cn###read_hd1
 kbcool.com###read_m_yytf
 sdgundam.cn###recommend
 china3-d.com###recommend_pictures_r
+tongyi.com###rhtbotbox
 reyoo.com,reyoo.net###rich_window
 hbtv.com.cn###right > div[style="margin-bottom:23px;"]
 frdic.com###right-side-bar
@@ -1500,7 +1510,7 @@ zjkonline.com##.Zlist_right_gg
 chinafix.com.cn##.a_af
 bbs.fdc.com.cn,bbs.pinggu.org,bbs.xineurope.com,bbs.ylnet.com.cn,forum.bet007.com,gn00.com##.a_p
 you85.cn##.a_pb
-21cn.com,3dmgame.com,7060.com,acfun.tv,aohua.com.au,baopan.cc,cdyee.com,ce.cn,china3-d.com,chinamil.com.cn,cnsoftnews.com,duowan.com,eworldship.com,firefang.cn,gongkong.com,hebnews.cn,hifidiy.net,huanqiukexue.com,ifeng.com,jdcjsr.com,jrj.com.cn,junshi.cn,kaixin200.com,kunming.cn,leiphone.com,lyd.com.cn,ncdiy.com,neotv.cn,newsmth.net,people.com.cn,phpchina.com,ptbus.com,qbaobei.com,reyoo.com,reyoo.net,shangdu.com,shenchuang.com,szonline.net,tiantianpengfu.com,wuhan.net.cn,ydss.cn,yesky.com,yicheshi.com,youth.cn,zk168.com.cn##.ad
+21cn.com,2345.cn,3dmgame.com,7060.com,acfun.tv,aohua.com.au,baopan.cc,cdyee.com,ce.cn,china3-d.com,chinamil.com.cn,cnsoftnews.com,duowan.com,eworldship.com,firefang.cn,gongkong.com,hebnews.cn,hifidiy.net,huanqiukexue.com,ifeng.com,jdcjsr.com,jrj.com.cn,junshi.cn,kaixin200.com,kunming.cn,leiphone.com,lyd.com.cn,ncdiy.com,neotv.cn,newsmth.net,people.com.cn,phpchina.com,ptbus.com,qbaobei.com,reyoo.com,reyoo.net,shangdu.com,shenchuang.com,szonline.net,tiantianpengfu.com,wuhan.net.cn,ydss.cn,yesky.com,yicheshi.com,youth.cn,zk168.com.cn##.ad
 19lou.com,ihome99.com##.ad-190x60
 19lou.com##.ad-980x40
 ihome99.com##.ad-980x60
@@ -1956,7 +1966,7 @@ inpai.com.cn##.tbad2
 mobanwang.com##.teagg
 startos.com##.test-240
 mgbbs.cn##.textMes
-54xr.com,fuliba.asia##.textwidget
+54xr.com,fuliba.asia,xrba.net##.textwidget
 cnool.net##.tg-body
 putclub.com##.the_ad
 cnool.net##.third-banner
