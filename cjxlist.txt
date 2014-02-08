@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140208a
+! List version 140208b
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -217,7 +217,7 @@
 ||22mt.com/images/001.gif
 ||22mt.com/images/002.gif
 ||2300sjz.com/liv_loadfile/folder81/fold
-||2345.com/i/banner_0107.jpg
+||2345.com/i/banner_
 ||2500sz.com/ad20
 ||258zb.com/jsData/users.aspx
 ||265g.com/data/youxifmt
@@ -317,6 +317,7 @@
 ||9ihome.com/info/ADTopvnet/
 ||9ku.com/images/mlsc.gif
 ||9w1an.com/special/
+||9ye.com/Files/Editor/ad/
 ||a.jiaodong.net/a/2013/
 ||a6.hujiang.com^
 ||ab.hftogo.com^*.swf
@@ -343,6 +344,7 @@
 ||aid.chinayk.com^
 ||ailu.me/46860.js
 ||ailu.me/ce.js
+||aitxt.com/images/tg8.jpg
 ||aiyuke.com/index.php?c=position&
 ||ali213.net/js/ALi_Site.js
 ||alicdn.com/tps/*-1000-100.
@@ -409,6 +411,7 @@
 ||cdyee.com/external/3550.files/topad-
 ||cfanclub.net/lmimages/*.jpg
 ||chcj.net/attachments/forum/201311/15/133623gcki1rko4cfqtqn9.jpg
+||china.com.cn/food/node_7094923.htm
 ||china.com.cn/youxi.swf
 ||chinadaily.com.cn/micro-reading/dzh/bd-taofang.gif
 ||chinanews.com/shipin/sptp.xml
@@ -571,6 +574,7 @@
 ||gxnews.com.cn/cache/wwwads.js
 ||gxnews.com.cn/clientscript/index_duilian_
 ||gxorg.com/index.php?m=poster&
+||gzcol.com/uploads/ad/
 ||h5gal.cc/data/attachment/portal/
 ||haha.mx/upload/data/list_sidebar_
 ||hangzhou.com.cn/extra/flash/hzwarticle300.swf
@@ -712,6 +716,9 @@
 ||jiaodong.net/js/www_banping.js
 ||jiaonan.net/image/news/news
 ||jiasuba.com/js/jjrjtg.js
+||jingnei.net/data/attachment/album/201303/21/005921r7w6kkw26nh765we.jpg
+||jingnei.net/data/attachment/album/201309/16/175035getttebba0ycteti.jpg
+||jingnei.net/data/attachment/album/201312/23/223253hs7lxjlwp4lt448h.gif
 ||jirou.com/plus/mytag_js.php
 ||jisuxz.com/hzy/
 ||jisuxz.com/images/2345float.js
@@ -1029,6 +1036,7 @@
 ||taihainet.com/biz/
 ||tankr.net/ajax/125.js
 ||taobaocdn.com^$image,domain=52kubao.com|cnblogs.com|hdp4p.com
+||taodake.com/taodake_img/Images/union/
 ||tc.cn/ad123/
 ||tc.cn/g/dl.ashx?
 ||tc.cn/g/upload/
@@ -1211,6 +1219,7 @@ aipai.com###GmAppBanner
 hupu.com###HCFull
 21ic.com###IC2008Ad
 shupeng.com###J_download_fav
+2345.com###J_hotw_bd
 youth.cn###J_swim
 eastmoney.com###ListPage_r_Ad
 3sjt.com###MyMoveAd
@@ -1415,6 +1424,7 @@ longhoo.net###pos_xuyuan
 i.firefoxchina.cn###promote-top-list
 wkfz.net###ptcmsad1
 star.tga.plu.cn###pubList
+aitxt.com###pwSlidePlayer
 tianya.cn###q_topbanner_950_90
 bbs.xineurope.com###qmenu_menu + .wp
 sg169.com###qq_panel
@@ -1515,7 +1525,7 @@ zjkonline.com##.Zlist_right_gg
 chinafix.com.cn##.a_af
 bbs.fdc.com.cn,bbs.pinggu.org,bbs.xineurope.com,bbs.ylnet.com.cn,forum.bet007.com,gn00.com##.a_p
 you85.cn##.a_pb
-21cn.com,2345.cn,3dmgame.com,7060.com,acfun.tv,aohua.com.au,baopan.cc,cdyee.com,ce.cn,china3-d.com,chinamil.com.cn,cnsoftnews.com,duowan.com,eworldship.com,firefang.cn,gongkong.com,hebnews.cn,hifidiy.net,huanqiukexue.com,ifeng.com,jdcjsr.com,jrj.com.cn,junshi.cn,kaixin200.com,kunming.cn,leiphone.com,lyd.com.cn,ncdiy.com,neotv.cn,newsmth.net,people.com.cn,phpchina.com,ptbus.com,qbaobei.com,reyoo.com,reyoo.net,shangdu.com,shenchuang.com,szonline.net,tiantianpengfu.com,wuhan.net.cn,ydss.cn,yesky.com,yicheshi.com,youth.cn,zk168.com.cn##.ad
+21cn.com,2345.cn,3dmgame.com,7060.com,acfun.tv,aohua.com.au,baopan.cc,cdyee.com,ce.cn,china3-d.com,chinamil.com.cn,cnsoftnews.com,duowan.com,eworldship.com,firefang.cn,gongkong.com,hebnews.cn,hifidiy.net,huanqiukexue.com,ifeng.com,jdcjsr.com,jrj.com.cn,junshi.cn,kaixin200.com,kumi.cn,kunming.cn,leiphone.com,lyd.com.cn,ncdiy.com,neotv.cn,newsmth.net,people.com.cn,phpchina.com,ptbus.com,qbaobei.com,reyoo.com,reyoo.net,shangdu.com,shenchuang.com,szonline.net,tiantianpengfu.com,wuhan.net.cn,ydss.cn,yesky.com,yicheshi.com,youth.cn,zk168.com.cn##.ad
 19lou.com,ihome99.com##.ad-190x60
 19lou.com##.ad-980x40
 ihome99.com##.ad-980x60
@@ -1645,6 +1655,8 @@ qqjay.com##.art-main-ad
 10jqka.com.cn,shangdu.com##.art_ad
 sina.com.cn##.article-video.artice-pic
 haha.mx##.article.mt-20
+zhlzw.com##.article_ad2
+zhlzw.com##.article_oo
 beva.com##.av-1
 pinshan.com##.b_adv
 pinshan.com##.b_adv2
@@ -1697,6 +1709,7 @@ forum.anywlan.com##.bscekvofc_o
 ifeng.com##.busiBox
 hunantv.com##.c-96090
 ifeng.com##.c-ad
+myexception.cn##.c_a_3
 aohua.com.au##.c_ad
 3lian.com##.cal2
 kuaipan.cn##.card
@@ -1745,6 +1758,7 @@ banjiajia.com##.down_btn_box > br + a
 7958.com##.down_http_fenxiang1 > .fr
 cyol.net##.ecom
 eastmoney.com##.emhqbanr
+2345.com##.event[style="border-color:#ddc385;"]
 erji.net##.f_one.black.y-style
 tianya.cn##.fence_channle_rig
 home.ifeng.com##.fengjc02
@@ -1763,7 +1777,7 @@ dj97.com##.g96090
 tieba.baidu.com##.game_list_and_rank
 tieba.baidu.com##.game_spread_thread
 zymk.cn##.ganggao_top
-1kkk.com,elecfans.com,ghjie.com,iqilu.com,jj59.com,qianyan001.com##.gg
+1kkk.com,elecfans.com,ghjie.com,iqilu.com,jj59.com,qianyan001.com,taodake.com##.gg
 elecfans.com##.gg-01
 wed114.cn##.gg-left-03
 wed114.cn##.gg-left-04
@@ -1871,6 +1885,7 @@ niutuku.com##.listAD
 tianjinwe.com##.listadv
 sjzbus.com.cn##.litBanner
 sjzbus.com.cn##.litGg
+myexception.cn##.m_a
 chinayk.com##.main > table[width="950"]
 nmgnews.com.cn##.main1 + table
 qiqutang.com##.main_r_ad
@@ -1956,6 +1971,7 @@ northnews.cn##.sponsor
 163.com##.sports_300x60_ad1
 10jqka.com.cn##.subbanner
 zerodm.net##.syad
+zhlzw.com##.sygg
 zhifang.com##.sytl
 gucheng.com##.t500200
 gucheng.com##.t58090b
@@ -2154,6 +2170,7 @@ ahtv.cn##body > table[style^="text-align:center; width:960px;"]
 www.gdzjdaily.com.cn##body > table[width="980"]:first-child
 co188.com##div[style$="height:250px;margin:15px 0;"]
 co188.com##div[style$="height:90px;margin-top:15px;"]
+gzcol.com##div[style*="width:1000px;"]
 qzntv.com,qzwb.com##div[style=" width:1000px;height:60px; padding-bottom:5px; margin:0 auto;"]
 aohua.com.au##div[style="WIDTH: 960px; HEIGHT: 100px"]
 pc360.net##div[style="border:none;height:95px;width:728px;margin:5px 2px;"]
@@ -2186,11 +2203,13 @@ hiapk.com##font.jammer
 intercept.onedns.net##h5
 china.com.cn##iframe#rerr
 sg169.com##iframe[width="300"][src^="http://www.sg169.com/html/"]
+china.com.cn##img[width="300"][height="60"]
 china.com.cn##img[width="688"]
 hz0572.com##img[width="950"]
 jznews.com.cn##img[width="980"]
 gog.com.cn##img[width^="100"]
 5j.com##object[width="1000"]
+china.com.cn##object[width="300"][height="60"]
 bbs.my0511.com##span.smalltxt
 66rd.cn##table[width="1000"][height="60"]
 gog.com.cn##table[width="300"][cellspacing="0"][style="margin-top:10px"]
@@ -2216,6 +2235,7 @@ cctime.com##td[onclick^="javascript:tj"]
 @@||32666.com/templates/32666/images/adv/
 @@||52zy.com/gg/
 @@||75.125.41.29:8080/*/
+@@||9588.com/images/ad/
 @@||ad.jz123.cn^
 @@||ad.thsi.cn^
 @@||afp.acs86.com^$object-subrequest,domain=imgo.tv
