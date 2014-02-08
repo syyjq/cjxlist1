@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140208
+! List version 140208a
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -90,18 +90,15 @@
 ##.wumii-bottom-popup
 ##.wzad
 ##a[href*=".222ing.com.tw"]
-##a[href*=".888casino.com"]
 ##a[href*=".com/?INTR="]
 ##a[href*=".com/?Intr="]
 ##a[href*=".com/?intr="]
 ##a[href*=".mitoxx.com"]
-##a[href*=".wo8cai.com"]
 ##a[href="http://365uxi.com"]
 ##a[href="http://www.caoliushow.com"]
 ##a[href="http://www.hgboyin.com"]
 ##a[href="http://www1.0lns.com/"]
 ##a[href^="http://188.qy8.me"]
-##a[href^="http://ganbet.com"]
 ##a[href^="http://vce008.com"]
 ##a[href^="http://www.2777lp.com"]
 ##a[href^="http://www.28365365.com/?affiliate"]
@@ -123,25 +120,29 @@
 ##a[href^="http://www.xinghad.com/iclk/"]
 ##a[href^="plugin.php?id=stoola_adcenter:userclick&adid="]
 !---------------------------Third-party advertisers---------------------------!
-.cc/page/?s=$script,third-party
-.com/page/?s=$script,third-party
-.net/page/?s=$script,third-party
 ||100cpc.com^$third-party
+||168ad.cc^$third-party
 ||2155ec.com^$third-party
 ||235123.net^$third-party
 ||32414.com^$third-party
 ||3399.com/act/$third-party
 ||3808010.com/code$third-party
+||38499.com^$script,third-party
 ||51ads.com^$third-party
 ||5293.com/page/$third-party
+||7uue.com^$third-party
 ||88cpc.com^$third-party
 ||9519.net^$third-party
 ||adm.cnzz.net^$third-party
 ||dushimj.com^$third-party
+||hccm8.com^$third-party
+||hefan365.com^$third-party
 ||img.5293.com^$third-party
 ||kefeng56.com^$third-party
+||lo10l01o.com^$third-party
 ||p.btyou.com^$third-party
 ||s17cnzz.com^$third-party
+||sohu7777.com^$third-party
 ||wudang05.com^$third-party
 ||yx4449.com^$third-party
 !---------------------------Popups--------------------------------------------!
@@ -636,6 +637,7 @@
 ||ifengimg.com^*/300-300-
 ||ifx.aifang.com^
 ||ijia360.com/data/poster/
+||ilovecao.com^*.gif
 ||im.zww.im/images/
 ||image.jzmt.net//default.jpg
 ||image.shoudian.org/diantong/sunwayman131011a.gif
@@ -856,6 +858,7 @@
 ||nueiu.r.haizhangs.com/js/nueiu.js
 ||nvsheng.com/js/gg.js
 ||oa.hinews.cn/work/img/
+||ocucn.com/images/134079851359777832.gif
 ||okm918.com^
 ||open.iciba.com/webpop/
 ||p.37youyou.com/*.jpg
