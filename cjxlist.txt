@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140208b
+! List version 140209
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -48,6 +48,7 @@
 ###ad_text + div[style="width:960px;margin: auto;"]
 ###ads_top_homepage
 ###ads_top_video
+###adtop1
 ###adx_gg
 ###box-1[style*="_top:expression(eval("]
 ###box-2[style*="_top:expression(eval("]
@@ -550,6 +551,9 @@
 ||ggw.watertu.com^
 ||ghjie.com/images/2012/images/bg
 ||ghjie.com/JS/youcegg.js
+||ghoffice.com/bbs/attachment/Fid_*?
+||ghoffice.com/bbs/js/float.js
+||ghoffice.com/flash/shouyefenleijian468.swf
 ||gkpass.com/zb_users/upload/2013/10/2013103143129329.gif
 ||gminfo.cn/flash/
 ||gminfo.cn/images/fcgj.jpg
@@ -832,7 +836,6 @@
 ||moviereleased.net/icon/adfly.jpg
 ||msn.ynet.com/vtui_js01.js
 ||mt30.com/ok/
-||mtkan.net/js/pop.messager.js
 ||mtxsk.com/jscode/
 ||my0832.com/xyz/upload/
 ||myad.toocle.com^
@@ -1986,7 +1989,7 @@ tieba.baidu.com##.tb_poster_placeholder
 inpai.com.cn##.tbad2
 mobanwang.com##.teagg
 startos.com##.test-240
-mgbbs.cn##.textMes
+ghoffice.com,mgbbs.cn##.textMes
 54xr.com,fuliba.asia,xrba.net##.textwidget
 cnool.net##.tg-body
 putclub.com##.the_ad
@@ -2279,9 +2282,11 @@ cctime.com##td[onclick^="javascript:tj"]
 @@||v.rbc.cn/ad/
 @@||wowsai.com/data/files/ad/
 @@||woxiu.com/xapi/offsite_swf_more.php?*&type=
+@@||yiqifa.com/ad_images/$~third-party
 @@||zhiboche.com/images/zhiboche_ad.js
 @@||zhibowu.com/ad2.htm
 bbs.125.la#@#.a_mu
+bns.qq.com#@#.ad-link
 ccb.com#@#.ad_position
 cq.ifeng.com#@#.adbox
 faxingw.cn#@#.ad_1
