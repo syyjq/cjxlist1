@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140209
+! List version 140211
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -130,7 +130,6 @@
 ||3808010.com/code$third-party
 ||38499.com^$script,third-party
 ||51ads.com^$third-party
-||5293.com/page/$third-party
 ||7uue.com^$third-party
 ||88cpc.com^$third-party
 ||9519.net^$third-party
@@ -138,7 +137,6 @@
 ||dushimj.com^$third-party
 ||hccm8.com^$third-party
 ||hefan365.com^$third-party
-||img.5293.com^$third-party
 ||kefeng56.com^$third-party
 ||lo10l01o.com^$third-party
 ||p.btyou.com^$third-party
@@ -808,6 +806,10 @@
 ||lxting.com^
 ||ly.js.cn/adv/
 ||lyd.com.cn^*950-90.
+||lywww.com/data/js/1
+||lywww.com/data/js/2
+||lywww.com/data/js/3
+||lywww.com/header_huandeng.php
 ||lz13.cn/script/*0
 ||maipiao.96900.com.cn/js/indexgg
 ||maipiao.96900.com.cn/jtjt/js/jtjtgg.js
@@ -916,6 +918,7 @@
 ||qfans.net/js/open
 ||qhnews.com/tupian/
 ||qianlong.com/vda/$script
+||qilanxiaozhu.com/data/attachment/portal/
 ||qilindao.com/data/attachment/portal/
 ||qingkai.com/2009/html/top.htm
 ||qingkai.com/gg_img/
@@ -1254,7 +1257,6 @@ zhaozi.cn###ad5js
 ik123.com###ad960a
 plu.cn###adMask
 fengbao.com###ad_lazyload
-letv.com###ad_pop_flash
 pipipan.com###ad_right_side
 makepolo.com###ad_text_id
 voc.com.cn###adbody_hidden
@@ -1325,11 +1327,11 @@ srzc.com###div_gg2
 ref.so###div_midleft
 bokon.net###divtop1
 bokon.net###divtop2
-0830bbs.com,174.139.95.28,3dezu.com,99nets.me,bbs.0562.cc,bbs.dengfeng.cn,bbss.cc,chcj.net,img18.65504.com,kugz.com,pc3w.com,qilanxiaozhu.co###diy1
+0830bbs.com,174.139.95.28,3dezu.com,99nets.me,aayx.net,bbs.0562.cc,bbs.dengfeng.cn,bbss.cc,chcj.net,img18.65504.com,kugz.com,pc3w.com,qilanxiaozhu.co###diy1
 yb.jl.cn###diy100
 0830bbs.com###diy4
 bbs.dt123.net###diy6
-img18.65504.com,qilanxiaozhu.co###diy_chart
+img18.65504.com,qilanxiaozhu.co,qilanxiaozhu.com###diy_chart
 174.139.95.28,bbs.liao1.com,bbs.qbaobei.com,chcj.net###diynavtop
 szonline.net###dllayer3
 gongkong.com###dull_left
@@ -1384,6 +1386,7 @@ narutom.com###itaTop
 qq.com###iwanAD2
 letv.com###j-adr-playBT
 yb983.com###jihuaslide
+cnbeta.com###job_box
 sznews.com###jsGG1
 sznews.com###jsGG2
 0597kk.com###kk_content1_left_ad1
@@ -1487,6 +1490,7 @@ lyd.com.cn###tu_xiao
 fanjian.net###vad
 hexun.com###videoLeftAd
 hexun.com###videoRightAd
+aipai.com###videosRightDown
 pc0359.cn###wanyxShowAD
 indmi.com,xinji.org###windlocation
 xici.net###word_ad
@@ -1585,7 +1589,7 @@ hupu.com##.ad_980
 cheshi.com##.ad_980105
 pipipan.com,shenchuang.com##.ad_area
 kekenet.com##.ad_catagory
-jnnews.tv##.ad_div
+55bbs.com,jnnews.tv##.ad_div
 putclub.com##.ad_fastReading
 fx678.com##.ad_img
 reyoo.com,reyoo.net##.ad_img02
@@ -1594,6 +1598,8 @@ zhibo8.cc##.ad_left
 tigtag.com##.ad_lr
 tiboo.cn##.ad_mark
 renren.com##.ad_mzy
+letv.com##.ad_pop
+letv.com##.ad_pop_small
 cngba.com##.ad_ri
 zhibo8.cc##.ad_right
 zjstv.com##.ad_tl
@@ -1717,7 +1723,6 @@ aohua.com.au##.c_ad
 3lian.com##.cal2
 kuaipan.cn##.card
 16888.com##.cardataclass
-cnbeta.com##.cber.none
 xizi.com##.center_md
 e23.cn##.centeradvs
 e23.cn##.centeradvs2
@@ -1952,6 +1957,7 @@ haxiu.com##.right_c
 gamersky.com##.right_p2_ding > a
 biz.ifeng.com##.riodel
 howfile.com##.row1_right
+lywww.com##.s_ad01
 99114.com##.s_banner
 15w.com##.s_count_st
 99114.com##.search_keywordAd
@@ -2123,6 +2129,7 @@ chengdu.cn##[id^="ad-"]
 pcpop.com##[id^="ad_"]
 joy.cn##[id^="ad_300_"]
 ccidnet.com##[id^="ad_dst"]
+lywww.com##[id^="addimg_"]
 szhk.com##[id^="adp"]
 cbmland.com##[id^="ads_"]
 eyuyao.com,txzqw.com##[id^="ads_c_"]
@@ -2301,11 +2308,14 @@ yaerwen.com#@##adtop
 .info/js/go.html$popup
 .info/js/go2.html$popup
 .info/js/gogo.html$popup
-!----------------------------------GitHub-------------------------------------!
 @@||aty*.sohu.com^
+||soufun.com/afp/door/
+!----------------------------------GitHub-------------------------------------!
 @@||pmm.people.com.cn/main/s*^2013juxing
 bbs.pcbeta.com###diynavtop.area + div[style]
 weibo.com##.right_content.hot_topic.hot_topicad1
+||5293.com^$third-party
+||btyou.com^$third-party
 ||coinurl.com^$third-party
 ||hc.yinyuetai.com/partner/$object-subrequest
 ||images.sohu.com/ytv/$subdocument
