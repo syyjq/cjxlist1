@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140214
+! List version 140216
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -2295,4 +2295,22 @@ tiancity.com#@#.main_ad
 yaerwen.com#@##adtop
 !----------------------------------Temporary----------------------------------!
 ||soufun.com/afp/door/
+||5293.com^$third-party
+||union.$third-party,domain=~click.union.jd.com|~click.union.360buy.com
+|https://*/ad/$domain=~pay.suning.com
+||wangpanwu.com/images/aoyou.gif
+@@||cpro.baidustatic.com/cpro/ui/f.js$domain=400gb.com|bego.cc
+@@||pos.baidu.com^$script,domain=400gb.com|bego.cc
+400gb.com,bego.cc##.ad_area
+400gb.com,bego.cc###ad_right_side
+||bbs.hdbird.com/images/760_60new.jpg
+||erji.net/photo/
+||a.kbcool.com/Mon_1402/1030_160536_6091940da457fe4.swf
+baidu.com###search-union-ad
+baidu.com##.text-advertise
+kbcool.com##DIV[style="margin:0 auto 8px auto;width:980px;height:50px"]
+kbcool.com###main > DIV[style^="height:65px"]
+yyets.com##DIV[style="width:690px; height:90px; overflow:hidden; margin-bottom:1em; text-align:center;"]
+@@||res.yyets.com/ads/mediav-250.js
+@@||astyle.alicdn.com/?*/advertisement.
 !----------------------------------The End------------------------------------!
