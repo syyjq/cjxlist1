@@ -2313,4 +2313,13 @@ kbcool.com###main > DIV[style^="height:65px"]
 yyets.com##DIV[style="width:690px; height:90px; overflow:hidden; margin-bottom:1em; text-align:center;"]
 @@||res.yyets.com/ads/mediav-250.js
 @@||astyle.alicdn.com/?*/advertisement.
+!140217
+||adpush.cn^$third-party
+||dszm163.com^$third-party
+||gd.sina.com.cn/iframe/22/
+||sinaimg.cn/mw690/a6a976a2tw1edgybazk63g206y06ygly.gif
+||baidu.com/pc_static/detail/game_promotion/
+||wd147.com/templets/mm/js/cs.js
+baidu.com###gamePromo
+@@||uuzu.com/api/commonAPI/login?
 !----------------------------------The End------------------------------------!
