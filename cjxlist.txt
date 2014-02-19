@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140219
+! List version 140219a
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -654,7 +654,6 @@
 ||img.northnews.cn/images/dg1205.jpg
 ||img.northnews.cn/images/dx1216.swf
 ||img.northnews.cn/images/ksd125.jpg
-||img.padhz.com/webimg/2014/01/livefan-f3.gif
 ||img.pamss.net/20131125/pdgl.jpg
 ||img.solidot.com.cn/0/684/lilmVgPaeWqg.jpg
 ||img.solidot.com.cn/0/845/liCFjQNWBiiCI.jpg
@@ -2316,10 +2315,10 @@ yyets.com##DIV[style="width:690px; height:90px; overflow:hidden; margin-bottom:1
 ||wd147.com/templets/mm/js/cs.js
 baidu.com###gamePromo
 @@||uuzu.com/api/commonAPI/login?
+!140218
 ||1188.com^$third-party
 ||union.$third-party,domain=~click.union.jd.com|~click.union.360buy.com|~huihui.cn
 freegroup.org##div[style^="width:336px; height:280px;"]
-@@||js.tudouui.com/bin/player2/$object
 yyets.com##a[href="http://ehdw.taobao.com/"]
 @@||js.tudouui.com/bin/player2/$object
 ||down.luoyabo.com^$third-party
@@ -2362,4 +2361,14 @@ juxia.com##.index_btad
 9haow.cn##.ad-mod
 xgrb.cn##.ad254l
 xgrb.cn##.ad690
+!140219a
+||dian500.com^$third-party
+||sinaimg.cn/large/b8c4115dtw1ed5i6u1iapg206y06y0to.gif
+||padhz.com/webimg/slide/nokillad
+||5ips.net/love/
+||00xs.org/js/yueduye96090_
+||51ztzj.com/res/web/img/download_sign
+||tmcdn.net/img/h000/h59/img20130828202923456460.jpg
+51ztzj.com##.dtmwrap[style="height:75px;background:#fff"]
+padhz.com##.idpxsad
 !----------------------------------The End------------------------------------!
