@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140219a
+! List version 140221
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -2292,10 +2292,10 @@ yaerwen.com#@##adtop
 ||5293.com^$third-party
 |https://*/ad/$domain=~pay.suning.com
 ||wangpanwu.com/images/aoyou.gif
-@@||cpro.baidustatic.com/cpro/ui/f.js$domain=400gb.com|bego.cc
-@@||pos.baidu.com^$script,domain=400gb.com|bego.cc
-400gb.com,bego.cc##.ad_area
-400gb.com,bego.cc###ad_right_side
+@@||cpro.baidustatic.com/cpro/ui/f.js$domain=bego.cc
+@@||pos.baidu.com^$script,domain=bego.cc
+bego.cc##.ad_area
+bego.cc###ad_right_side
 ||bbs.hdbird.com/images/760_60new.jpg
 ||erji.net/photo/
 ||a.kbcool.com/Mon_1402/1030_160536_6091940da457fe4.swf
@@ -2303,7 +2303,6 @@ baidu.com###search-union-ad
 baidu.com##.text-advertise
 kbcool.com##DIV[style="margin:0 auto 8px auto;width:980px;height:50px"]
 kbcool.com###main > DIV[style^="height:65px"]
-yyets.com##DIV[style="width:690px; height:90px; overflow:hidden; margin-bottom:1em; text-align:center;"]
 @@||res.yyets.com/ads/mediav-250.js
 @@||astyle.alicdn.com/?*/advertisement.
 !140217
@@ -2320,7 +2319,7 @@ baidu.com###gamePromo
 ||union.$third-party,domain=~click.union.jd.com|~click.union.360buy.com|~huihui.cn
 freegroup.org##div[style^="width:336px; height:280px;"]
 yyets.com##a[href="http://ehdw.taobao.com/"]
-@@||js.tudouui.com/bin/player2/$object
+yyets.com##div[style="width:690px; height:90px; overflow:hidden; margin-bottom:1em; text-align:center;"]
 ||down.luoyabo.com^$third-party
 ||0460.com/images/banner/
 ||0460.com/js/txtrec.js
@@ -2371,4 +2370,16 @@ xgrb.cn##.ad690
 ||tmcdn.net/img/h000/h59/img20130828202923456460.jpg
 51ztzj.com##.dtmwrap[style="height:75px;background:#fff"]
 padhz.com##.idpxsad
+!140221
+txzqw.com##.tac[style="margin-bottom:5px;"]
+||115mm.com/js/
+7958.com#@#[id^="cproIframe"]
+||letvcdn.com/p/*/media/richMedia/
+||letvimg.com/gugwl/
+||51img.ajiang.net^*.gif
+epinv.com##.epinv_f
+epinv.com##.Headad
+letv.com##.Banner
+luanren.com###diyhlx01
+luanren.com##.a_p
 !----------------------------------The End------------------------------------!
