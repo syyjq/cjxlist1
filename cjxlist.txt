@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140221
+! List version 140223
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -1061,7 +1061,6 @@
 ||upload.northnews.cn/2013/1028/1382943429869.jpg
 ||upyun.kiees.com/img/mm*.jpg
 ||v.huanqiu.com/tres/xml/vda.xml
-||v.zytwq.net^
 ||veryhuo.com/plus/js/
 ||video.sdo.com/index.php?m=poster&c=index&a=show_poster&id=
 ||vip.luanren.com/data/*.swf
@@ -2288,10 +2287,12 @@ imuyang.com#@#.a_pt
 tiancity.com#@#.main_ad
 yaerwen.com#@##adtop
 !----------------------------------Temporary----------------------------------!
+!missing
 ||soufun.com/afp/door/
 ||5293.com^$third-party
 |https://*/ad/$domain=~pay.suning.com
 ||wangpanwu.com/images/aoyou.gif
+!by cjx
 @@||cpro.baidustatic.com/cpro/ui/f.js$domain=bego.cc
 @@||pos.baidu.com^$script,domain=bego.cc
 bego.cc##.ad_area
@@ -2315,11 +2316,6 @@ kbcool.com###main > DIV[style^="height:65px"]
 baidu.com###gamePromo
 @@||uuzu.com/api/commonAPI/login?
 !140218
-||1188.com^$third-party
-||union.$third-party,domain=~click.union.jd.com|~click.union.360buy.com|~huihui.cn
-freegroup.org##div[style^="width:336px; height:280px;"]
-yyets.com##a[href="http://ehdw.taobao.com/"]
-yyets.com##div[style="width:690px; height:90px; overflow:hidden; margin-bottom:1em; text-align:center;"]
 ||down.luoyabo.com^$third-party
 ||0460.com/images/banner/
 ||0460.com/js/txtrec.js
@@ -2382,4 +2378,22 @@ epinv.com##.Headad
 letv.com##.Banner
 luanren.com###diyhlx01
 luanren.com##.a_p
+!140223
+||fastapi.net^$third-party
+||paipaitxt.com/images/paipai/qjll.jpg
+||paipaitxt.com/images/paipai/gtj2.jpg
+||paipaitxt.com/bans/
+||yytlw.com/navigatoral.js
+39yss.com##.cfWlins
+39yss.com##.reviewCommend
+ishuati.com###adsh
+coolapk.com###apkDownloadAds
+qiwen999.com##.axing_add_ad
+qiwen999.com###banner
+qiwen999.com##.ax-arc610161
+qiwen999.com##.Axing_add_Page
+qiwen999.com##.ax_ri300120
+ddjkw.com###ggad
+ddjkw.com###pinglun_down_gg
+paipaitxt.com###pic_div
 !----------------------------------The End------------------------------------!
