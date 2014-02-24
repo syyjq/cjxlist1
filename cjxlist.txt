@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140223
+! List version 140224
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -291,7 +291,6 @@
 ||8jkx.com^
 ||90oo.com/tp/qam200.gif
 ||911-sss.com/js/alls_
-||91danji.com/images/douzhanhou1.jpg
 ||91danji.com/js/lmt.js
 ||92dp.com/dianping/videoad
 ||958shop.com/style/kill_ie6/
@@ -939,8 +938,6 @@
 ||rznews.cn/images/col/201308ydfy.gif
 ||rznews.cn/liv_loadfile/*.swf
 ||rznews.cn/liv_loadfile/folder1021/fold5/1373610421_63369500.gif
-||s.tankr.net/s/00.js
-||s.tankr.net/wp-content/themes/mars/
 ||s.tkurl.com
 ||s2.ksyun.com/i/5/40.jpg
 ||s4.55.la/anonymous/banner/
@@ -1021,7 +1018,6 @@
 ||szhk.com/ads/
 ||sznews.com/js/*.gif
 ||taihainet.com/biz/
-||tankr.net/ajax/125.js
 ||taobaocdn.com^$image,domain=52kubao.com|cnblogs.com|hdp4p.com
 ||taodake.com/taodake_img/Images/union/
 ||tc.cn/ad123/
@@ -2323,7 +2319,6 @@ baidu.com###gamePromo
 ||52che.com/Inc/FooterComm_
 ||2btu.com/gg.jpg
 ||xrba.net/kl.gif
-||ailu.me/zh.png
 ||images.sohu.com/ytv/*.jpg
 y80s.com##.tuiguang
 gdtv.cn##.banner2
@@ -2335,7 +2330,6 @@ ibuylady.com##.ad_300 + .content_S_2
 lywww.com##ul[id^="addimg_"]
 @@||admin5.com/hezuo/action/inner.head.logo.js
 !140219
-||ailu.me^$third-party
 ||zoomei.com^$third-party
 ||9lianmeng.com^$third-party
 ||um0592.com^$third-party
@@ -2396,4 +2390,18 @@ qiwen999.com##.ax_ri300120
 ddjkw.com###ggad
 ddjkw.com###pinglun_down_gg
 paipaitxt.com###pic_div
+!140224
+||91danji.com/images/douzhanhou*.jpg
+||s.tankr.net/s/*.js
+||tw.new.beanfun.com/htmlImages/EventIndex.htm
+||downza.cn/soft/js/foor.js
+||niutuku.com/skin/img/830x90.gif
+||sz1001.net/ab2/soft_
+||zsjjob.com/user/member/google.htm
+||xrba.net/250-
+||xrba.net/ce.js
+fsehome.com##.ka_mod1
+niutuku.com###downAD1
+health.newssc.org##.advertisement
+@@||70e.com/js/2013_new.js$domain=wanweidao.com
 !----------------------------------The End------------------------------------!
