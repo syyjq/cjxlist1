@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140224
+! List version 140226
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -121,7 +121,6 @@
 ||s17cnzz.com^$third-party
 ||sohu7777.com^$third-party
 ||wudang05.com^$third-party
-||yx4449.com^$third-party
 !---------------------------Popups--------------------------------------------!
 .com/playad.html$popup
 .info/diantan.html$popup
@@ -171,7 +170,6 @@
 ||111cn.net/pic/zoneidc.gif
 ||113.17.188.44/*.js
 ||114lala.info/js/2222.js
-||115img.com/static/delivery/
 ||118.26.200.246^
 ||119.167.73.60/m_code/
 ||120ask.in/js/
@@ -2351,7 +2349,6 @@ juxia.com##.index_btad
 xgrb.cn##.ad254l
 xgrb.cn##.ad690
 !140219a
-||dian500.com^$third-party
 ||sinaimg.cn/large/b8c4115dtw1ed5i6u1iapg206y06y0to.gif
 ||padhz.com/webimg/slide/nokillad
 ||5ips.net/love/
@@ -2363,7 +2360,6 @@ padhz.com##.idpxsad
 !140221
 txzqw.com##.tac[style="margin-bottom:5px;"]
 ||115mm.com/js/
-7958.com#@#[id^="cproIframe"]
 ||letvcdn.com/p/*/media/richMedia/
 ||letvimg.com/gugwl/
 ||51img.ajiang.net^*.gif
@@ -2392,16 +2388,74 @@ ddjkw.com###pinglun_down_gg
 paipaitxt.com###pic_div
 !140224
 ||91danji.com/images/douzhanhou*.jpg
-||s.tankr.net/s/*.js
 ||tw.new.beanfun.com/htmlImages/EventIndex.htm
 ||downza.cn/soft/js/foor.js
 ||niutuku.com/skin/img/830x90.gif
 ||sz1001.net/ab2/soft_
 ||zsjjob.com/user/member/google.htm
-||xrba.net/250-
 ||xrba.net/ce.js
 fsehome.com##.ka_mod1
 niutuku.com###downAD1
 health.newssc.org##.advertisement
 @@||70e.com/js/2013_new.js$domain=wanweidao.com
+!140226
+||xrba.net/250-*.js
+||cnjxol.com/*.files/sian.gif
+||thmz.com/009/138/490/795/173/828/9138490795173828.ssm/manifest.f4m
+||xinhuanet.com/jsstatics/2013/index/bayuan.jpg
+||xinhuanet.com/images/ggdl.jpg
+||xinhuanet.com/plugs/szzc630x80.jpg
+||xinhuanet.com/titlepic/111243292_title1n.jpg
+||xinhuanet.com/2013js/ad20
+||xinhuanet.com/adxl/
+||xinhuanet.com/2013images/xlbottom.swf
+||xinhuanet.com/newscenter/images/xhmb_top.swf
+||ln.xinhuanet.com/inc/
+||xinhuanet.com/*/ad20
+||ah.xinhuanet.com/swf/
+||jx.xinhuanet.com/*banner/
+||sd.xinhuanet.com/2014xb/flash/
+||sd.xinhuanet.com/2014xb/html/albbg.htm
+||hn.xinhuanet.com/hnstatics/bannermini
+||xinhuanet.com/imgs/hnmb0416.jpg
+||xinhuanet.com/adimgs/
+||gx.xinhuanet.com/images2007/banner.htm
+||xinhuanet.com/home/new/img/bk/indexad_
+||gz.xinhuanet.com/2012image/mt.swf
+||xinhuanet.com/2013ad/
+||tibet.news.cn/zhuye/images/wangqun
+||nmg.xinhuanet.com/sy/images/10087.jpg
+||nmg.xinhuanet.com/sy/images/*.swf
+||xinhuanet.com/images2013/yscy469X61dpi.jpg
+||xinhuanet.com/images2011/yt_csj.gif
+xinhuanet.com###ad
+cq.xinhuanet.com##.ad
+xinhuanet.com##.ad4
+xinhuanet.com##.topad
+xinhuanet.com##A[href="http://www.10086.cn/4G/zixuantc.html"]
+xinhuanet.com##.ad1
+gx.xinhuanet.com##TD[width="970"][bgcolor="#ffffff"]
+gd.xinhuanet.com###headline + #kuang3
+sd.xinhuanet.com##TABLE[width="990"][bgcolor="#333333"]:nth-child(5)
+xinhuanet.com##.hfgg
+xinhuanet.com###tonglan
+xinhuanet.com##.tonglan01
+fj.xinhuanet.com##.nxhs
+fj.xinhuanet.com##.banner03
+fj.xinhuanet.com##.banner
+xinhuanet.com##IMG[width="970"][height="60"]
+xinhuanet.com###tisoad
+xinhuanet.com###ad3
+xinhuanet.com###ad4
+xinhuanet.com###adsan
+xinhuanet.com##.duilian
+xinhuanet.com##DIV[class^="ad_gd"]
+xinhuanet.com##.AdvColumn1
+xinhuanet.com###Javascript\.LeftDiv
+xinhuanet.com###msg_win
+cnjxol.com##.tr_r
+portablesoft.org##.eLeft
+t.qq.com###homeBannerNew
+@@||static.csbew.com^$domain=cankaoxiaoxi.com
+@@||hm.baidu.com^$domain=cankaoxiaoxi.com
 !----------------------------------The End------------------------------------!
