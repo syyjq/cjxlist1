@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140226
+! List version 140228
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -369,8 +369,6 @@
 ||bookabc.net/js/xian
 ||btmee.net/static/btmeegg/
 ||btn.onlylady.com^
-||buytong.com/images/*1115.swf
-||buytong.com/images/55haitao-banner300-80b.jpg
 ||bxtd.net/heibing/js/tag.js
 ||bxwx.org/js/downad
 ||bxwx.org/js/kuping_down.html
@@ -538,7 +536,6 @@
 ||gminfo.cn/js/ad-
 ||gminfo.cn/qds/gmszyy.swf
 ||gmzp.net/data/comads/
-||gpcxw.com/file/js/go.htm
 ||gpxz.com/skins/gupuxiazai/soft
 ||greenxiazai.com/js/xi
 ||gscn.com.cn/home/images/advscroll.js
@@ -923,7 +920,6 @@
 ||res.ythouse.com/image/index/2012/*0.swf
 ||resource.updrv.com/drivers/img/tu_
 ||rh.qq.com^
-||right.com.cn/logo/ad-1.gif
 ||rizhao.net/html/js/main.js
 ||rosmm.com/ad_js/
 ||rosmm.com/chat/xxx/
@@ -1079,7 +1075,6 @@
 ||whnews.cn/wh_public/dhd/tfzb/
 ||whnews.cn/wh_public/dl/
 ||whnews.cn/zhyadv/
-||wifi.com.cn/logo/ad-1.gif
 ||wishdown.com^*/myad
 ||wlnews.zjol.com.cn/bbs/
 ||wlnews.zjol.com.cn/wlrb/bbs/
@@ -2184,7 +2179,6 @@ upan.cc##div[style^="width: 960px;height: 9"]
 lanyes.org##div[style^="width:250px;height:250px;"]
 jpwind.com##div[style^="width:730px; height:90px;"]
 tc.cn##div[style^="width:930px; height:70px;"]
-36tv.cn##div[style^="width:960px;height:80px;"]
 www.jstv.com##div[style^="width:978px; height:100px;"]
 feixiangtv.com##div[style^="width:984px; height:83px;"]
 hiapk.com##font.jammer
@@ -2458,4 +2452,30 @@ portablesoft.org##.eLeft
 t.qq.com###homeBannerNew
 @@||static.csbew.com^$domain=cankaoxiaoxi.com
 @@||hm.baidu.com^$domain=cankaoxiaoxi.com
+!140228
+##A[href="http://www.quer365.org/dl.php"]
+||wuyougo.info/tao.php$popup
+||400516.com/hdp/201402/daza.swf
+||400516.com/data/attachment/album/
+||36tv.cn/statics/images/jinhuatv/ad
+||masadora.net/kakusan-
+||xxshe.com/img/newyeye.swf
+||wuyougo.info/03.jpg
+||shushuw.cn/js/x2013.js
+||haha.mx/upload/data/*_banner.html
+||gpcxw.com/file/js/gpcxw.htm
+||wifi.com.cn/logo/ad-
+||buytong.cn/images/*%*.swf
+soufun.com##.banner
+soufun.com##.itcrad
+gpcxw.com##TABLE[width="960"][height="90"]
+36tv.cn##DIV[style="width:960px;height:80px; margin-bottom:10px;margin:0 auto;"]
+36tv.cn###sidead_left
+36tv.cn###sidead_left2
+buytong.cn##.hy_top_left
+liulanmi.com##.endads
+jokeji.cn##.ad360_280
+36tv.cn###container > DIV[style^="height:"]
+@@||ourgame.com/new/images/ad/$domain=ourgame.com
+@@||colafile.com/js/ad_test.js
 !----------------------------------The End------------------------------------!
