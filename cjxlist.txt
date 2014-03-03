@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140228
+! List version 140303
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -212,7 +212,6 @@
 ||2kuai.com/images/vip.gif
 ||315che.com/upload_img/aimg/
 ||32666.com/ads/
-||33lc.com/lvcha/
 ||360-bo.com/js/float.js
 ||360safego.com^
 ||36tv.cn/ad_pic/
@@ -593,7 +592,6 @@
 ||home.focus.cn/fad/
 ||hongdou.gxnews.com.cn/upload/index/$~object-subrequest
 ||hoopchina.com.cn/test/v/1200.html
-||hoopchina.com.cn/topn.html
 ||house.inhe.net/javascript/flashdiv.js
 ||house365.com/hfads/
 ||house365.com/njads/
@@ -808,7 +806,6 @@
 ||mingxing.com/js/tuku/_banner.js
 ||missyuan.com/sy/zzy.js
 ||money.qz828.com^
-||mosa86.com^
 ||motorfans.com.cn/iggs_system/
 ||moviereleased.net/icon/adfly.jpg
 ||msn.ynet.com/vtui_js01.js
@@ -1356,7 +1353,6 @@ narutom.com###itaTop
 qq.com###iwanAD2
 letv.com###j-adr-playBT
 yb983.com###jihuaslide
-cnbeta.com###job_box
 sznews.com###jsGG1
 sznews.com###jsGG2
 dyhjw.com,wanxue.cn###kfivtwin
@@ -2292,7 +2288,6 @@ baidu.com###search-union-ad
 baidu.com##.text-advertise
 kbcool.com##DIV[style="margin:0 auto 8px auto;width:980px;height:50px"]
 kbcool.com###main > DIV[style^="height:65px"]
-@@||res.yyets.com/ads/mediav-250.js
 @@||astyle.alicdn.com/?*/advertisement.
 !140217
 ||adpush.cn^$third-party
@@ -2400,7 +2395,6 @@ health.newssc.org##.advertisement
 ||xinhuanet.com/images/ggdl.jpg
 ||xinhuanet.com/plugs/szzc630x80.jpg
 ||xinhuanet.com/titlepic/111243292_title1n.jpg
-||xinhuanet.com/2013js/ad20
 ||xinhuanet.com/adxl/
 ||xinhuanet.com/2013images/xlbottom.swf
 ||xinhuanet.com/newscenter/images/xhmb_top.swf
@@ -2478,4 +2472,26 @@ jokeji.cn##.ad360_280
 36tv.cn###container > DIV[style^="height:"]
 @@||ourgame.com/new/images/ad/$domain=ourgame.com
 @@||colafile.com/js/ad_test.js
+!140303
+gaeproxy.com##.a_p
+||36500.com^$third-party
+||zgyiyi.com^$third-party
+||hoopchina.com.cn/topn$subdocument
+||business.92wy.com^$script
+||3399.com/act/5599/js/kuang
+||3399.com/imagesV2/gcldtop.jpg
+||3399.com/Common/OnlineServer.html
+||fancai.com/Images/2014ma.gif
+||tw.beanfun.com/bfweb/NEW/commonlogin
+gaeproxy.com##.a_p
+fancai.com###ft_right_bottom
+youdaili.cn##.cont_ad
+youdaili.cn##.cont_ad1
+youdaili.cn##.topslogan_full
+youdaili.cn##.head_adimg
+92wy.com##.ad
+92wy.com##.adhengfu
+xindm.cn##TABLE[width="976"][background="/image/04/line2.gif"]
+cnbeta.com##.main_content_right > .cber[style]:nth-child(7)
+@@||3399.com/DataTransfer/Advertisement/
 !----------------------------------The End------------------------------------!
