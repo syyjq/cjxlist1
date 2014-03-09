@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140306
+! List version 140310
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -243,7 +243,7 @@
 ||52hardware.com/topic/a2
 ||52ml.in^$script
 ||52tian.net/qq/*.htm?
-||52tian.net/qq/91wanpop.js
+||52tian.net/qq/*.js
 ||56img.com^*/baidu-promotion.js
 ||576tv.com/Scripts/home.js
 ||591hx.com/goujiu.gif
@@ -954,7 +954,7 @@
 ||si.yaolanimage.cn/images/diaryicon.jpg
 ||sina.com.cn/js/87/20140101/hongbao/
 ||sinaimg.cn/cj/dfz_ad/
-||sinaimg.cn/large/$domain=360-bo.com|jisuzhibo.net|kqiuba.com|pptiyu.com
+||sinaimg.cn/large/$domain=360-bo.com|jisuzhibo.net|kqiuba.com|pptiyu.com|qqzhibo.com
 ||sinaimg.cn/large/*?$domain=zhaofuli.net
 ||sinaimg.cn/large/80b7$domain=bbs.mahoupao.com
 ||sinaimg.cn/mw1024/6b8266c6gw1ec9vupd564j20s202lwg3.jpg
@@ -2439,7 +2439,6 @@ xinhuanet.com##.AdvColumn1
 xinhuanet.com###Javascript\.LeftDiv
 xinhuanet.com###msg_win
 cnjxol.com##.tr_r
-portablesoft.org##.eLeft
 t.qq.com###homeBannerNew
 @@||static.csbew.com^$domain=cankaoxiaoxi.com
 @@||hm.baidu.com^$domain=cankaoxiaoxi.com
@@ -2507,4 +2506,28 @@ image.baidu.com###relEcom
 qiushibaike.com##.mb-m[style="width:300px;height:400px;overflow:hidden;background-color:#fff;"]
 baidu.com##.ecomad-banner-loading
 @@/show_ads.js$domain=flvxz.com
+!140310
+###results.content-main > .eLeft
+||zhichangwo.com^$third-party
+||i000o.com^$third-party
+||88ng.com^$third-party
+||kuaihou.com/c/shuoming.js
+||kuaihou.com/c/you1.js
+||a5.yeshj.com^
+||hjfile.cn/doc/201106/0629_class23432.gif
+||ezaozi.com/detail/*.js
+||gamefy.cn/cookiead.php
+||gamefy.cn/style/swf/adv.xml
+||ylnet.com.cn/dl*.js
+||ylnet.com.cn/gj.js
+gamefy.cn##.att-bar
+gamefy.cn##.col-vlist-l > SPAN
+gamefy.cn##DIV[style="float:left; width:220px; padding-top:15px;"]
+gamefy.cn##.con > A:last-child
+gamefy.cn##.tit > SPAN[style="float:right; width:285px;"]
+backtrack.org.cn##.a_cn
+hjenglish.com##SCRIPT + .block[style="margin-bottom:10px;"]
+hjenglish.com###editor_a4
+@@||sinaimg.cn/large/696b3be5tw1edul5buf5jg206e01yt8p.gif
+szonline.net#@#.ad310
 !----------------------------------The End------------------------------------!
