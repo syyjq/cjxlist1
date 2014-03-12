@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140310
+! List version 140312
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -2530,4 +2530,18 @@ hjenglish.com##SCRIPT + .block[style="margin-bottom:10px;"]
 hjenglish.com###editor_a4
 @@||sinaimg.cn/large/696b3be5tw1edul5buf5jg206e01yt8p.gif
 szonline.net#@#.ad310
+!140312
+||weddingeeos.com^$third-party
+||vupload.duowan.com^
+||huodong.liaoing.com/haibao/2013/800zhinengsuo_0702/zhineng.swf
+||liaoing.com/image/picture_g/luoyang/index/*.swf
+||liaoing.com/image/picture_g/zhengzhou/index/20
+||liaoing.com/image/picture_g/zhengzhou/index/*.swf
+||liaoing.com/egou/
+||bf2.zzc.cn/b/live_b
+||qisuu.com/js/bottem_new.js
+||doyo.cn/Tpl/web/Public/images/material/www_couplets/
+||17173.com/2014/doyo.ad/
+||paipai.fm/images/gtj*.jpg
+||ifengimg.com/*/taobaopudi/
 !----------------------------------The End------------------------------------!
