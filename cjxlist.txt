@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140312
+! List version 140317
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -745,7 +745,6 @@
 ||kukudm.com/js/play-
 ||kutj.com/*/*x80.jpg
 ||kutj.com/js/new.js
-||l.qq.com/lview?c=
 ||lady100.net/760-90.js
 ||lady100.net/top.js
 ||lady1314.com.cn/addata/
@@ -789,7 +788,6 @@
 ||maituan.com/admin/indexflash/pic/gg
 ||manads.static.olcdn.com^
 ||manage.wdfans.cn^
-||manhua.weibo.com/sys/home/iframe_bill/?location=right_adv
 ||mat1.gtimg.com/hb/0000huangshi/dlian.jpg
 ||mat1.gtimg.com/news/news2013/imgs/201311011458.jpg
 ||mcbbs.net/data/myattachment/forum/201308/02/122628rfrrrvfzgjvaassq.jpg
@@ -2544,4 +2542,21 @@ szonline.net#@#.ad310
 ||17173.com/2014/doyo.ad/
 ||paipai.fm/images/gtj*.jpg
 ||ifengimg.com/*/taobaopudi/
+!140317
+||meilele.com/mll_api/api/recad?
+||pinggu.org/static/pinggu/float.js
+||l.qq.com/lview?
+||kukuplay.com/plugins/FlappyBirdModule
+||vmanhua.com/new_v3/player/image/a_d_img/
+||img.manhua.weibo.com/weimanhuagg/_SNAELkCS.jpg
+||games.ifeng.com^$subdocument
+ifeng.com##.gg298
+news.ifeng.com##.play_center
+18p2p.com##A[href*="/? Intr="]
+manhua.weibo.com##DIV[style^="width: 980px; height: 100px;"]
+54new.com##IMG[width="468"][src^="http://p3.webnx.pw/da/"]
+aipai.com##.banner_90
+moejam.com##.bannermid
+moejam.com##.bannerleftfull
+qq.com##.mian-ad
 !----------------------------------The End------------------------------------!
