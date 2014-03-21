@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140317
+! List version 140321
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -570,7 +570,6 @@
 ||hc360.com/js/hcpop_
 ||hd.zhijia.com/ads/$script
 ||hdpfans.com/images/hotapp/
-||hdpfans.com/images/icons/*0.
 ||hdpfans.com/images/icons/hualu.jpg
 ||hdsq.cc/data/attachment/portal/
 ||hebei.com.cn/images_new/bottom_Popads.js
@@ -954,9 +953,7 @@
 ||sinaimg.cn/cj/dfz_ad/
 ||sinaimg.cn/large/$domain=360-bo.com|jisuzhibo.net|kqiuba.com|pptiyu.com|qqzhibo.com
 ||sinaimg.cn/large/*?$domain=zhaofuli.net
-||sinaimg.cn/large/80b7$domain=bbs.mahoupao.com
 ||sinaimg.cn/mw1024/6b8266c6gw1ec9vupd564j20s202lwg3.jpg
-||sinaimg.cn/mw690/$domain=bbs.mahoupao.com
 ||sinaimg.cn/mw690/a842a2fegw1ec62aj4nmjj208c06ytas.jpg
 ||sinaimg.cn^$domain=zhiboche.com
 ||sjzbus.com.cn/uploadimg/20130829114555.gif
@@ -1289,7 +1286,6 @@ srzc.com###div_gg2
 ref.so###div_midleft
 bokon.net###divtop1
 bokon.net###divtop2
-0830bbs.com,174.139.95.28,3dezu.com,99nets.me,aayx.net,bbs.0562.cc,bbs.dengfeng.cn,bbss.cc,chcj.net,img18.65504.com,kugz.com,pc3w.com,qilanxiaozhu.com###diy1
 yb.jl.cn###diy100
 0830bbs.com###diy4
 bbs.dt123.net###diy6
@@ -1499,7 +1495,6 @@ dfdaily.com##.WEB1_TOPBANNER
 zjkonline.com##.Zlist_right_gg
 chinafix.com.cn##.a_af
 bbs.fdc.com.cn,bbs.pinggu.org,bbs.xineurope.com,bbs.ylnet.com.cn,forum.bet007.com,gn00.com##.a_p
-21cn.com,2345.cn,3dmgame.com,7060.com,acfun.tv,aohua.com.au,baopan.cc,cdyee.com,ce.cn,china3-d.com,chinamil.com.cn,cnsoftnews.com,duowan.com,eworldship.com,firefang.cn,gongkong.com,hebnews.cn,hifidiy.net,huanqiukexue.com,ifeng.com,jdcjsr.com,jrj.com.cn,junshi.cn,kaixin200.com,kumi.cn,kunming.cn,leiphone.com,lyd.com.cn,ncdiy.com,neotv.cn,newsmth.net,people.com.cn,phpchina.com,ptbus.com,qbaobei.com,reyoo.com,reyoo.net,shangdu.com,shenchuang.com,szonline.net,tiantianpengfu.com,wuhan.net.cn,ydss.cn,yesky.com,yicheshi.com,youth.cn,zk168.com.cn##.ad
 19lou.com,ihome99.com##.ad-190x60
 19lou.com##.ad-980x40
 ihome99.com##.ad-980x60
@@ -2559,4 +2554,40 @@ aipai.com##.banner_90
 moejam.com##.bannermid
 moejam.com##.bannerleftfull
 qq.com##.mian-ad
+!140321
+||1688988.com^$third-party
+||zhanun.com^$third-party
+||xajx.com^$third-party
+||lepan.cc/templates/32666/images/zsz001.gif
+||lepan.cc/img/96039.gif
+||lepan.cc/templates/32666/images/vipc.jpg
+||jiaodong.net/2014/*960_50.gif
+||90oo.com/tp/*980.gif
+||90oo.com/tp/*480.gif
+||58.com/ui7/img/banner_
+||hdpfans.com/images/icons/*x60.
+||hdpfans.com/images/icons/*x70.
+||hdpfans.com/images/icons/*x75.
+||hdpfans.com/images/icons/giec
+||hdpfans.com/images/icons/nsq.gif
+||17yy.com/style/ifra_ad/
+||126.am^$domain=tianshangrenjian123.com
+||xinmin.cn/showadcode.asp
+||zhulong.com/poster/get?*_960
+||zhulong.com/poster/get?positions_name=ZY_JZ_300_02
+||pcgames.com.cn/download/newnq/
+lepan.cc##DIV[style="width:960px;height:110px;margin:5px auto;"]
+skycn.com##.couplet-ad-left
+skycn.com##.couplet-ad-right
+marstv.com###live_ad
+17yy.com##.t2_3
+17yy.com##.t2r_3
+17yy.com###addiv
+400gb.com,bego.cc,pipipan.com###cproIframe2holder
+400gb.com,bego.cc,pipipan.com###cproIframe1holder
+wasu.cn##DIV[class^="play_ads"]
+0830bbs.com,174.139.95.28,3dezu.com,99nets.me,aayx.net,bbs.0562.cc,bbs.dengfeng.cn,bbs.mahoupao.net,bbss.cc,chcj.net,img18.65504.com,kugz.com,pc3w.com,qilanxiaozhu.com###diy1
+lepan.cc,21cn.com,2345.cn,3dmgame.com,7060.com,92wy.com,acfun.tv,aohua.com.au,baopan.cc,cdyee.com,ce.cn,china3-d.com,chinamil.com.cn,cnsoftnews.com,cq.xinhuanet.com,duowan.com,dxrr.com,eworldship.com,firefang.cn,gongkong.com,hebnews.cn,hifidiy.net,huanqiukexue.com,ifeng.com,jdcjsr.com,jrj.com.cn,junshi.cn,kaixin200.com,kumi.cn,kunming.cn,leiphone.com,lyd.com.cn,marstv.com,ncdiy.com,neotv.cn,newsmth.net,people.com.cn,phpchina.com,ptbus.com,qbaobei.com,reyoo.com,reyoo.net,shangdu.com,shenchuang.com,szonline.net,tiantianpengfu.com,wuhan.net.cn,ydss.cn,yesky.com,yicheshi.com,youth.cn,zk168.com.cn,ishangman.com##.ad
+phpvar.com##.post_content_linkad
+@@||lepan.cc/templates/32666/images/ads/
 !----------------------------------The End------------------------------------!
