@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 2 days (update frequency)
 ! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140321
+! List version 140321a
 ! As a supplement for EasyList + ChinaList,
 ! Please subscribe EasyList + ChinaList also.
 ! This is just for testing purpose.
@@ -2590,4 +2590,8 @@ wasu.cn##DIV[class^="play_ads"]
 lepan.cc,21cn.com,2345.cn,3dmgame.com,7060.com,92wy.com,acfun.tv,aohua.com.au,baopan.cc,cdyee.com,ce.cn,china3-d.com,chinamil.com.cn,cnsoftnews.com,cq.xinhuanet.com,duowan.com,dxrr.com,eworldship.com,firefang.cn,gongkong.com,hebnews.cn,hifidiy.net,huanqiukexue.com,ifeng.com,jdcjsr.com,jrj.com.cn,junshi.cn,kaixin200.com,kumi.cn,kunming.cn,leiphone.com,lyd.com.cn,marstv.com,ncdiy.com,neotv.cn,newsmth.net,people.com.cn,phpchina.com,ptbus.com,qbaobei.com,reyoo.com,reyoo.net,shangdu.com,shenchuang.com,szonline.net,tiantianpengfu.com,wuhan.net.cn,ydss.cn,yesky.com,yicheshi.com,youth.cn,zk168.com.cn,ishangman.com##.ad
 phpvar.com##.post_content_linkad
 @@||lepan.cc/templates/32666/images/ads/
+!140321a
+||bdstatic.com/r/www/cache/static/global/js/all_async_
+image.baidu.com###imgCmsAdPart
+image.baidu.com##.recommend
 !----------------------------------The End------------------------------------!
