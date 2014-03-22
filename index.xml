@@ -3,6 +3,25 @@
   <ModulePrefs title="Hello World!" />
   <Content type="html">
     <![CDATA[
+	<h4 style="margin-top: 10px;">
+	从2014.3.21起，cjxlist并入Easylist China更新。Easylist China包含Chinalist，cjxlist及另两位维护者的规则，已于2014.3.21由adblock plus公布 https://adblockplus.org/blog/switching-default-blocking-lists-for-chinese-users
+</h4>
+<h4 style="margin-top: 10px;">
+	推荐订阅Easylist China+Easylist组合，使用adblock plus的可前往订阅： https://adblockplus.org/zh_CN/subscriptions
+</h4>
+<h4 style="margin-top: 10px;">
+	或在adblock等扩展输入Easylist China规则地址： https://easylist-downloads.adblockplus.org/easylistchina.txt
+</h4>
+<h4 style="margin-top: 10px;">
+	反馈推荐点击浏览器右上角的ABP图标，选择“报告该页面的问题”
+</h4>
+<h4 style="margin-top: 10px;">
+	反馈交流可访问Adblock Plus中文社区： http://abpchina.org/forum/forum.php
+</h4>
+<h4 style="margin-top: 10px;">
+	反馈给我个人： http://cjxlist.ys168.com/ 994722209@qq.com QQ群233902062 或本贴，反馈请务必附带网址。
+	</h4>
+	-------------------------------------------------------------------------------
 	<h3 style="margin-top: 14px;">For Adblock Plus </h3>
 		<h4 style="margin-top: 10px;">
 		<a href="abp:subscribe?location=https://cjxlist1.googlecode.com/svn/cjxlist.txt&title=cjxlist">点此订阅cjxlist，通过https更新。</a>       
