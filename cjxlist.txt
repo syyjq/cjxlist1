@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: cjxlist
-! Expires: 2 days (update frequency)
-! Homepage: https://code.google.com/p/cjxlist1/
-! List version 140407
+! Expires: 1 days (update frequency)
+! Homepage: http://bbs.kafan.cn/thread-1674209-1-1.html
+! List version 140407a
 &ad_type=
 &adsize=
 &adurl=
