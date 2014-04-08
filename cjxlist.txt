@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 4 days (update frequency)
 ! Homepage: http://bbs.kafan.cn/thread-1674209-1-1.html
-! List version 140408
+! List version 140408a
 &ad_type=
 &adsize=
 &adurl=
@@ -29,6 +29,7 @@
 .php?ad_
 .php?affid=
 .php?zoneid=
+.se/?placement=$script,subdocument,third-party
 .swf?clicktag=
 /3pt_ads.
 /ad-gallery.$~stylesheet
@@ -48,12 +49,14 @@
 /ad5.
 /ad6.
 /ad7.
+/ad728.
 /ad8.
 /ad_check.
 /ad_count.
 /ad_display.
 /ad_files/*
 /ad_top_
+/adblock.js
 /adbox/*
 /adcenter.$script
 /adchoices.
@@ -63,6 +66,7 @@
 /adcount.
 /adfarm.
 /adfiles/*
+/adfshow?
 /adimage.
 /adimages/*$~subdocument
 /adimg.
@@ -118,6 +122,7 @@
 /delivery/afr.
 /delivery/avw.
 /delivery/lg.
+/domainads/*
 /fullad.
 /googleads.
 /googleads_
@@ -149,6 +154,7 @@
 /popunder.
 /pub_images/*$third-party
 /pubads.
+/public/ad/*
 /recommendations/ad.
 /resources/ads/*
 /scripts/ad.
@@ -161,6 +167,7 @@
 /smartbanner/*
 /svnad/*
 /synad2.
+/tg.php?uid=
 /top_ad.
 /topad.
 /www/delivery/*
@@ -183,11 +190,13 @@ _ad_choices_
 _ad_close.
 _ads.js?
 _ads.php?
+_ads2.
 _adscript.
 _adsense.
 _advert/
 _content_ad.
 _home_ad_
+_js/ads.js
 _openx.
 _right_ad.
 _right_ads_
@@ -213,6 +222,7 @@ _120x60.
 _300_250.
 _300_250_
 _300x250.
+_468_60.
 _468x60-
 _468x60.
 _728x90.
@@ -221,6 +231,8 @@ _728x90.
 ###AdSense2
 ###GoogleAd1
 ###TopAd
+###ad-box-first
+###ad-box-second
 ###ad01
 ###ad11
 ###ad6
@@ -272,6 +284,7 @@ _728x90.
 ###adframe:not(frameset)
 ###adhzh
 ###adimg
+###adjs_id
 ###adrig
 ###adright
 ###ads-1
@@ -291,10 +304,12 @@ _728x90.
 ###banner-ad-container
 ###banner300x250
 ###banner728x90
+###blogads
 ###bottom_ad
 ###bottomad
 ###bottomads
 ###commentTopAd
+###contentad
 ###dict-adv
 ###divAd
 ###flexiad
@@ -339,8 +354,10 @@ _728x90.
 ###top-ad
 ###topImgAd
 ###top_add
+###top_ads
 ###topad
 ###topad1
+###topad2
 ###topbannerad
 ###turnAD
 ##.ad-1
@@ -372,6 +389,7 @@ _728x90.
 ##.ad250x250
 ##.ad300
 ##.ad300_250
+##.ad300b
 ##.ad300x250
 ##.ad310
 ##.ad360
@@ -392,6 +410,7 @@ _728x90.
 ##.adLeft
 ##.adNone
 ##.adSpace
+##.adText
 ##.adTxt
 ##.adVideo
 ##.ad_1
@@ -421,6 +440,7 @@ _728x90.
 ##.adbottom
 ##.adcenter
 ##.adclass
+##.adcont
 ##.add300
 ##.adholder
 ##.adlink
@@ -434,9 +454,12 @@ _728x90.
 ##.adsc
 ##.adsense250
 ##.adspace
+##.adspace-widget
+##.adtable
 ##.adtop
 ##.adtxt
 ##.adv300
+##.adv_right
 ##.adv_top
 ##.adver
 ##.advert-wrap
@@ -463,7 +486,9 @@ _728x90.
 ##.cnn_adcntr300x100
 ##.cnn_adtitle
 ##.content_ad
+##.contentad
 ##.cp_ad
+##.ct_ad
 ##.footer-ad
 ##.footer_ad
 ##.gameAd
@@ -504,6 +529,7 @@ _728x90.
 ##.right-advert
 ##.rightAd
 ##.right_ad
+##.rightad
 ##.sidead
 ##.sidebar-ad
 ##.sidebarAd
@@ -528,6 +554,7 @@ _728x90.
 ##.topadbox
 ##.topads
 ##.widget-ads
+##.yom-ad
 ##a[href^="http://ad-apac.doubleclick.net/"]
 ##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://pubads.g.doubleclick.net/"]
@@ -568,6 +595,7 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||cdn.mobicow.com^$third-party
 ||chango.com^$third-party
 ||chitika.net^$third-party
+||clkrev.com^$third-party
 ||collective-media.net^$third-party
 ||criteo.com^$third-party
 ||criteo.net^$third-party
@@ -582,6 +610,7 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||exponential.com^$third-party
 ||ftjcfx.com^$third-party
 ||fwmrm.net^$~object-subrequest,third-party
+||gumgum.com^$third-party
 ||gwallet.com^$third-party
 ||impact-ad.jp^$third-party
 ||infolinks.com^$third-party
@@ -610,6 +639,7 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||overture.com^$third-party
 ||partner.googleadservices.com^$third-party
 ||pgmediaserve.com^$third-party
+||pixfuture.net^$third-party
 ||popads.net^$third-party
 ||popcash.net^$third-party
 ||predictad.com^$third-party
@@ -618,6 +648,7 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||revsci.net^$third-party
 ||rtbidder.net^$third-party
 ||ru4.com^$third-party
+||sedoparking.com^$third-party
 ||servebom.com^$third-party
 ||serving-sys.com^$third-party
 ||sitescout.com^$third-party
@@ -641,6 +672,7 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||trw12.com^$third-party
 ||webstats.com.br^$third-party
 ||ero-advertising.com^$popup,third-party
+||domainnamesales.com/return_js.php?
 ||hstpnetwork.com/ads/
 ||pagead2.googlesyndication.com^$~object-subrequest
 ||propgoluxury.com/partners/$third-party
@@ -682,8 +714,10 @@ search.snapdo.com###ABottomD
 search.snap.do,search.snapdo.com###ATopD
 nytimes.com###MiddleRight
 nytimes.com###XXL
+dm5.com###a1
 1050talk.com,4chan.org,altervista.org,aol.com,ap.org,awfuladvertisements.com,braingle.com,campusrn.com,chicagonow.com,cocoia.com,devshed.com,djmickbabes.com,drakulastream.eu,earthtechling.com,esquire.com,fantom-xp.com,farmville.com,fosswire.com,fullrip.net,g4tv.com,gifts.com,golackawanna.com,google.com,helpwithwindows.com,ifunnyplanet.com,ifyoulaughyoulose.com,imageshack.us,instapaper.com,investorschronicle.co.uk,jamendo.com,jigzone.com,learnhub.com,legendofhallowdega.com,libertychampion.com,livevss.net,loveshack.org,lshunter.tv,macstories.net,marketingpilgrim.com,mbta.com,milkandcookies.com,msn.com,msnbc.com,mydallaspost.com,nbcnews.com,neoseeker.com,nepaenergyjournal.com,ninemsn.com.au,nzherald.co.nz,omgili.com,onlinegames.net,phonezoo.com,printitgreen.com,psdispatch.com,psu.com,queensberry-rules.com,rapidshare-downloads.com,reversegif.com,robotchicken.com,saportareport.com,sciencerecorder.com,shop4freebies.com,socialmarker.com,statecolumn.com,streamhunter.eu,technorati.com,theabingtonjournal.com,thetelegraph.com,timesleader.com,totaljerkface.com,totallycrap.com,tutorialized.com,twitch.tv,ultimate-rihanna.com,vetstreet.com,video2mp3.net,vladtv.com,wefunction.com,womensradio.com,xe.com,yahoo.com,youbeauty.com,ytconv.net,zootool.com###ad
 adf.ly,deezer.com,forums.vr-zone.com,hplusmagazine.com,j.gs,q.gs,u.bb,usniff.com###bottom
+sedoparking.com###content
 search.disconnect.me,search.yahoo.com###east
 yahoo.com###eyebrow > #ypromo
 mozillazine.org###goobot
