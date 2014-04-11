@@ -2,10 +2,11 @@
 ! Title: cjxlist
 ! Expires: 4 days (update frequency)
 ! Homepage: http://bbs.kafan.cn/thread-1674209-1-1.html
-! List version 140410
+! List version 140411
 &ad_type=
 &ad_zones=
 &adsize=
+&adunit=
 &adurl=
 &showad=
 -ad1.
@@ -33,6 +34,7 @@
 .se/?placement=$script,subdocument,third-party
 .swf?clicktag=
 /3pt_ads.
+/aamsz=
 /ad-gallery.$~stylesheet
 /ad-source/*
 /ad-specs.
@@ -58,6 +60,7 @@
 /ad_display.
 /ad_files/*
 /ad_top_
+/ad_vertical.
 /adblock.js
 /adbox/*
 /adcenter.$script
@@ -79,6 +82,7 @@
 /adjs/*
 /adlink.
 /adloader.
+/admanager.$~object-subrequest
 /adpic/*
 /adpolestar/*
 /adproxy.
@@ -109,6 +113,7 @@
 /advertisement-
 /advertisement.
 /advertisement_
+/advertiser/*$domain=~mobileapptracking.com|~trialpay.com
 /advertising/*
 /adview_
 /adx.
@@ -140,6 +145,7 @@
 /images/ad/*
 /images/ads/*
 /img/ad_
+/include/ad/*
 /include/ad_
 /index-ad.
 /js/ads.
@@ -148,6 +154,7 @@
 /mobile_ad.
 /mod_ad/*
 /module/ads/*
+/onead.
 /openad.
 /openx.
 /openx/*
@@ -162,6 +169,7 @@
 /public/ad/*
 /recommendations/ad.
 /resources/ads/*
+/script/ads.
 /scripts/ad.
 /scripts/ad/*
 /scripts/ads.
@@ -181,6 +189,7 @@
 ://adcl.
 ://ads.
 ://adv.
+://banner.$third-party
 ://banners.$third-party
 ://promo.$third-party
 ?ad_ids=
@@ -198,6 +207,7 @@ _ad_close.
 _ads.js?
 _ads.php?
 _ads2.
+_ads_top.
 _adscript.
 _adsense.
 _advert/
@@ -217,6 +227,7 @@ _right_ads_
 /300x250.
 /300x250_
 /468_60.
+/468x60.
 /480x60-
 /480x60.
 /728.html$subdocument
@@ -323,6 +334,7 @@ _728x90.
 ###banner-ads
 ###banner300x250
 ###banner728x90
+###block--ex_dart-ex_dart_adblade_article
 ###blogads
 ###bottom_ad
 ###bottomad
@@ -359,6 +371,7 @@ _728x90.
 ###rightAdsDiv
 ###right_ad
 ###right_ad_2
+###right_ads
 ###rightad
 ###rightads
 ###sideAd1
@@ -384,6 +397,7 @@ _728x90.
 ##.AdTop
 ##.ad-1
 ##.ad-2
+##.ad-300
 ##.ad-area
 ##.ad-b
 ##.ad-banner
@@ -443,6 +457,7 @@ _728x90.
 ##.adWrap
 ##.ad_0
 ##.ad_1
+##.ad_160_600
 ##.ad_2
 ##.ad_250
 ##.ad_3
@@ -452,18 +467,22 @@ _728x90.
 ##.ad_336x280
 ##.ad_468
 ##.ad_728
+##.ad_72890_box
 ##.ad_728_90
 ##.ad_728x90
 ##.ad_banner
 ##.ad_box
+##.ad_column
 ##.ad_content
 ##.ad_global_header
 ##.ad_image
 ##.ad_img
 ##.ad_link
+##.ad_news
 ##.ad_pic
 ##.ad_placement
 ##.ad_small
+##.ad_text
 ##.ad_top
 ##.adarea
 ##.adbanner
@@ -482,6 +501,7 @@ _728x90.
 ##.ads1
 ##.ads300
 ##.ads_div
+##.ads_topbanner
 ##.adsbygoogle
 ##.adsc
 ##.adsense250
@@ -522,6 +542,8 @@ _728x90.
 ##.contentad
 ##.cp_ad
 ##.ct_ad
+##.dart-ad-content
+##.detail-ads
 ##.floatad
 ##.footer-ad
 ##.footer_ad
@@ -529,6 +551,7 @@ _728x90.
 ##.google-ad
 ##.google_ads
 ##.google_adsense
+##.googleads
 ##.group_ad
 ##.h-ad
 ##.hd-adv
@@ -556,6 +579,7 @@ _728x90.
 ##.navad
 ##.new_ad1
 ##.ob_container .item-container-obpd
+##.page_ad
 ##.partial-ad
 ##.post-ad
 ##.postads
@@ -565,12 +589,14 @@ _728x90.
 ##.rightAd
 ##.right_ad
 ##.rightad
+##.sideAd
 ##.sidead
 ##.sidebar-ad
 ##.sidebarAd
 ##.sidebarad
 ##.sidebaradbox
 ##.singleAd
+##.site-ads
 ##.sleekadbubble
 ##.smallad
 ##.sponsor-block
@@ -588,6 +614,7 @@ _728x90.
 ##.top_ad
 ##.topadbox
 ##.topads
+##.trc-content-sponsored
 ##.widget-ads
 ##.yom-ad
 ##a[href^="http://ad-apac.doubleclick.net/"]
@@ -599,7 +626,11 @@ _728x90.
 ##div[id^="MarketGid"]
 ##div[id^="div-gpt-ad-"]
 ###tads.c
+! uCoz
+! https://adblockplus.org/forum/viewtopic.php?f=2&t=13414
+##div[id^="mainads"]
 isource.com,nytimes.com#@##TopAd
+tgfcer.com#@##content_adv
 discuss.com.hk,uwants.com#@##featuread
 kanui.com.br,nytimes.com#@#.text-ad
 ||2mdn.net^$~object-subrequest,third-party
@@ -608,6 +639,7 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||4dsply.com^$third-party
 ||ad.doubleclick.net^$~object-subrequest,third-party
 ||adadvisor.net^$third-party
+||adblade.com^$third-party
 ||adcash.com^$third-party
 ||admailtiser.com^$third-party
 ||admedia.com^$third-party
@@ -621,6 +653,7 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||advg.jp^$third-party
 ||adzerk.net^$third-party
 ||allyes.com^$third-party
+||amazon-adsystem.com^$third-party
 ||assoc-amazon.com^$third-party
 ||atdmt.com^$third-party
 ||awltovhc.com^$third-party
@@ -647,6 +680,7 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||exponential.com^$third-party
 ||ftjcfx.com^$third-party
 ||fwmrm.net^$~object-subrequest,third-party
+||genesismedia.com^$third-party
 ||gumgum.com^$third-party
 ||gwallet.com^$third-party
 ||impact-ad.jp^$third-party
@@ -663,6 +697,7 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||lduhtrp.net^$third-party
 ||liftdna.com^$third-party
 ||ligatus.com^$third-party,domain=~bfmtv.com
+||linksynergy.com^$third-party
 ||liverail.com^$~object-subrequest,third-party
 ||m2pub.com^$third-party
 ||madadsmedia.com^$third-party
@@ -710,6 +745,7 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||trw12.com^$third-party
 ||webstats.com.br^$third-party
 ||ero-advertising.com^$popup,third-party
+||disqus.com/listPromoted?
 ||domainnamesales.com/return_js.php?
 ||googlesyndication.com/pagead/$third-party
 ||hstpnetwork.com/ads/
@@ -718,6 +754,7 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||rcm*.amazon.$third-party
 ||relink.us/images/$third-party
 ||ws.amazon.*/widgets/$third-party
+||yimg.com/gs/apex/mediastore/
 ||media.eurolive.com^$third-party
 ||naked.com/promos/$third-party
 !----------------------Specific advert blocking filters-----------------------!
@@ -781,6 +818,7 @@ mail.google.com##.aeF > .nH > .nH[role="main"] > div + .mq
 coolest-gadgets.com,depositfiles.com,dfiles.eu,freecode.com,israeldefense.com,popcrunch.com,priceviewer.com,thelakewoodscoop.com,usa-people-search.com,wired.co.uk##.banner1
 bbc.co.uk##.bbccom_display_none
 cnn.com##.cnnStoryElementBox
+disqus.com##.col-promoted
 delish.com,msn.com##.conban1
 alibaba.com##.extra-wrap
 abc.go.com##.footerRow
@@ -793,9 +831,11 @@ depositfiles.com##a[href^="http://ads.depositfiles.com/"]
 facebook.com##div[class="ego_column pagelet _5qrt"]
 facebook.com##div[class="ego_column pagelet"]
 gaytube.com,pornomovies.com,turboimagehost.com,xvideos.com###ads
+@@||ad4.liverail.com/crossdomain.xml$object-subrequest
 @@||adblockplus.org^$elemhide,domain=easylist.adblockplus.org|reports.adblockplus.org
 @@||adguard.com^$~third-party
 @@||ads1.msads.net/library/dapmsn.js$domain=msn.com
+@@||adtech.de/crossdomain.xml$object-subrequest,domain=~zattoo.com
 @@||bbcimg.co.uk^*/adverts.js$domain=bbc.co.uk|bbc.com
 @@||deviantart.net/fs*/20*_by_$image,domain=deviantart.com
 @@||exoclick.com/ads.php?*login$script,domain=imgtiger.com
