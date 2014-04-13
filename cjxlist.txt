@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 4 days (update frequency)
 ! Homepage: http://bbs.kafan.cn/thread-1674209-1-1.html
-! List version 140411
+! List version 140413
 &ad_type=
 &ad_zones=
 &adsize=
@@ -28,6 +28,7 @@
 .net/ad_
 .net/ads/
 .openx.
+.org/ads/
 .php?ad_
 .php?affid=
 .php?zoneid=
@@ -70,6 +71,7 @@
 /adcode/*
 /adcount.
 /adfarm.
+/adfile/*
 /adfiles/*
 /adframe.
 /adfshow?
@@ -132,6 +134,7 @@
 /delivery/avw.
 /delivery/lg.
 /domainads/*
+/floatingad.
 /fullad.
 /googleads.
 /googleads_
@@ -254,6 +257,7 @@ _728x90.
 ###TopAd
 ###ad-box-first
 ###ad-box-second
+###ad-skin
 ###ad01
 ###ad11
 ###ad6
@@ -300,6 +304,7 @@ _728x90.
 ###ad_left_2
 ###ad_overlay
 ###ad_right
+###ad_right_1
 ###ad_right_box
 ###ad_text:not(textarea)
 ###ad_top
@@ -545,7 +550,9 @@ _728x90.
 ##.dart-ad-content
 ##.detail-ads
 ##.floatad
+##.foot-ad
 ##.footer-ad
+##.footerAds
 ##.footer_ad
 ##.gameAd
 ##.google-ad
@@ -576,6 +583,7 @@ _728x90.
 ##.mod_ad
 ##.mod_ads
 ##.module-ad
+##.n_ad
 ##.navad
 ##.new_ad1
 ##.ob_container .item-container-obpd
@@ -592,6 +600,7 @@ _728x90.
 ##.sideAd
 ##.sidead
 ##.sidebar-ad
+##.sidebar-ads
 ##.sidebarAd
 ##.sidebarad
 ##.sidebaradbox
@@ -738,6 +747,7 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||32d1d3b9c.se^$popup,third-party
 ||ad.doubleclick.net^$popup,third-party
 ||exoclick.com^$popup,third-party
+||clicksvenue.com^$third-party
 ||mediagra.com^$third-party
 ||plugrush.com^$third-party
 ||sancdn.net^$third-party
