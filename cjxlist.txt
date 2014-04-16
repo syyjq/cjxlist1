@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 4 days (update frequency)
 ! Homepage: http://bbs.kafan.cn/thread-1674209-1-1.html
-! List version 140416
+! List version 140417
 &ad_type=
 &ad_zones=
 &adsize=
@@ -12,6 +12,7 @@
 -ad1.
 -ad2.
 -ad3.
+.1d/ads/
 .adserver.
 .biz/ad.
 .cc/ads/
@@ -31,6 +32,7 @@
 .openx.
 .org/ad/
 .org/ads/
+.php?ad=
 .php?ad_
 .php?affid=
 .php?zoneid=
@@ -122,6 +124,7 @@
 /advertise_
 /advertisement-
 /advertisement.
+/advertisement/*
 /advertisement_
 /advertiser/*$domain=~mobileapptracking.com|~trialpay.com
 /advertising.
@@ -188,6 +191,7 @@
 /public/ad/*
 /recommendations/ad.
 /resources/ads/*
+/right_ad_
 /rightad.
 /script/ads.
 /scripts/ad.
@@ -200,6 +204,7 @@
 /showads_
 /sidead/*
 /smartbanner/*
+/static/ad/*
 /svnad/*
 /synad2.
 /tg.php?uid=
@@ -213,6 +218,7 @@
 ://adv.
 ://banner.$third-party
 ://banners.$third-party
+://bwp.*/search
 ://promo.$third-party
 ?ad_ids=
 ?adtag=
@@ -277,6 +283,7 @@ _728x90_
 ###TopAd
 ###ad-box-first
 ###ad-box-second
+###ad-main
 ###ad-skin
 ###ad-top
 ###ad001
@@ -361,6 +368,7 @@ _728x90_
 ###adtop
 ###advert-1
 ###advertise
+###advertisediv
 ###advt
 ###aside_ad
 ###babAdTop
@@ -391,6 +399,7 @@ _728x90_
 ###header_ad
 ###headerad
 ###homead
+###homepage_ad
 ###index_ad
 ###indexad
 ###left_ad
@@ -412,6 +421,7 @@ _728x90_
 ###rightad1
 ###rightad2
 ###rightads
+###show_ads
 ###sideAd
 ###sideAd1
 ###sideAds
@@ -428,6 +438,7 @@ _728x90_
 ###textad
 ###top-ad
 ###topImgAd
+###topMPU
 ###top_ad
 ###top_add
 ###top_ads
@@ -450,6 +461,8 @@ _728x90_
 ##.ad-d
 ##.ad-div
 ##.ad-e
+##.ad-inner
+##.ad-leader-plus-top
 ##.ad-left
 ##.ad-link
 ##.ad-right
@@ -680,6 +693,7 @@ _728x90_
 ##.topAD
 ##.top_ad
 ##.top_ad_list
+##.top_ads
 ##.topadbox
 ##.topads
 ##.trc-content-sponsored
@@ -725,6 +739,7 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||adsrvr.org^$third-party
 ||advg.jp^$third-party
 ||adzerk.net^$third-party
+||alimama.com^$third-party
 ||allyes.com^$third-party
 ||amazon-adsystem.com^$third-party
 ||assoc-amazon.com^$third-party
@@ -791,11 +806,13 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||popads.net^$third-party
 ||popcash.net^$third-party
 ||predictad.com^$third-party
+||pubmatic.com^$third-party
 ||q1xyxm89.com^$third-party
 ||questionmarket.com^$third-party
 ||revsci.net^$third-party
 ||rtbidder.net^$third-party
 ||ru4.com^$third-party
+||rubiconproject.com^$third-party
 ||sedoparking.com^$third-party
 ||servebom.com^$third-party
 ||serving-sys.com^$third-party
@@ -816,6 +833,7 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||ad.doubleclick.net^$popup,third-party
 ||exoclick.com^$popup,third-party
 ||clicksvenue.com^$third-party
+||facetz.net^$third-party
 ||mediagra.com^$third-party
 ||plugrush.com^$third-party
 ||sancdn.net^$third-party
@@ -823,7 +841,10 @@ kanui.com.br,nytimes.com#@#.text-ad
 ||trw12.com^$third-party
 ||webstats.com.br^$third-party
 ||ero-advertising.com^$popup,third-party
+||04stream.com/pop*.js
+||109.201.134.110^$domain=04stream.com
 ||affiliates-cdn.mozilla.org^$third-party
+||cdn.cdncomputer.com/js/main.js
 ||disqus.com/listPromoted?
 ||domainnamesales.com/return_js.php?
 ||googlesyndication.com/pagead/$third-party
@@ -887,6 +908,7 @@ youtube.com###premium-yva
 msn.com###sales1
 msn.com###sales4
 10minutemail.com###shoutouts
+cnet.com###spotBidHeader
 forums.techguy.org###tsg-dfp-300x250
 youtube.com###watch-channel-brand-div
 msn.com##.abs
@@ -902,10 +924,12 @@ mail.google.com##.aeF > .nH > .nH[role="main"] > div + .mq
 4music.com,964eagle.co.uk,adage.com,ameinfo.com,angryduck.com,anyclip.com,aol.com,arcadebomb.com,bayt.com,betterrecipes.com,bikechatforums.com,billboard.com,blackamericaweb.com,bored-bored.com,boxoffice.com,bukisa.com,cmo.com.au,coryarcangel.com,dreamteamfc.com,echoroukonline.com,ecorporateoffices.com,elyricsworld.com,entrepreneur.com,euobserver.com,everyday.com.kh,evilmilk.com,fantasyleague.com,fieldandstream.com,filenewz.com,fm.co.za,footballtradedirectory.com,forexpeacearmy.com,forum.dstv.com,freshbusinessthinking.com,freshtechweb.com,funpic.hu,gamebanshee.com,gamehouse.com,gatewaynews.co.za,gd.tuwien.ac.at,general-catalog.com,general-files.com,general-video.net,ghananation.com,girlsocool.com,globaltimes.cn,gsprating.com,healthsquare.com,hitfreegames.com,hotfrog.ca,hotfrog.co.nz,hotfrog.co.uk,hotfrog.co.za,hotfrog.com,hotfrog.com.au,hotfrog.com.my,hotfrog.ie,hotfrog.in,hotfrog.ph,hotfrog.sg,hotnewhiphop.com,howard.tv,hyipexplorer.com,ibtimes.co.uk,iconfinder.com,iguide.to,imnotobsessed.com,insidefutbol.com,internationalmeetingsreview.com,internetnews.com,irishtimes.com,isource.com,itreviews.com,jewishtimes.com,ketknbc.com,ktsm.com,leo.org,livescore.in,lmgtfy.com,londonstockexchange.com,manolith.com,mariopiperni.com,mmosite.com,motherboard.tv,motortrend.com,msn.com,mzhiphop.com,netmums.com,networkworld.com,nuttymp3.com,oceanup.com,pdfmyurl.com,postzambia.com,premierleague.com,priceviewer.com,proxyhttp.net,ptotoday.com,rapidlibrary.com,reference.com,reversephonesearch.com.au,semiaccurate.com,smartcarfinder.com,snakkle.com,sumodb.com,sweeting.org,tennis.com,thebull.com.au,thefanhub.com,thefringepodcast.com,thehill.com,thehun.com,thesaurus.com,theskinnywebsite.com,timeslive.co.za,tmi.me,torrent.cd,trutv.com,tvsquad.com,twirlit.com,umbrelladetective.com,universalmusic.com,ustream.tv,vice.com,weather.gc.ca,weatheronline.co.uk,wego.com,whatsock.com,yellowbook.com,yellowpages.com.jo,zbigz.com##.banner
 coolest-gadgets.com,depositfiles.com,dfiles.eu,freecode.com,israeldefense.com,popcrunch.com,priceviewer.com,thelakewoodscoop.com,usa-people-search.com,wired.co.uk##.banner1
 bbc.co.uk##.bbccom_display_none
+cnet.com,techrepublic.com,zdnet.com##.bidwar
 cnn.com##.cnnStoryElementBox
 disqus.com##.col-promoted
 delish.com,msn.com##.conban1
 abc.go.com##.footerRow
+adn.com,advosports.com,androidfirmwares.net,answerology.com,bellinghamherald.com,birdmanstunna.com,blitzcorner.com,bnd.com,bradenton.com,cantbeunseen.com,centredaily.com,chairmanlol.com,clgaming.net,clicktogive.com,cnet.com,cokeandpopcorn.com,commercialappeal.com,courierpress.com,cprogramming.com,dailynews.co.zw,digitaltrends.com,directupload.net,dispatch.com,diyfail.com,docspot.com,donchavez.com,driving.ca,dummies.com,enquirerherald.com,explainthisimage.com,expressandstar.com,film.com,foodista.com,fortmilltimes.com,forums.thefashionspot.com,fox.com.au,fresnobee.com,funnyexam.com,funnytipjars.com,galatta.com,gamesville.com,geek.com,goal.com,goldenpages.be,gosanangelo.com,guernseypress.com,hardware.info,heraldonline.com,hi-mag.com,hourdetroit.com,hypegames.com,iamdisappoint.com,idahostatesman.com,independentmail.com,intomobile.com,islandpacket.com,japanisweird.com,jdpower.com,jerseyeveningpost.com,kentucky.com,kitsapsun.com,knoxnews.com,lakewyliepilot.com,ledger-enquirer.com,lightreading.com,lolhome.com,lonelyplanet.com,mac-forums.com,macon.com,mapcarta.com,mcclatchydc.com,mercedsunstar.com,modbee.com,morefailat11.com,myrtlebeachonline.com,nameberry.com,naplesnews.com,nature.com,nbl.com.au,newsobserver.com,nowtoronto.com,objectiface.com,openfile.ca,organizedwisdom.com,overclockers.com,passedoutphotos.com,peoplespharmacy.com,perfectlytimedphotos.com,photographyblog.com,pinknews.co,pinknews.co.uk,pons.eu,pressherald.com,radiobroadcaster.org,rebubbled.com,redding.com,reporternews.com,roadrunner.com,roulettereactions.com,rr.com,sacarfan.co.za,sanluisobispo.com,scifinow.co.uk,searchenginesuggestions.com,shinyshiny.tv,shitbrix.com,shropshirestar.com,slideshare.net,spacecast.com,sparesomelol.com,spoiledphotos.com,sportsvite.com,stopdroplol.com,stv.tv,sunherald.com,supersport.com,tattoofailure.com,tbreak.com,tcpalm.com,techdigest.tv,terra.com,theatermania.com,thehollywoodgossip.com,thejewishnews.com,thenewstribune.com,theolympian.com,theskanner.com,thestate.com,timescolonist.com,timesrecordnews.com,titantv.com,treehugger.com,tri-cityherald.com,tvfanatic.com,uswitch.com,v3.co.uk,vcstar.com,vr-zone.com,washingtonpost.com,yodawgpics.com,yoimaletyoufinish.com##.leaderboard
 mail.google.com##.nH.PS
 mail.google.com##.oM
 youtube.com##.promoted-videos
