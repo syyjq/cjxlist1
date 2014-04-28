@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 4 days (update frequency)
 ! Homepage: http://bbs.kafan.cn/thread-1674209-1-1.html
-! List version 140425
+! List version 140428
 &ad_type=
 &ad_zones=
 &adsize=
@@ -13,6 +13,7 @@
 -ad2.
 -ad3.
 .1d/ads/
+.admaster.
 .adserver.
 .biz/ad.
 .cc/ads/
@@ -44,6 +45,7 @@
 /3pt_ads.
 /aamsz=
 /ad-gallery.$~stylesheet
+/ad-ros-
 /ad-source/*
 /ad-specs.
 /ad.php|
@@ -69,13 +71,16 @@
 /ad_display.
 /ad_files/*
 /ad_left_
+/ad_news.
 /ad_top_
 /ad_vertical.
 /adblock.js
+/adbox.
 /adbox/*
 /adcenter.$script
 /adchoices.
 /adchoices_
+/adclient/*
 /adcode.
 /adcode/*
 /adcount.
@@ -121,11 +126,13 @@
 /adsense/*
 /adserver.
 /adserver/*
+/adserver?
 /adshow.
 /adsrich.
 /adstop.
 /adswrapper.
 /adsys.
+/adsys/*
 /adtag.
 /adtext.
 /adtop.
@@ -152,6 +159,7 @@
 /advertmsig.
 /advertpixelmedia1.
 /adview_
+/adwords.
 /adx.
 /afr.php?
 /ajax/ad/*
@@ -175,6 +183,7 @@
 /domainads/*
 /download/ads/*
 /floatingad.
+/footad.
 /fullad.
 /googleads.
 /googleads_
@@ -212,6 +221,8 @@
 /overture.$script,stylesheet
 /overture/*$script,subdocument
 /overture_
+/peel.js
+/player/ads.
 /plus/ad_
 /pop.js|
 /popunder.
@@ -263,6 +274,7 @@ _ad1.$~stylesheet
 _ad2.
 _ad_choices_
 _ad_close.
+_ad_images/
 _ads.html
 _ads.js?
 _ads.php?
@@ -290,6 +302,7 @@ _topad.
 -468x60.
 /120-600.
 /160_600_
+/160x600-
 /300-250-
 /300x250.
 /300x250_
@@ -299,6 +312,7 @@ _topad.
 /480x60.
 /728.html$subdocument
 /728_90_
+/728x90-
 /728x90.
 /728x90_
 /980x90.
@@ -311,6 +325,7 @@ _120x60.
 _300_250.
 _300_250_
 _300x250.
+_300x250v2.
 _460_60.
 _468_60.
 _468x60-
@@ -353,6 +368,7 @@ _728x90_
 ###adRight2
 ###adTextLink
 ###adTop
+###adTop2
 ###ad_0
 ###ad_02
 ###ad_03
@@ -387,8 +403,10 @@ _728x90_
 ###ad_board_after_forums
 ###ad_bottom
 ###ad_box
+###ad_content
 ###ad_footer
 ###ad_head
+###ad_header
 ###ad_left
 ###ad_left_2
 ###ad_middle
@@ -450,11 +468,13 @@ _728x90_
 ###flexiad
 ###footad
 ###footer-ads
+###google_ad
 ###google_ads_frame1
 ###google_ads_frame2
 ###googlead
 ###googlead2
 ###hd_ad
+###head-ad
 ###head1ad
 ###head_ad
 ###header_ad
@@ -467,6 +487,7 @@ _728x90_
 ###left_adv
 ###leftad
 ###main_ad
+###mpu2
 ###myAd
 ###pagelet_side_ads
 ###recommendedAdContainer
@@ -491,11 +512,13 @@ _728x90_
 ###sideAd1
 ###sideAds
 ###side_ad
+###sidead
 ###sidebar-ads
 ###sidebarad
 ###singlead
 ###slide_ad
 ###slider_ad
+###smallAd
 ###sponsorAd
 ###sponsorAdDiv
 ###sponsored_links
@@ -530,6 +553,7 @@ _728x90_
 ##.ad-d
 ##.ad-div
 ##.ad-e
+##.ad-footer
 ##.ad-img
 ##.ad-inner
 ##.ad-leader-plus-top
@@ -666,6 +690,7 @@ _728x90_
 ##.advertise-list
 ##.adzone
 ##.after_ad
+##.aol-twist-flyout-ad
 ##.area5_ad
 ##.articleAd
 ##.articlead
@@ -683,6 +708,7 @@ _728x90_
 ##.bottomAd
 ##.bottom_ad
 ##.bottomad
+##.bottomleader
 ##.boxad
 ##.bt_ad
 ##.centerAd
@@ -704,7 +730,9 @@ _728x90_
 ##.ezAdsWidget
 ##.ezAdsense
 ##.floatad
+##.floatads
 ##.foot-ad
+##.footad
 ##.footer-ad
 ##.footerAds
 ##.footer_ad
@@ -760,6 +788,7 @@ _728x90_
 ##.right_adv
 ##.rightad
 ##.rightcol-block-ads
+##.s_ad
 ##.sbAd
 ##.side-ad
 ##.sideAd
@@ -788,6 +817,7 @@ _728x90_
 ##.top-ad
 ##.top-ads
 ##.topAD
+##.top_Ad
 ##.top_ad
 ##.top_ad_list
 ##.top_ads
@@ -847,6 +877,7 @@ google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de#@#a[href^
 ||amazon-adsystem.com^$third-party
 ||assoc-amazon.com^$third-party
 ||atdmt.com^$third-party
+||atwola.com^$third-party
 ||awltovhc.com^$third-party
 ||betrad.com^$third-party
 ||bizographics.com^$third-party
@@ -871,12 +902,14 @@ google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de#@#a[href^
 ||doubleverify.com^$third-party
 ||dpmsrv.com^$third-party
 ||dt00.net^$third-party,domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
+||ero-advertising.com^$third-party
 ||exoclick.com^$third-party
 ||exponential.com^$third-party
 ||ftjcfx.com^$third-party
 ||fwmrm.net^$~object-subrequest,third-party
 ||fxdepo.com^$third-party
 ||genesismedia.com^$third-party
+||googletagservices.com/tag/js/gpt_$third-party
 ||gumgum.com^$third-party
 ||gwallet.com^$third-party
 ||impact-ad.jp^$third-party
@@ -999,6 +1032,7 @@ google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de#@#a[href^
 ||ssl-images-amazon.com/images/*/browser-scripts/da-
 ||turboimagehost.com/300*.html^
 ||turboimagehost.com/728*.html^
+||wordreference.com/*/publ/
 ||yimg.com/rq/darla/$domain=yahoo.com
 !------------------------Specific element hiding rules------------------------!
 ! *** easylist:easylist/easylist_specific_hide.txt ***
@@ -1034,6 +1068,7 @@ cnet.com###spotBidHeader
 imdb.com###top_rhs_wrapper
 forums.techguy.org###tsg-dfp-300x250
 youtube.com###watch-channel-brand-div
+answers.yahoo.com###ya-darla-LREC
 msn.com##.abs
 7billionworld.com,abajournal.com,aljazeerasport.asia,altavista.com,arcadeprehacks.com,birdforum.net,coinad.com,cuzoogle.com,cyclingweekly.co.uk,cyprus-mail.com,disconnect.me,domainnamenews.com,eco-business.com,energylivenews.com,facemoods.com,flashx.tv,foxbusiness.com,foxnews.com,freetvall.com,friendster.com,fstoppers.com,ftadviser.com,furaffinity.net,gentoo.org,gmanetwork.com,govtrack.us,gramfeed.com,gyazo.com,hispanicbusiness.com,html5test.com,hurricanevanessa.com,ilovetypography.com,isearch.whitesmoke.com,itar-tass.com,itproportal.com,kingdomrush.net,laptopmag.com,livetvcafe.net,lovemyanime.net,manga-download.org,maps.google.com,mb.com.ph,mmajunkie.com,movies-online-free.net,mugshots.com,myfitnesspal.com,mypaper.sg,nbcnews.com,panorama.am,pastie.org,phpbb.com,playboy.com,pocket-lint.com,previously.tv,radiobroadcaster.org,reason.com,ryanseacrest.com,sddt.com,searchfunmoods.com,sourceforge.net,tcm.com,tech2.com,thecambodiaherald.com,thejakartapost.com,thelakewoodscoop.com,themalaysianinsider.com,theyeshivaworld.com,tiberium-alliances.com,tjpnews.com,today.com,tubeserv.com,turner.com,twogag.com,ultimate-guitar.com,wallpaper.com,washingtonpost.com,wftlsports.com,womanandhome.com,wtvz.net,yahoo.com,youthedesigner.com,yuku.com##.ads
 ansamed.info,baltic-course.com,carsdirect.com,cbc.ca,cpuid.com,facebook.com,flicks.co.nz,futbol24.com,gametrailers.com,getwapi.com,howstuffworks.com,intoday.in,massappeal.com,mnn.com,mtv.com,mysuncoast.com,ok.co.uk,ponged.com,prohaircut.com,qone8.com,roadfly.com,rockol.com,rumorcontrol.info,runamux.net,search.v9.com,ultimate-guitar.com,vh1.com,webssearches.com,zbani.com##.adv
@@ -1055,6 +1090,7 @@ mail.google.com##.nH.PS
 mail.google.com##.oM
 babynamegenie.com,computerandvideogames.com,dailyrecord.co.uk,eclipse.org,film.com,foreignpolicy.com,london2012.com,nbcbayarea.com,planetsourcecode.com,sandiego6.com,thenextweb.com,theonion.com,totalxbox.com,varsity.com,wsj.com##.promo
 youtube.com##.promoted-videos
+forums.whirlpool.net.au##.reply[style="padding: 0;"]
 yahoo.com##.ya-LDRB
 yahoo.com##.ya-darla-LREC
 finance.yahoo.com,news.yahoo.com##.yom-ysmcm
@@ -1064,12 +1100,14 @@ facebook.com##div[class="ego_column pagelet _5qrt"]
 facebook.com##div[class="ego_column pagelet"]
 iconarchive.com##div[style="float:left;border:0px solid #dddddd;width:300px;height:280px;margin:3px 3px 3px 40px;"]
 gaytube.com,pornomovies.com,turboimagehost.com,xvideos.com###ads
+celebspank.com,chaturbate.com,gamcore.com,playboy.com,signbucks.com,tehvids.com,uflash.tv,wankoz.com,yobt.tv##.ad
 @@||ad4.liverail.com/crossdomain.xml$object-subrequest
 @@||adap.tv/crossdomain.xml$object-subrequest
 @@||adblockplus.org^$elemhide,domain=easylist.adblockplus.org|reports.adblockplus.org
 @@||adguard.com^$~third-party
 @@||ads1.msads.net/library/dapmsn.js$domain=msn.com
 @@||adtech.de/crossdomain.xml$object-subrequest,domain=~zattoo.com
+@@||aolcdn.com/ads/adsWrapper.js$domain=autos.aol.com|engadget.com|games.com|huffingtonpost.com
 @@||bbcimg.co.uk^*/adverts.js$domain=bbc.co.uk|bbc.com
 @@||deviantart.net/fs*/20*_by_$image,domain=deviantart.com
 @@||exoclick.com/ads.php?*login$script,domain=imgtiger.com
