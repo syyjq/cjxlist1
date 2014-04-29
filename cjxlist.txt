@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 4 days (update frequency)
 ! Homepage: http://bbs.kafan.cn/thread-1674209-1-1.html
-! List version 140428
+! List version 140430
 &ad_type=
 &ad_zones=
 &adsize=
@@ -24,6 +24,7 @@
 .com/ads.
 .com/ads/$image,object,subdocument
 .com/ads_
+.com/adv/
 .com/adx/
 .com/js/ads/
 .hk/ads/
@@ -72,6 +73,7 @@
 /ad_files/*
 /ad_left_
 /ad_news.
+/ad_top.
 /ad_top_
 /ad_vertical.
 /adblock.js
@@ -119,6 +121,7 @@
 /ads/spacer.
 /ads1.
 /ads2.
+/ads2/*
 /ads_3.
 /adsame.
 /adscript.
@@ -185,6 +188,7 @@
 /floatingad.
 /footad.
 /fullad.
+/googlead.
 /googleads.
 /googleads_
 /groupon/ads/*
@@ -225,6 +229,7 @@
 /player/ads.
 /plus/ad_
 /pop.js|
+/pop2.js|
 /popunder.
 /pub_images/*$third-party
 /pubads.
@@ -236,6 +241,7 @@
 /script/ads.
 /scripts/ad.
 /scripts/ad/*
+/scripts/ad_
 /scripts/ads.
 /show.cgi?adp
 /show_ads.js
@@ -253,6 +259,7 @@
 /topad.
 /u-ads.
 /video_ad.
+/webservices/jsparselinks.aspx?$script
 /www/delivery/*
 /zanox.js
 ://adcl.
@@ -286,6 +293,7 @@ _adsense.
 _adv.js
 _advert/
 _advertisment.
+_afs_ads.
 _banner_ad_
 _content_ad.
 _home_ad_
@@ -333,8 +341,10 @@ _468x60.
 _728x90.
 _728x90_
 ###AD300x250
+###AdDiv
 ###AdLayer1
 ###AdLayer2
+###AdMiddle
 ###AdSense1
 ###AdSense2
 ###GoogleAd1
@@ -437,6 +447,8 @@ _728x90_
 ###ads160left
 ###ads2
 ###ads_header
+###ads_postdownload
+###ads_section_textlinks
 ###ads_space
 ###ads_topbanner
 ###adsense
@@ -465,6 +477,7 @@ _728x90_
 ###contentad
 ###dict-adv
 ###divAd
+###flashad
 ###flexiad
 ###footad
 ###footer-ads
@@ -537,6 +550,7 @@ _728x90_
 ###topad2
 ###topbannerad
 ###turnAD
+###wide_ad_unit
 ##.ADbox
 ##.AdTop
 ##.ad-1
@@ -633,6 +647,7 @@ _728x90_
 ##.ad_content
 ##.ad_flash
 ##.ad_global_header
+##.ad_header
 ##.ad_image
 ##.ad_img
 ##.ad_link
@@ -665,6 +680,7 @@ _728x90_
 ##.ads-300x250
 ##.ads-728x90
 ##.ads1
+##.ads123
 ##.ads3
 ##.ads300
 ##.ads_div
@@ -825,6 +841,7 @@ _728x90_
 ##.topads
 ##.trc-content-sponsored
 ##.txt_ad
+##.ui-ad
 ##.weatherad
 ##.widget-ad
 ##.widget-ads
@@ -870,6 +887,7 @@ google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de#@#a[href^
 ||adsfactor.net^$third-party
 ||adsrvmedia.com^$third-party
 ||adsrvr.org^$third-party
+||adsymptotic.com^$third-party
 ||advg.jp^$third-party
 ||adzerk.net^$third-party
 ||alimama.com^$third-party
@@ -953,6 +971,7 @@ google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de#@#a[href^
 ||q1xyxm89.com^$third-party
 ||questionmarket.com^$third-party
 ||revsci.net^$third-party
+||rfihub.net^$third-party
 ||rtbidder.net^$third-party
 ||ru4.com^$third-party
 ||rubiconproject.com^$third-party
@@ -988,8 +1007,10 @@ google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de#@#a[href^
 ||ero-advertising.com^$popup,third-party
 ||04stream.com/pop*.js
 ||109.201.134.110^$domain=04stream.com
+||adf.ly/js/$third-party,domain=~j.gs|~q.gs
 ||affiliates-cdn.mozilla.org^$third-party
 ||cdn.cdncomputer.com/js/main.js
+||cursecdn.com/shared-assets/current/anchor.js?id=$third-party
 ||disqus.com/listPromoted?
 ||domainnamesales.com/return_js.php?
 ||googlesyndication.com/pagead/$third-party
@@ -1079,12 +1100,14 @@ mail.google.com##.aeF > .nH > .nH[role="main"] > .nH > .nH > .AT[style]
 mail.google.com##.aeF > .nH > .nH[role="main"] > .nH > .nH > .nH > .mq:last-child
 mail.google.com##.aeF > .nH > .nH[role="main"] > div + .mq
 coolest-gadgets.com,depositfiles.com,dfiles.eu,freecode.com,israeldefense.com,popcrunch.com,priceviewer.com,thelakewoodscoop.com,usa-people-search.com,wired.co.uk##.banner1
+pastebin.com,ratemyteachers.com##.banner_728
 bbc.co.uk##.bbccom_display_none
 cnet.com,techrepublic.com,zdnet.com##.bidwar
 cnn.com##.cnnStoryElementBox
 disqus.com##.col-promoted
 delish.com,msn.com##.conban1
 abc.go.com##.footerRow
+pastebin.com##.layout_clear
 aol.com##.mlid-netbanner
 mail.google.com##.nH.PS
 mail.google.com##.oM
@@ -1129,6 +1152,7 @@ celebspank.com,chaturbate.com,gamcore.com,playboy.com,signbucks.com,tehvids.com,
 @@||optimatic.com^*/wrapper/shell.swf?$object,domain=pch.com
 @@||photobucket.com/albums/ad$image
 @@||s.ytimg.com/yts/swfbin/player-*/watch_as3.swf$object,domain=youtube.com
+@@||scribdassets.com/aggregated/javascript/ads.js?$domain=scribd.com
 @@||upload.wikimedia.org/wikipedia/
 @@||v.fwmrm.net/ad/p/1?$object-subrequest,domain=abc.go.com|abcfamily.go.com|abcnews.go.com|adultswim.com|cartoonnetwork.com|cc.com|cmt.com|colbertnation.com|comedycentral.com|espn.go.com|gametrailers.com|ign.com|logotv.com|mlb.mlb.com|mtv.com|mtvnservices.com|nascar.com|nbc.com|nbcnews.com|nbcsports.com|nick.com|player.theplatform.com|sky.com|southparkstudios.com|spike.com|teennick.com|thedailyshow.com|thingx.tv|tvland.com|uverseonline.att.net|vevo.com|vh1.com|video.cnbc.com|vod.fxnetworks.com
 @@||yimg.com^*/combo?$script,domain=yahoo.com
