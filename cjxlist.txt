@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 4 days (update frequency)
 ! Homepage: http://bbs.kafan.cn/thread-1674209-1-1.html
-! List version 140430
+! List version 140504
 &ad_type=
 &ad_zones=
 &adsize=
@@ -25,8 +25,10 @@
 .com/ads/$image,object,subdocument
 .com/ads_
 .com/adv/
+.com/adv?
 .com/adx/
 .com/js/ads/
+.eu/ads/
 .hk/ads/
 .html?ad_
 .net/ad/$~object-subrequest
@@ -104,6 +106,7 @@
 /adloader.
 /admanager.$~object-subrequest
 /admedia/*
+/adnetwork/*
 /adoverlay.
 /adphoto.
 /adpic.
@@ -194,12 +197,14 @@
 /groupon/ads/*
 /hads-
 /houseads/*
+/html/ad/*
 /html/ads/*
 /icon_ad.
 /iframe/ad/*
 /images/ad.$domain=~ngohq.com
 /images/ad/*
 /images/ads/*
+/images/adv_
 /img/ad_
 /include/ad/*
 /include/ad_
@@ -248,6 +253,7 @@
 /showad.
 /showadjs.
 /showads_
+/side-ad.
 /sidead/*
 /smartbanner/*
 /static/ad/*
@@ -259,12 +265,14 @@
 /topad.
 /u-ads.
 /video_ad.
+/videoad.
 /webservices/jsparselinks.aspx?$script
 /www/delivery/*
 /zanox.js
 ://adcl.
 ://ads.
 ://adv.
+://affiliate.$third-party
 ://banner.$third-party
 ://banners.$third-party
 ://bwp.*/search
@@ -315,6 +323,7 @@ _topad.
 /300x250.
 /300x250_
 /468_60.
+/468_60_
 /468x60.
 /480x60-
 /480x60.
@@ -329,10 +338,12 @@ _topad.
 760x90.jpg|
 =300x250&
 =300x250,
+_120x240.
 _120x60.
 _300_250.
 _300_250_
 _300x250.
+_300x250_
 _300x250v2.
 _460_60.
 _468_60.
@@ -341,6 +352,7 @@ _468x60.
 _728x90.
 _728x90_
 ###AD300x250
+###AD_google
 ###AdDiv
 ###AdLayer1
 ###AdLayer2
@@ -414,11 +426,13 @@ _728x90_
 ###ad_bottom
 ###ad_box
 ###ad_content
+###ad_div
 ###ad_footer
 ###ad_head
 ###ad_header
 ###ad_left
 ###ad_left_2
+###ad_link
 ###ad_middle
 ###ad_overlay
 ###ad_right
@@ -508,6 +522,7 @@ _728x90_
 ###remove_ads_button1
 ###remove_ads_button2
 ###right-ad
+###right-ads
 ###rightAd
 ###rightAdDiv1
 ###rightAdDiv2
@@ -539,6 +554,7 @@ _728x90_
 ###textAd
 ###textad
 ###top-ad
+###topAD
 ###topImgAd
 ###topMPU
 ###top_ad
@@ -551,6 +567,7 @@ _728x90_
 ###topbannerad
 ###turnAD
 ###wide_ad_unit
+###widget_ad
 ##.ADbox
 ##.AdTop
 ##.ad-1
@@ -636,6 +653,7 @@ _728x90_
 ##.ad_336x280
 ##.ad_4
 ##.ad_468
+##.ad_5
 ##.ad_728
 ##.ad_72890_box
 ##.ad_728_90
@@ -651,6 +669,7 @@ _728x90_
 ##.ad_image
 ##.ad_img
 ##.ad_link
+##.ad_main
 ##.ad_mpu
 ##.ad_news
 ##.ad_panel
@@ -663,6 +682,7 @@ _728x90_
 ##.ad_wrap
 ##.adarea
 ##.adbanner
+##.adbanner1
 ##.adbar
 ##.adbottom
 ##.adbox1
@@ -745,6 +765,7 @@ _728x90_
 ##.downloadAds
 ##.ezAdsWidget
 ##.ezAdsense
+##.first_ad
 ##.floatad
 ##.floatads
 ##.foot-ad
@@ -765,6 +786,7 @@ _728x90_
 ##.headerAd
 ##.header_ad
 ##.headerad
+##.hide_ad
 ##.homeAd
 ##.iframeAd
 ##.imgad
@@ -785,10 +807,12 @@ _728x90_
 ##.masthead-ad-control
 ##.middle-ad
 ##.middleAd
+##.miniad
 ##.mod_ad
 ##.mod_ads
 ##.module-ad
 ##.n_ad
+##.nav_ad
 ##.navad
 ##.new_ad1
 ##.ob_container .item-container-obpd
@@ -841,6 +865,7 @@ _728x90_
 ##.topads
 ##.trc-content-sponsored
 ##.txt_ad
+##.tz_ad_widget
 ##.ui-ad
 ##.weatherad
 ##.widget-ad
@@ -1015,6 +1040,7 @@ google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de#@#a[href^
 ||domainnamesales.com/return_js.php?
 ||googlesyndication.com/pagead/$third-party
 ||hstpnetwork.com/ads/
+||namecheap.com/graphics/linkus/$third-party
 ||pagead2.googlesyndication.com^$~object-subrequest
 ||propgoluxury.com/partners/$third-party
 ||rcm*.amazon.$third-party
