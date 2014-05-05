@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 4 days (update frequency)
 ! Homepage: http://bbs.kafan.cn/thread-1674209-1-1.html
-! List version 140504
+! List version 140505
 &ad_type=
 &ad_zones=
 &adsize=
@@ -42,6 +42,7 @@
 .php?ad_
 .php?affid=
 .php?zoneid=
+.popunder.js
 .se/?placement=$script,subdocument,third-party
 .swf?clicktag=
 /04/ads-
@@ -51,6 +52,7 @@
 /ad-ros-
 /ad-source/*
 /ad-specs.
+/ad.gif|
 /ad.php|
 /ad/article_
 /ad/banner.
@@ -183,6 +185,7 @@
 /common/ad_
 /data/ads/*
 /delivery/afr.
+/delivery/al.php
 /delivery/avw.
 /delivery/lg.
 /dfpads.
@@ -256,6 +259,7 @@
 /side-ad.
 /sidead/*
 /smartbanner/*
+/spcjs.php
 /static/ad/*
 /svnad/*
 /synad2.
@@ -287,6 +291,7 @@ _ad.php?
 _ad01.
 _ad1.$~stylesheet
 _ad2.
+_ad6.
 _ad_choices_
 _ad_close.
 _ad_images/
@@ -364,8 +369,10 @@ _728x90_
 ###RightAd
 ###TopAd
 ###ad-banner
+###ad-bottom
 ###ad-box-first
 ###ad-box-second
+###ad-box2
 ###ad-lrec
 ###ad-main
 ###ad-skin
@@ -394,6 +401,7 @@ _728x90_
 ###ad_0
 ###ad_02
 ###ad_03
+###ad_04
 ###ad_1
 ###ad_2
 ###ad_250
@@ -504,6 +512,7 @@ _728x90_
 ###head-ad
 ###head1ad
 ###head_ad
+###headad
 ###header_ad
 ###headerad
 ###homead
@@ -589,6 +598,7 @@ _728x90_
 ##.ad-inner
 ##.ad-leader-plus-top
 ##.ad-left
+##.ad-line
 ##.ad-link
 ##.ad-mobile
 ##.ad-right
@@ -679,6 +689,7 @@ _728x90_
 ##.ad_text
 ##.ad_title
 ##.ad_top
+##.ad_word
 ##.ad_wrap
 ##.adarea
 ##.adbanner
@@ -746,6 +757,7 @@ _728x90_
 ##.bottomad
 ##.bottomleader
 ##.boxad
+##.boxads
 ##.bt_ad
 ##.centerAd
 ##.center_ad
@@ -798,6 +810,7 @@ _728x90_
 ##.item-container-ad
 ##.label-ad
 ##.leftAd
+##.leftAds
 ##.left_ad
 ##.leftad
 ##.logo-ad
@@ -822,6 +835,7 @@ _728x90_
 ##.postads
 ##.r_ad
 ##.right-ad
+##.right-ad2
 ##.right-advert
 ##.rightAd
 ##.right_ad
@@ -848,6 +862,7 @@ _728x90_
 ##.sponsor-bottom
 ##.sponsorBottom
 ##.sponsored_links_section
+##.table-ad
 ##.text-ad
 ##.textAd
 ##.text_ad
@@ -867,6 +882,8 @@ _728x90_
 ##.txt_ad
 ##.tz_ad_widget
 ##.ui-ad
+##.video_ad
+##.view_ad
 ##.weatherad
 ##.widget-ad
 ##.widget-ads
@@ -890,6 +907,7 @@ _728x90_
 ! https://adblockplus.org/forum/viewtopic.php?f=2&t=13414
 ##div[id^="mainads"]
 isource.com,nytimes.com#@##TopAd
+adblockplus.org,clipconverter.cc#@##adblock
 tgfcer.com#@##content_adv
 discuss.com.hk,uwants.com#@##featuread
 kanui.com.br,nytimes.com#@#.text-ad
@@ -924,6 +942,7 @@ google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de#@#a[href^
 ||awltovhc.com^$third-party
 ||betrad.com^$third-party
 ||bizographics.com^$third-party
+||btnibbler.com^$third-party
 ||btrll.com^$third-party
 ||buysellads.com^$third-party
 ||captifymedia.com^$third-party
@@ -1007,6 +1026,7 @@ google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de#@#a[href^
 ||skimresources.com^$third-party
 ||skinected.com^$third-party
 ||specificclick.net^$third-party
+||talaropa.com^$third-party
 ||tapad.com^$third-party
 ||tidaltv.com^$third-party
 ||tqlkg.com^$third-party
@@ -1015,6 +1035,7 @@ google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de#@#a[href^
 ||tubemogul.com^$third-party
 ||videoplaza.tv/proxy/distributor^$object-subrequest,third-party
 ||viglink.com^$third-party
+||x.mochiads.com^$third-party
 ||xtendmedia.com^$third-party
 ||yieldmanager.com^$third-party
 ||zedo.com^$third-party
@@ -1034,6 +1055,7 @@ google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de#@#a[href^
 ||109.201.134.110^$domain=04stream.com
 ||adf.ly/js/$third-party,domain=~j.gs|~q.gs
 ||affiliates-cdn.mozilla.org^$third-party
+||alexa.com^*/promotebuttons/
 ||cdn.cdncomputer.com/js/main.js
 ||cursecdn.com/shared-assets/current/anchor.js?id=$third-party
 ||disqus.com/listPromoted?
@@ -1049,6 +1071,7 @@ google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de#@#a[href^
 ||yimg.com/gs/apex/mediastore/
 ||media.eurolive.com^$third-party
 ||naked.com/promos/$third-party
+||xnxx.com^$third-party
 !----------------------Specific advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_specific_block.txt ***
 .com/jquery/static.js?*Math.floor$script,third-party
@@ -1060,6 +1083,7 @@ google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de#@#a[href^
 ||amazon.com/aan/$subdocument
 ||coinurl.com/get.php?
 ||creatives.livejasmin.com^
+||da.feedsportal.com^$~subdocument
 ||ebayrtm.com/rtm?RtmCmd*&enc=
 ||ebayrtm.com/rtm?RtmIt
 ||fan.twitch.tv^
