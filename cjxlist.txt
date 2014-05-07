@@ -2,7 +2,7 @@
 ! Title: cjxlist
 ! Expires: 4 days (update frequency)
 ! Homepage: http://bbs.kafan.cn/thread-1674209-1-1.html
-! List version 140505
+! List version 140508
 &ad_type=
 &ad_zones=
 &adsize=
@@ -12,6 +12,7 @@
 -ad1.
 -ad2.
 -ad3.
+-advertising-$domain=~advertise.bingads.microsoft.com|~advertising.microsoft.com|~platform.twitter.com
 .1d/ads/
 .admaster.
 .adserver.
@@ -37,6 +38,7 @@
 .net/adv/
 .openx.
 .org/ad/
+.org/ad_
 .org/ads/
 .php?ad=
 .php?ad_
@@ -83,6 +85,7 @@
 /adblock.js
 /adbox.
 /adbox/*
+/adbox_
 /adcenter.$script
 /adchoices.
 /adchoices_
@@ -174,6 +177,7 @@
 /ajs.php?
 /amazon/iframeproxy-
 /api/ads/*
+/assets/ad/*
 /assets/ads/*
 /banner.php
 /banner468.
@@ -183,6 +187,7 @@
 /clkads.
 /common/ad.
 /common/ad_
+/contentAd.
 /data/ads/*
 /delivery/afr.
 /delivery/al.php
@@ -244,8 +249,10 @@
 /public/ad/*
 /recommendations/ad.
 /resources/ads/*
+/right_ad.
 /right_ad_
 /rightad.
+/rightad/*
 /script/ads.
 /scripts/ad.
 /scripts/ad/*
@@ -267,6 +274,7 @@
 /tg.php?uid=
 /top_ad.
 /topad.
+/txtad.
 /u-ads.
 /video_ad.
 /videoad.
@@ -327,9 +335,12 @@ _topad.
 /300-250-
 /300x250.
 /300x250_
+/468-60.
 /468_60.
 /468_60_
 /468x60.
+/468x60/*
+/468x60_
 /480x60-
 /480x60.
 /728.html$subdocument
@@ -340,17 +351,22 @@ _topad.
 /980x90.
 /img/468_60
 /top728x90.
+468-60.gif|
 760x90.jpg|
 =300x250&
 =300x250,
+=728x90&
 _120x240.
 _120x60.
+_160x600.
 _300_250.
 _300_250_
 _300x250.
 _300x250_
 _300x250v2.
+_320x250_
 _460_60.
+_468.gif
 _468_60.
 _468x60-
 _468x60.
@@ -373,6 +389,7 @@ _728x90_
 ###ad-box-first
 ###ad-box-second
 ###ad-box2
+###ad-container
 ###ad-lrec
 ###ad-main
 ###ad-skin
@@ -451,8 +468,10 @@ _728x90_
 ###ad_top_banner
 ###adblock1
 ###adblock2
+###adbn_UMU
 ###adboard
 ###adbottom
+###adbox
 ###adclose
 ###adcontainer2
 ###adcontent
@@ -545,6 +564,7 @@ _728x90_
 ###rightad2
 ###rightads
 ###show_ads
+###side-ad
 ###sideAd
 ###sideAd1
 ###sideAds
@@ -601,6 +621,7 @@ _728x90_
 ##.ad-line
 ##.ad-link
 ##.ad-mobile
+##.ad-mpu-top
 ##.ad-right
 ##.ad-side
 ##.ad-t
@@ -615,8 +636,11 @@ _728x90_
 ##.ad03
 ##.ad04
 ##.ad1000
+##.ad120
 ##.ad140
+##.ad160
 ##.ad200
+##.ad240
 ##.ad250
 ##.ad250x250
 ##.ad300
@@ -645,6 +669,7 @@ _728x90_
 ##.adLeft
 ##.adLink
 ##.adNone
+##.adRight
 ##.adSpace
 ##.adSummary
 ##.adText
@@ -676,6 +701,7 @@ _728x90_
 ##.ad_flash
 ##.ad_global_header
 ##.ad_header
+##.ad_headline
 ##.ad_image
 ##.ad_img
 ##.ad_link
@@ -697,6 +723,7 @@ _728x90_
 ##.adbar
 ##.adbottom
 ##.adbox1
+##.adbox_border
 ##.adcenter
 ##.adclass
 ##.adcont
@@ -706,6 +733,7 @@ _728x90_
 ##.adlink
 ##.adlist
 ##.adlist2
+##.admessage
 ##.adpic
 ##.adright
 ##.ads-300x250
@@ -729,6 +757,7 @@ _728x90_
 ##.adv300
 ##.advBottom
 ##.advBox
+##.adv_left
 ##.adv_right
 ##.adv_top
 ##.adver
@@ -756,6 +785,7 @@ _728x90_
 ##.bottom_ad
 ##.bottomad
 ##.bottomleader
+##.box-ads
 ##.boxad
 ##.boxads
 ##.bt_ad
@@ -766,6 +796,7 @@ _728x90_
 ##.cnn_adcntr300x100
 ##.cnn_adtitle
 ##.col-ad
+##.content-ad
 ##.content_ad
 ##.contentad
 ##.cp_ad
@@ -785,9 +816,12 @@ _728x90_
 ##.footer-ad
 ##.footerAds
 ##.footer_ad
+##.full-ad
 ##.g_ad
+##.gadsense
 ##.gameAd
 ##.google-ad
+##.google-ads
 ##.google_ads
 ##.google_adsense
 ##.googleads
@@ -795,6 +829,7 @@ _728x90_
 ##.h-ad
 ##.hd-adv
 ##.head_ad
+##.headad
 ##.headerAd
 ##.header_ad
 ##.headerad
@@ -817,6 +852,7 @@ _728x90_
 ##.logoad
 ##.main-ad
 ##.main_ad
+##.mapped-ad
 ##.masthead-ad-control
 ##.middle-ad
 ##.middleAd
@@ -825,6 +861,7 @@ _728x90_
 ##.mod_ads
 ##.module-ad
 ##.n_ad
+##.nav-ad
 ##.nav_ad
 ##.navad
 ##.new_ad1
@@ -895,6 +932,7 @@ _728x90_
 ##a[href^="http://ad-apac.doubleclick.net/"]
 ##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://adfarm.mediaplex.com/"]
+##a[href^="http://affiliate.godaddy.com/"]
 ##a[href^="http://pubads.g.doubleclick.net/"]
 ##a[href^="http://www.sex.com/?utm_source="]
 ##a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?key="][target="_blank"]
@@ -961,6 +999,7 @@ google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de#@#a[href^
 ||doubleclick.net/ad/$third-party
 ||doubleclick.net/adj/$~object-subrequest,third-party
 ||doubleclick.net^$third-party,domain=abc-7.com|addictinggames.com|allbusiness.com|allthingsd.com|bizjournals.com|bloomberg.com|bnn.ca|break.com|cbc.ca|cbs19.tv|cbs3springfield.com|cbsatlanta.com|cbslocal.com|complex.com|dailymail.co.uk|darkhorizons.com|deluxemusic.tv|doubleviking.com|euronews.com|extratv.com|fandango.com|fox19.com|fox5vegas.com|gorillanation.com|grooveshark.com|hawaiinewsnow.com|hulu.com|imdb.com|joblo.com|kcra.com|kctv5.com|ketv.com|koat.com|koco.com|kolotv.com|kpho.com|kptv.com|ksat.com|ksbw.com|ksfy.com|kypost.com|live5news.com|livestation.com|livestream.com|metro.us|metronews.ca|miamiherald.com|my9nj.com|myfoxdetroit.com|myfoxorlando.com|myfoxphilly.com|myfoxphoenix.com|myfoxtampabay.com|nbcrightnow.com|neatorama.com|necn.com|neopets.com|news.com.au|news4jax.com|nintendoeverything.com|own3d.tv|pagesuite-professional.co.uk|pandora.com|player.theplatform.com|ps3news.com|radio.com|rottentomatoes.com|sbsun.com|shacknews.com|sk-gaming.com|ted.com|tv2.no|universalsports.com|ustream.tv|wapt.com|washingtonpost.com|wate.com|wbaltv.com|wcvb.com|wdrb.com|wdsu.com|wflx.com|wfmz.com|wfsb.com|wgal.com|whdh.com|wired.com|wisn.com|wlky.com|wlns.com|wlwt.com|wmur.com|wnem.com|wowt.com|wral.com|wsj.com|wsmv.com|wsvn.com|wtae.com|wthr.com|wxii12.com|wyff4.com|yahoo.com|youtube.com
+||doublemax.net^$third-party
 ||doubleverify.com^$third-party
 ||dpmsrv.com^$third-party
 ||dt00.net^$third-party,domain=~marketgid.com|~marketgid.ru|~marketgid.ua|~mgid.com|~thechive.com
