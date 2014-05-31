@@ -2,8 +2,9 @@
 ! Title: cjxlist
 ! Expires: 4 days (update frequency)
 ! Homepage: http://bbs.kafan.cn/thread-1674209-1-1.html
-! List version 140529
+! List version 140531
 &ad_type=
+&adsourceid=
 &adurl=
 &showad=
 -ad1.
@@ -42,6 +43,7 @@
 /ad-specs.
 /ad.css?
 /ad.gif|
+/ad.html?
 /ad/article_
 /ad/blog_
 /ad/common_
@@ -49,15 +51,19 @@
 /ad/image/*
 /ad1.
 /ad15.
+/ad16.
 /ad2.
 /ad3.
 /ad4.
 /ad5.
 /ad6.
+/ad7.
 /ad728.
+/ad8.
 /ad_banner.
 /ad_count.
 /ad_header.
+/ad_img/*
 /ad_news.
 /ad_right.
 /ad_text_
@@ -87,8 +93,10 @@
 /adloader.
 /admanager.$~object-subrequest
 /admedia/*
+/adnet.
 /adphoto.
 /adpic/*
+/adplay.
 /adpolestar/*
 /adpopup.
 /adproxy.
@@ -111,6 +119,7 @@
 /adsense/*
 /adserver.
 /adshow.
+/adslide.
 /adsrich.
 /adsys/*
 /adtag.
@@ -142,6 +151,7 @@
 /common/ad_
 /data/ads/*
 /flash/ad/*
+/floatadv.
 /get_ad_
 /getads.
 /google_ad_
@@ -155,11 +165,13 @@
 /html.ng/*
 /html/ads/*
 /iframe/ad/*
+/iframe/ads/*
 /images/ad.$domain=~ngohq.com
 /images/ad/*
 /images/ads/*
 /images/adv.
 /images/adv/*
+/images/adv_
 /img/ad.
 /include/ad/*
 /include/ad_
@@ -169,8 +181,10 @@
 /js/adv.
 /js/adv/*
 /js_ad_utf8.
+/js_adv_
 /jsad/*
 /left_ad_
+/logad?
 /mobile_ad.
 /mod_ad/*
 /onead.
@@ -179,15 +193,18 @@
 /overture_
 /plus/ad_
 /pop.js|
+/pubads.$domain=~cbs.com
 /public/ad/*
 /public/ads/*
 /randomad.
 /resources/ads/*
+/right_ad.
 /right_ad_
 /rotationad.
 /script/ads.
 /scripts/ad-
 /scripts/ad.
+/scripts/ad_
 /show.cgi?adp
 /show_ad_
 /show_ads.js
@@ -233,14 +250,19 @@ _content_ad.
 _openx.
 _right_ads_
 _top_ad_
+_topad.
+-300-250.
 -468x60.
 /120_600/*
 /160x600-
 /300-250.
 /300x250.
 /300x250_
+/468x60_
+/480x60.
 /728_90/*
 /728x90-
+/728x90.
 =300x250&
 _120x240.
 _300_250.
@@ -250,24 +272,34 @@ _300x250_
 _468.gif
 _468_60.
 _468x60.
+_468x60_
 _728x90.
 /afu.php?zoneid=$popup
 =popunder&$popup
 ###AD_google
+###LeftAd
+###RightAd
+###ad-1
+###ad-3
 ###ad-300x250
+###ad-4
 ###ad-carousel
 ###ad-main
 ###ad-north-base
 ###ad-right
+###ad001
 ###ad01
+###ad02
 ###ad11
 ###ad6
 ###adBanner
+###adFrame
 ###adHeaderTop
 ###adPosition5
 ###adPosition7
 ###adPosition9
 ###adTextLink
+###adTop
 ###ad_0
 ###ad_02
 ###ad_03
@@ -278,12 +310,18 @@ _728x90.
 ###ad_4
 ###ad_5
 ###ad_6
+###ad_A
 ###ad_B
 ###ad_C
 ###ad_D
 ###ad_E
+###ad_F
 ###ad_G
 ###ad_H
+###ad_I
+###ad_J
+###ad_K
+###ad_L
 ###ad_M
 ###ad_N
 ###ad_O
@@ -302,9 +340,11 @@ _728x90.
 ###ad_space
 ###ad_text:not(textarea)
 ###ad_top
+###ad_txt
 ###adblock
 ###adblock1
 ###adbottom
+###adbox
 ###adcontainer1
 ###adcontent
 ###adhzh
@@ -342,6 +382,7 @@ _728x90.
 ###google_ads_frame3
 ###googlead
 ###hd_ad
+###headAd
 ###head_ad
 ###header-ad
 ###headerAd
@@ -352,6 +393,7 @@ _728x90.
 ###left_ad
 ###left_adv
 ###leftad
+###logo_ad
 ###narrow-ad
 ###pagelet_side_ads
 ###remove_ads_button1
@@ -369,6 +411,7 @@ _728x90.
 ###side_ad
 ###sidebarad
 ###sky-right
+###slide_ad
 ###slider_ad
 ###sponsorAd
 ###sponsorAdDiv
@@ -377,6 +420,7 @@ _728x90.
 ###textAd
 ###top-ad
 ###topAD
+###topAd
 ###topImgAd
 ###top_ad
 ###top_ad_wrapper
@@ -399,7 +443,9 @@ _728x90.
 ##.ad-d
 ##.ad-div
 ##.ad-e
+##.ad-img
 ##.ad-left
+##.ad-link
 ##.ad-one
 ##.ad-right
 ##.ad-row
@@ -427,6 +473,7 @@ _728x90.
 ##.ad300250
 ##.ad300x250
 ##.ad315
+##.ad336
 ##.ad350
 ##.ad468
 ##.ad590
@@ -460,12 +507,15 @@ _728x90.
 ##.ad_300
 ##.ad_300_250
 ##.ad_300x250
+##.ad_336
 ##.ad_4
+##.ad_468
 ##.ad_728
 ##.ad_72890_box
 ##.ad_banner
 ##.ad_block
 ##.ad_box
+##.ad_box1
 ##.ad_column
 ##.ad_content
 ##.ad_global_header
@@ -481,6 +531,7 @@ _728x90.
 ##.ad_text
 ##.ad_title
 ##.ad_top
+##.ad_word
 ##.ad_wrap
 ##.adarea
 ##.adbanner
@@ -495,6 +546,7 @@ _728x90.
 ##.adiframe
 ##.adlink
 ##.adlist2
+##.adpic
 ##.adright
 ##.adrow
 ##.ads-footer
@@ -512,7 +564,9 @@ _728x90.
 ##.adsCell
 ##.ads_div
 ##.ads_leaderboard
+##.ads_left
 ##.ads_r
+##.ads_right
 ##.ads_topbanner
 ##.adsarea
 ##.adsbygoogle
@@ -521,6 +575,7 @@ _728x90.
 ##.adtop
 ##.adtxt
 ##.adv300
+##.advBox
 ##.adv_right
 ##.adver
 ##.advert_txt
@@ -535,6 +590,7 @@ _728x90.
 ##.bannerad
 ##.bigAd
 ##.block_ad
+##.bot_ad
 ##.bottomAd
 ##.bottom_ad
 ##.bottomad
@@ -542,13 +598,16 @@ _728x90.
 ##.box-ads
 ##.boxad
 ##.bt_ad
+##.centerAd
 ##.center_ad
 ##.centerad
 ##.col-ad
 ##.col_ad
+##.content-ad
 ##.downloadad
 ##.featured_ad
 ##.first_ad
+##.foot-ad
 ##.footad
 ##.footer-ad
 ##.footer_adv
@@ -556,6 +615,7 @@ _728x90.
 ##.google_ads
 ##.hd-adv
 ##.headAd
+##.head_adv
 ##.headad
 ##.header-ad
 ##.header-adplace
@@ -573,12 +633,15 @@ _728x90.
 ##.logoad
 ##.longAd
 ##.main-ad
+##.mainAd
 ##.main_ad
 ##.masthead-ad-control
 ##.menu-ad
 ##.mod_ad
 ##.mod_ads
 ##.module-ad
+##.n_ad
+##.nav-ad
 ##.nav_ad
 ##.navad
 ##.new_ad1
@@ -594,6 +657,7 @@ _728x90.
 ##.right_ad
 ##.rightad
 ##.sbAd
+##.section-ad
 ##.side-ad
 ##.sideAd
 ##.side_ad
@@ -659,8 +723,11 @@ discuss.com.hk,uwants.com#@##featuread
 ||bizographics.com^$third-party
 ||chango.com^$third-party
 ||clkrev.com^$third-party
+||cpmstar.com^$third-party
 ||doubleclick.net/ad/$third-party
 ||doubleclick.net/adj/$~object-subrequest,third-party
+||ero-advertising.com^$third-party
+||exoclick.com^$third-party
 ||exponential.com^$third-party
 ||fxdepo.com^$third-party
 ||innity.com^$third-party
@@ -678,6 +745,7 @@ discuss.com.hk,uwants.com#@##featuread
 ||partner.googleadservices.com^$third-party
 ||pixfuture.net^$third-party
 ||popads.net^$third-party
+||popcash.net^$third-party
 ||prf.hn^$third-party
 ||questionmarket.com^$third-party
 ||rev2pub.com^$third-party
@@ -689,18 +757,25 @@ discuss.com.hk,uwants.com#@##featuread
 ||supersitetime.com^$third-party
 ||supplyframe.com^$third-party
 ||tapad.com^$third-party
+||teads.tv^$third-party
 ||tidaltv.com^$third-party
 ||tribalfusion.com^$third-party
 ||tubemogul.com^$third-party
 ||videoplaza.tv/proxy/distributor^$object-subrequest,third-party
 ||wigetmedia.com^$third-party
+||x.mochiads.com^$third-party
 ||yieldmanager.com^$third-party
 ||zedo.com^$third-party
+||ad-apac.doubleclick.net^$popup,third-party
 ||ad.doubleclick.net^$popup,third-party
 ||mmaaxx.com^$third-party
+||plugrush.com^$third-party
+||putags.com^$third-party
+||trw12.com^$third-party
 ||adap.tv/redir/client/static/as3adplayer.swf
 ||adf.ly/images/banners/
 ||disqus.com/listPromoted?
+||google.com/pagead/
 ||googlesyndication.com/pagead/$third-party
 ||pagead2.googlesyndication.com^$~object-subrequest
 ||rcm*.amazon.$third-party
@@ -725,6 +800,8 @@ discuss.com.hk,uwants.com#@##featuread
 ||yahoo.com/__darla/
 ||yimg.com/rq/darla/$domain=yahoo.com
 ||linkbucks.com^*?ref=$popup
+||imgbabes.com/element.js
+||imgbabes.com/ja.html
 finance.yahoo.com,news.yahoo.com###MediaFeaturedListEditorial
 dm5.com###a1
 imdb.com###amazon-affiliates
@@ -736,8 +813,6 @@ engadget.com###outerslice
 imdb.com###rhs_cornerstone_wrapper
 imdb.com###top_rhs_wrapper
 youtube.com###watch-channel-brand-div
-bloomberg.com,borfast.com,howmanyleft.co.uk,instantpulp.com,over-blog.com,plurk.com,scitechdaily.com,sgentrepreneurs.com,wikihoops.com##.adsense
-1025thebull.com,1031iheartaustin.com,1031thevulcan.com,1037theq.com,1041beat.com,1043hallelujahfm.com,1055online.com,1061fmtalk.com,1067litefm.com,247comedy.com,850koa.com,940winz.com,94hjy.com,970espn.com,99kisscountry.com,afro.com,allmusic.com,am1300thezone.com,am570radio.com,am760.net,amctv.com,app.com,araratadvertiser.com.au,areanews.com.au,argusleader.com,armidaleexpress.com.au,avclub.com,avonadvocate.com.au,barossaherald.com.au,batemansbaypost.com.au,battlecreekenquirer.com,baxterbulletin.com,baysidebulletin.com.au,begadistrictnews.com.au,bellingencourier.com.au,bendigoadvertiser.com.au,benningtonbanner.com,big1059.com,bigthink.com,bizarremag.com,blacktownsun.com.au,blayneychronicle.com.au,bluemountainsgazette.com.au,bombalatimes.com.au,boorowanewsonline.com.au,bordermail.com.au,braidwoodtimes.com.au,brimbankweekly.com.au,bucyrustelegraphforum.com,bunburymail.com.au,burlingtonfreepress.com,businessinsurance.com,busseltonmail.com.au,camdenadvertiser.com.au,camdencourier.com.au,canowindranews.com.au,capitalfm.co.ke,caranddriver.com,caseyweekly.com.au,caseyweeklycranbourne.com.au,centraladvocate.com.au,centralohio.com,centralwesterndaily.com.au,cessnockadvertiser.com.au,channel955.com,chillicothegazette.com,cincinnati.com,citizen-times.com,clarionledger.com,classicandperformancecar.com,coast933.com,colliemail.com.au,coloradoan.com,colypointobserver.com.au,connachttribune.ie,coomaexpress.com.au,cootamundraherald.com.au,coshoctontribune.com,courier-journal.com,courierpostonline.com,cowraguardian.com.au,crainscleveland.com,crainsnewyork.com,crookwellgazette.com.au,crosswalk.com,dailyadvertiser.com.au,dailygazette.com,dailyliberal.com.au,dailyrecord.com,dailyworld.com,dandenongjournal.com.au,delawareonline.com,delmarvanow.com,democratandchronicle.com,desmoinesregister.com,dispatch.com,dnj.com,donnybrookmail.com.au,downloadcrew.com,dunedintv.co.nz,dungogchronicle.com.au,easternriverinachronicle.com.au,edenmagnet.com.au,elevatorworld.com,elliottmidnews.com.au,elvisduran.com,esperanceexpress.com.au,evolution935.com,examiner.com.au,executivetravelmagazine.com,eyretribune.com.au,fairfieldchampion.com.au,fastcocreate.com,fastcodesign.com,finnbay.com,floridatoday.com,fm98wjlb.com,forbesadvocate.com.au,forteantimes.com,foxsportsradio.com,frankstonweekly.com.au,freep.com,fresh100.com,gaterrocks.com,gematsu.com,gippslandtimes.com.au,gleninnesexaminer.com.au,gloucesteradvocate.com.au,goodcast.org,goondiwindiargus.com.au,goulburnpost.com.au,greatlakesadvocate.com.au,greenvilleonline.com,grenfellrecord.com.au,guampdn.com,guyraargus.com.au,hallelujah1051.com,hardenexpress.com.au,hattiesburgamerican.com,hawkesburygazette.com.au,hepburnadvocate.com.au,heraldnet.com,hillsnews.com.au,hispanicbusiness.com,hometownlife.com,humeweekly.com.au,huntervalleynews.net.au,imgur.com,indystar.com,inverelltimes.com.au,irishtimes.com,ithacajournal.com,jacksonsun.com,jconline.com,jewishjournal.com,juneesoutherncross.com.au,kansas.com,kase101.com,katherinetimes.com.au,kfiam640.com,kgbx.com,khow.com,kiisfm.com,knoxweekly.com.au,kogo.com,kpbs.org,kwnr.com,lakesmail.com.au,lamag.com,lancastereaglegazette.com,lansingstatejournal.com,laptopmag.com,latrobevalleyexpress.com.au,legion.org,lithgowmercury.com.au,liverpoolchampion.com.au,livingstondaily.com,lohud.com,macarthuradvertiser.com.au,macedonrangesweekly.com.au,macleayargus.com.au,magic96.com,mailtimes.com.au,maitlandmercury.com.au,mandurahmail.com.au,manningrivertimes.com.au,mansfieldnewsjournal.com,margaretrivermail.com.au,maribyrnongweekly.com.au,marionstar.com,maroondahweekly.com.au,meltonweekly.com.au,merimbulanewsonline.com.au,merredinmercury.com.au,metservice.com,mix923fm.com,monashweekly.com.au,montgomeryadvertiser.com,mooneevalleyweekly.com.au,moreechampion.com.au,msn.com,mudgeeguardian.com.au,murrayvalleystandard.com.au,muswellbrookchronicle.com.au,myallcoastnota.com.au,mycentraljersey.com,mydesert.com,myhot105.com,mymagic97.com,nambuccaguardian.com.au,naroomanewsonline.com.au,narrominenewsonline.com.au,nationalgeographic.com,newarkadvocate.com,newcastlestar.com.au,news-leader.com,news-press.com,newsleader.com,newstalk1130.com,northernargus.com.au,northerndailyleader.com.au,northweststar.com.au,nvi.com.au,nynganobserver.com.au,nytimes.com,oberonreview.com.au,oktvusa.com,orange.co.uk,parenthood.com,parkeschampionpost.com.au,parramattasun.com.au,pch.com,peninsulaweekly.com.au,penrithstar.com.au,plasticsnews.com,pnj.com,portclintonnewsherald.com,portlincolntimes.com.au,portnews.com.au,portpirierecorder.com.au,portstephensexaminer.com.au,poughkeepsiejournal.com,praguepost.com,press-citizen.com,pressconnects.com,psychologytoday.com,queanbeyanage.com.au,radioguide.fm,randirhodes.com,rgj.com,rhsgnews.com.au,riverinaleader.com.au,roxbydownssun.com.au,rubbernews.com,saitnews.co.za,sconeadvocate.com.au,sctimes.com,shreveporttimes.com,singletonargus.com.au,smallbusiness.co.uk,southcoastregister.com.au,southernhighlandnews.com.au,southernweekly.com.au,southwestadvertiser.com.au,standard.net.au,stargazette.com,statesmanjournal.com,stawelltimes.com.au,stmarysstar.com.au,stonningtonreviewlocal.com.au,summitsun.com.au,suncitynews.com.au,sunjournal.com,sunraysiadaily.com.au,tallahassee.com,technorati.com,tennantcreektimes.com.au,tennessean.com,tenterfieldstar.com.au,theadvertiser.com,theadvocate.com,theadvocate.com.au,thebeachchannel.tv,thecalifornian.com,thecourier.com.au,thedailyjournal.com,thedrocks.com,theflindersnews.com.au,theforecaster.net,theguardian.com.au,theherald.com.au,theislanderonline.com.au,theleader.com.au,theleafchronicle.com,thenews-messenger.com,thenewsstar.com,thenewstribune.com,thenortherntimes.com.au,theridgenews.com.au,therural.com.au,thespectrum.com,thestarpress.com,thetimesherald.com,thetowntalk.com,tirebusiness.com,townandcountrymagazine.com.au,transcontinental.com.au,twitch.tv,ulladullatimes.com.au,usaweekend.com,victorharbortimes.com.au,visaliatimesdelta.com,waax570.com,waginargus.com.au,walchanewsonline.com.au,washingtonexaminer.com,wauchopegazette.com.au,wbzt.com,wdfn.com,wellingtontimes.com.au,wercfm.com,wescfm.com,westcoastsentinel.com.au,westernadvocate.com.au,westernmagazine.com.au,wgci.com,wgmz.com,whowhatwear.com,whyallanewsonline.com.au,wild955.com,winghamchronicle.com.au,wiod.com,wjdx.com,wjno.com,wmyi.com,wollondillyadvertiser.com.au,woot.com,wor710.com,wsix.com,wsj.com,wyndhamweekly.com.au,wzzr.com,yasstribune.com.au,youngwitness.com.au,z100.com,zanesvilletimesrecorder.com##.advertisement
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
 mail.google.com##.aeF > .nH > .nH[role="main"] > .mq:first-child
 mail.google.com##.aeF > .nH > .nH[role="main"] > .nH > .nH > .AT[style]
@@ -751,11 +826,14 @@ youtube.com##.promoted-videos
 finance.yahoo.com,news.yahoo.com##.yom-ysmcm
 facebook.com##div[class="ego_column pagelet _5qrt _1snm"]
 facebook.com##div[class="ego_column pagelet"]
+imgbabes.com##div[style="width:604px; height:250px; background:#241521; padding:4px 3px 4px 3px; margin-top:-5px; margin-bottom:-8px; -moz-border-radius:2px; border-radius:2px; -webkit-border-radius:2px;"]
 @@||adblockplus.org^$elemhide,domain=easylist.adblockplus.org|reports.adblockplus.org
 @@||adguard.com^$~third-party
 @@||bing.com/images/async?q=$xmlhttprequest
 @@||deviantart.net/fs*/20*_by_$image,domain=deviantart.com
+@@||g.doubleclick.net/crossdomain.xml$object-subrequest,domain=~cbs.com
 @@||g.doubleclick.net/gampad/ads?ciu_szs^$object-subrequest,domain=majorleaguegaming.com|nfl.com|player.rogersradio.ca|theberrics.com|twitch.tv|videonuz.net|viki.com
+@@||g.doubleclick.net/pagead/ads?ad_type=text_dynamicimage_flash^$object-subrequest
 @@||google.*/s?*&q=$xmlhttprequest
 @@||google.com/search?q=$xmlhttprequest
 @@||icons.iconarchive.com/icons/$image
@@ -764,6 +842,9 @@ facebook.com##div[class="ego_column pagelet"]
 @@||linkbucks.com/tmpl/mint/img/int_skip_ad_disabled.gif
 @@||mail.google.com^*&view=ad&$xmlhttprequest
 @@||s.ytimg.com/yts/swfbin/player-*/watch_as3.swf$object,domain=youtube.com
+@@||server.cpmstar.com/adviewas3.swf?contentspotid=$object-subrequest
+@@||translate.google.*/translate_*&q=$~third-party,xmlhttprequest
+@@||tudouui.com/bin/player2/*&adsourceid=
 @@||upload.wikimedia.org/wikipedia/
 @@||yimg.com^*/combo?$script,domain=yahoo.com
 @@||twitch.tv/ads/ads.js
