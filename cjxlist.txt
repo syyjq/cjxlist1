@@ -1,9 +1,10 @@
 [Adblock Plus 2.0]
+! Version: 20140630
 ! Title: cjxlist
 ! Expires: 4 days (update frequency)
 ! Homepage: http://bbs.kafan.cn/thread-1674209-1-1.html
 ! If you have questions,please email 994722209@qq.com
-! List version 140627
+! List version 140630
 &ad_type=
 &ad_url=
 &ad_zones=
@@ -60,6 +61,7 @@
 /ad/html/*
 /ad/image/*
 /ad/index.
+/ad/index/*
 /ad0.
 /ad1.
 /ad15.
@@ -122,6 +124,7 @@
 /admedia.
 /admedia/*
 /adnet.
+/adnews.
 /ados.js
 /adphoto.
 /adpic.
@@ -138,6 +141,7 @@
 /ads.php
 /ads.png
 /ads/ad_
+/ads/ads/*
 /ads/ads_
 /ads/common/*
 /ads/home/*
@@ -153,6 +157,7 @@
 /adsame.
 /adsbygoogle.
 /adscript.
+/adsence.
 /adsense.
 /adsense/*
 /adserver.
@@ -166,9 +171,11 @@
 /adtag.
 /adtrack/*
 /adv.html
+/adv/adv_
 /adv1.
 /adv2.
 /adv3.
+/adver.
 /advert.
 /advert/*
 /advertise.$domain=~advertise.bingads.microsoft.com
@@ -178,9 +185,11 @@
 /advertisement.
 /advertisement/*
 /advertisement_
+/advertisements/*
 /advertiser/*$domain=~mobileapptracking.com|~trialpay.com
 /advertising.
 /advertising/*
+/advertising?
 /advertorial/*
 /advs/*
 /adwords.
@@ -206,9 +215,12 @@
 /criteo_
 /css/adv.
 /data/ads/*
+/default/ads/*
 /delivery/afr.
 /delivery/avw.
 /delivery/lg.
+/eroex.
+/exoclick.
 /flash/ad/*
 /flashad.
 /float_ad.
@@ -234,10 +246,12 @@
 /html/ads/*
 /iframe/ad/*
 /iframe/ads/*
+/iframe_ad_
 /images/ad-
 /images/ad.$domain=~ngohq.com
 /images/ad/*
 /images/ads/*
+/images/ads_
 /images/adv.
 /images/adv/*
 /images/adv_
@@ -268,6 +282,7 @@
 /overture_
 /pages/ads
 /partners/ads/*
+/phpads/*
 /player/ads/*
 /plus/ad_
 /pop.js|
@@ -298,6 +313,7 @@
 /static/ads/*
 /svnad/*
 /synad2.
+/textad.
 /top_ad.
 /topad.
 /txtad.
@@ -325,6 +341,7 @@ _ad01.
 _ad1.$~stylesheet
 _ad2.
 _ad3.
+_ad_bottom.
 _ad_center.
 _ad_choices_
 _ad_close.
@@ -361,9 +378,11 @@ _topad.
 /160x600_
 /270x90-
 /300-250.
+/300.html$subdocument
 /300x250.
 /300x250_
 /468_60.
+/468x60.
 /468x60_
 /480x60.
 /728_90/*
@@ -372,6 +391,7 @@ _topad.
 /img/468_60
 468-60.gif|
 468-60.swf|
+468x60.jpg|
 728x90.gif|
 =300x250&
 _120x240.
@@ -400,10 +420,13 @@ _960_90.
 ://adv.$popup
 =popunder&$popup
 ###AD_google
+###AdLayer1
+###AdLayer2
 ###Adrectangle
 ###Ads_google_01
 ###Ads_google_02
 ###Ads_google_03
+###ContentAd1
 ###LeftAd
 ###PREFOOTER_LEFT_BOXAD
 ###PREFOOTER_RIGHT_BOXAD
@@ -423,7 +446,6 @@ _960_90.
 ###ad-main
 ###ad-north-base
 ###ad-right
-###ad-skin
 ###ad-top
 ###ad-west
 ###ad001
@@ -497,6 +519,7 @@ _960_90.
 ###adboard
 ###adbottom
 ###adbox
+###adclose
 ###adcontainer1
 ###adcontainer2
 ###adcontainer3
@@ -510,13 +533,18 @@ _960_90.
 ###adnews
 ###adright
 ###ads-1
+###ads-banner
 ###ads1
 ###ads2
+###adsCTN
 ###adsPanel
 ###adsSuperCTN
 ###ads_header
+###ads_superbanner1
 ###ads_topbanner
+###adsdiv
 ###adsense
+###adsensewidget-3
 ###adsiframe
 ###adtext
 ###adtop
@@ -549,6 +577,7 @@ _960_90.
 ###footer_ad
 ###footer_ads
 ###fpad2
+###google_ads
 ###google_ads_frame1
 ###google_ads_frame2
 ###google_ads_frame3
@@ -573,6 +602,7 @@ _960_90.
 ###mochila-column-right-ad-300x250-1
 ###narrow-ad
 ###pagelet_side_ads
+###pop_ad
 ###remove_ads_button1
 ###remove_ads_button2
 ###right-ad
@@ -583,6 +613,7 @@ _960_90.
 ###right_ad
 ###right_ad_2
 ###right_ads
+###rightad
 ###rightad1
 ###rightad2
 ###rightads
@@ -631,6 +662,7 @@ _960_90.
 ##.ad-bar
 ##.ad-block
 ##.ad-bottom
+##.ad-btn
 ##.ad-cell
 ##.ad-column
 ##.ad-d
@@ -688,6 +720,7 @@ _960_90.
 ##.adBox
 ##.adCell
 ##.adCenter
+##.adClose
 ##.adCont
 ##.adLeft
 ##.adLink
@@ -742,6 +775,7 @@ _960_90.
 ##.ad_top_banner
 ##.ad_word
 ##.ad_wrap
+##.ad_zone
 ##.adarea
 ##.adbanner
 ##.adbar
@@ -757,6 +791,7 @@ _960_90.
 ##.adfoot
 ##.adframe
 ##.adiframe
+##.adinfo
 ##.adline
 ##.adlink
 ##.adlist
@@ -814,7 +849,6 @@ _960_90.
 ##.banner-300x250
 ##.banner-ad
 ##.banner300
-##.banner300x250
 ##.banner350
 ##.banner_300x250
 ##.banner_728x90
@@ -848,6 +882,7 @@ _960_90.
 ##.content-ad
 ##.content_ad
 ##.contentad
+##.ct_ad
 ##.downloadad
 ##.featured_ad
 ##.first_ad
@@ -858,6 +893,7 @@ _960_90.
 ##.foot-ad
 ##.footad
 ##.footer-ad
+##.footerAds
 ##.footer_adv
 ##.g_ad
 ##.google-ad
@@ -879,6 +915,7 @@ _960_90.
 ##.hide_ad
 ##.home-top-right-ads
 ##.homead
+##.house-ads
 ##.iframead
 ##.imgad
 ##.index_ad
@@ -899,6 +936,7 @@ _960_90.
 ##.masthead-ad-control
 ##.menu-ad
 ##.middle-ad
+##.miniad
 ##.mod-ad
 ##.mod_ad
 ##.mod_ads
@@ -925,6 +963,7 @@ _960_90.
 ##.rightAD
 ##.rightAd
 ##.right_ad
+##.right_ads
 ##.rightad
 ##.rightadv
 ##.rmx-ad
@@ -944,6 +983,7 @@ _960_90.
 ##.single-ad
 ##.slide_ad
 ##.sponsor-bottom
+##.syAd
 ##.text-ad
 ##.textAd
 ##.text_ad
@@ -957,9 +997,11 @@ _960_90.
 ##.top_ad_list
 ##.top_ads
 ##.top_right_ad
+##.topad2
 ##.topadbar
 ##.topadbox
 ##.topads
+##.txt_ad
 ##.ui-ad
 ##.view_ad
 ##.wdca_ad_item
@@ -979,6 +1021,7 @@ _960_90.
 ##a[href^="http://ad-apac.doubleclick.net/"]
 ##a[href^="http://ad.doubleclick.net/"]
 ##a[href^="http://adfarm.mediaplex.com/"]
+##a[href^="http://affiliate.godaddy.com/"]
 ##a[href^="http://pubads.g.doubleclick.net/"]
 ##a[href^="http://www.sex.com/?utm_source="]
 ##div[id^="MarketGid"]
@@ -1012,6 +1055,7 @@ yahoo.com#@#.type_ads_default
 ||asooda.com^$third-party
 ||atdmt.com^$third-party
 ||atwola.com^$third-party
+||awltovhc.com^$third-party
 ||bizographics.com^$third-party
 ||chango.com^$third-party
 ||chitika.net^$third-party
@@ -1025,6 +1069,7 @@ yahoo.com#@#.type_ads_default
 ||ero-advertising.com^$third-party
 ||exoclick.com^$third-party
 ||exponential.com^$third-party
+||ftjcfx.com^$third-party
 ||fxdepo.com^$third-party
 ||googletagservices.com/tag/js/gpt_$third-party
 ||innity.com^$third-party
@@ -1033,6 +1078,7 @@ yahoo.com#@#.type_ads_default
 ||inskinmedia.com^$~stylesheet,third-party
 ||interclick.com^$third-party
 ||krxd.net^$third-party
+||lduhtrp.net^$third-party
 ||liverail.com^$~object-subrequest,third-party
 ||m2pub.com^$third-party
 ||media6degrees.com^$third-party
@@ -1060,6 +1106,7 @@ yahoo.com#@#.type_ads_default
 ||tapad.com^$third-party
 ||teads.tv^$third-party
 ||tidaltv.com^$third-party
+||tqlkg.com^$third-party
 ||tribalfusion.com^$third-party
 ||tubemogul.com^$third-party
 ||videoplaza.tv/proxy/distributor^$object-subrequest,third-party
@@ -1087,6 +1134,7 @@ yahoo.com#@#.type_ads_default
 ||yimg.com/gs/apex/mediastore/
 ||admngronline.com^$popup,third-party
 ||media.eurolive.com^$third-party
+||naked.com/promos/$third-party
 ||pop6.com/banners/$third-party
 |http:$subdocument,third-party,domain=2ad.in|adf.ly|adfoc.us|adv.li|allmyvideos.net|j.gs|linkbucksmedia.com|q.gs|shr77.com|tigerleech.com|u.bb|vidspot.net
 ||acs86.com/a.htm?
